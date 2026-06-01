@@ -1,0 +1,33 @@
+\begin{table}[H]\centering\begin{tabular}{>{\centering\arraybackslash}m{1.5cm}|>{\centering\arraybackslash}m{1.2cm}>{\centering\arraybackslash}m{1.2cm}|>{\centering\arraybackslash}m{1.2cm}>{\centering\arraybackslash}m{1.2cm}|>{\centering\arraybackslash}m{1.2cm}>{\centering\arraybackslash}m{1.2cm}}
+\toprule
+elements & \multicolumn{2}{|c}{gravity} & \multicolumn{2}{|c}{traction} & \multicolumn{2}{|c}{compression} \\
+ & B & G & B & G & B & G \\
+\midrule
+24,576 & 0.163 & 0.164 & 0.158 & 0.157 & 0.160 & 0.161 \\
+63,888 & 0.117 & 0.119 & 0.116 & 0.120 & 0.127 & 0.111 \\
+162,000 & 0.109 & 0.115 & 0.115 & 0.109 & 0.111 & 0.108 \\
+444,528 & 0.107 & 0.086 & 0.101 & 0.117 & 0.100 & 0.101 \\
+\bottomrule
+\end{tabular}\caption{Estimated first-run precomputation overhead (in seconds) for different load types and mesh sizes using \textbf{PyTorch} under \textbf{FP32} precision. The overhead is computed as the difference between the first precomputation time and the average steady-state precomputation time over the subsequent 7 runs. This metric captures framework initialization costs such as compilation, kernel generation, memory allocation, caching, and warm-up effects.}\label{tab:pytorch_precompute_overhead_fp32}\end{table}
+\begin{table}[H]\centering\begin{tabular}{>{\centering\arraybackslash}m{1.5cm}|>{\centering\arraybackslash}m{1.2cm}>{\centering\arraybackslash}m{1.2cm}|>{\centering\arraybackslash}m{1.2cm}>{\centering\arraybackslash}m{1.2cm}|>{\centering\arraybackslash}m{1.2cm}>{\centering\arraybackslash}m{1.2cm}}
+\toprule
+elements & \multicolumn{2}{|c}{gravity} & \multicolumn{2}{|c}{traction} & \multicolumn{2}{|c}{compression} \\
+ & B & G & B & G & B & G \\
+\midrule
+24,576 & 0.787 & 0.545 & 0.791 & 0.545 & 0.832 & 0.588 \\
+63,888 & 0.797 & 0.550 & 0.795 & 0.562 & 0.860 & 0.607 \\
+162,000 & 0.844 & 0.602 & 0.866 & 0.605 & 0.889 & 0.631 \\
+444,528 & 0.881 & 0.608 & 0.890 & 0.607 & 0.929 & 0.649 \\
+\bottomrule
+\end{tabular}\caption{Estimated first-run precomputation overhead (in seconds) for different load types and mesh sizes using \textbf{JAX} under \textbf{FP32} precision. The overhead is computed as the difference between the first precomputation time and the average steady-state precomputation time over the subsequent 7 runs. This metric captures framework initialization costs such as compilation, kernel generation, memory allocation, caching, and warm-up effects.}\label{tab:jax_precompute_overhead_fp32}\end{table}
+\begin{table}[H]\centering\begin{tabular}{>{\centering\arraybackslash}m{1.5cm}|>{\centering\arraybackslash}m{1.2cm}>{\centering\arraybackslash}m{1.2cm}|>{\centering\arraybackslash}m{1.2cm}>{\centering\arraybackslash}m{1.2cm}|>{\centering\arraybackslash}m{1.2cm}>{\centering\arraybackslash}m{1.2cm}}
+\toprule
+elements & \multicolumn{2}{|c}{gravity} & \multicolumn{2}{|c}{traction} & \multicolumn{2}{|c}{compression} \\
+ & B & G & B & G & B & G \\
+\midrule
+24,576 & 0.100 & 0.098 & 0.091 & 0.101 & 0.095 & 0.099 \\
+63,888 & 0.102 & 0.101 & 0.103 & 0.106 & 0.098 & 0.097 \\
+162,000 & 0.092 & 0.093 & 0.107 & 0.110 & 0.104 & 0.091 \\
+444,528 & 0.083 & 0.085 & 0.094 & 0.081 & 0.083 & 0.084 \\
+\bottomrule
+\end{tabular}\caption{Estimated first-run precomputation overhead (in seconds) for different load types and mesh sizes using \textbf{Warp} under \textbf{FP32} precision. The overhead is computed as the difference between the first precomputation time and the average steady-state precomputation time over the subsequent 7 runs. This metric captures framework initialization costs such as compilation, kernel generation, memory allocation, caching, and warm-up effects.}\label{tab:warp_precompute_overhead_fp32}\end{table}

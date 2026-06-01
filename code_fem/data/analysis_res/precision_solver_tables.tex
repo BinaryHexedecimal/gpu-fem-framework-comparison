@@ -1,0 +1,57 @@
+\begin{table}[H]\center\begin{tabular}{m{0.9cm}|m{0.9cm}|m{1.05cm}m{1.05cm}m{1.05cm}|m{1.05cm}m{1.05cm}m{1.05cm}|m{1.05cm}m{1.05cm}m{1.05cm}}
+\toprule
+ &  & \multicolumn{3}{c}{gravity} & \multicolumn{3}{c}{traction} & \multicolumn{3}{c}{\makecell{compre\\ssion}} \\
+ &  & K & B & G & K & B & G & K & B & G \\
+\midrule
+\multirow{2}{*}{\makecell{\scriptsize 16464 \\ \scriptsize elem}} & \textbf{FP32} & 0.253 & 0.257 & 0.474 & 0.244 & 0.251 & 0.469 & 0.114 & 0.120 & 0.235 \\
+ & \textbf{FP64} & 0.136 & 0.169 & 0.319 & 0.139 & 0.171 & 0.322 & 0.073 & 0.091 & 0.170 \\
+\cline{1-11}
+\multirow{2}{*}{\makecell{\scriptsize 48000 \\ \scriptsize elem}} & \textbf{FP32} & 0.351 & 0.352 & 0.708 & 0.328 & 0.351 & 0.703 & 1.691 & 0.114 & 0.225 \\
+ & \textbf{FP64} & 0.255 & 0.313 & 0.517 & 0.261 & 0.318 & 0.523 & 0.120 & 0.143 & 0.234 \\
+\cline{1-11}
+\multirow{2}{*}{\makecell{\scriptsize 162000 \\ \scriptsize elem}} & \textbf{FP32} & 0.915 & 0.897 & 1.702 & 0.959 & 0.879 & 1.649 & 0.929 & 0.464 & 0.877 \\
+ & \textbf{FP64} & 0.749 & 1.043 & 1.497 & 0.766 & 1.067 & 1.544 & 0.420 & 0.557 & 0.803 \\
+\cline{1-11}
+\multirow{2}{*}{\makecell{\scriptsize 444528 \\ \scriptsize elem}} & \textbf{FP32} & 2.657 & 2.773 & 5.204 & 2.719 & 2.692 & 5.043 & 1.376 & 1.498 & 2.792 \\
+ & \textbf{FP64} & 2.615 & 3.680 & 6.169 & 2.698 & 3.746 & 6.247 & 1.411 & 1.943 & 3.254 \\
+\cline{1-11}
+\bottomrule
+\end{tabular}\caption{Average solver stage runtimes (in seconds) for FP32 and FP64 precision using \textbf{PyTorch}. Results are averaged over runs 2--9 (run 1 discarded as warm-up).}\label{tab:pytorch_precision_solver}\end{table}
+\begin{table}[H]\center\begin{tabular}{m{0.9cm}|m{0.9cm}|m{1.05cm}m{1.05cm}m{1.05cm}|m{1.05cm}m{1.05cm}m{1.05cm}|m{1.05cm}m{1.05cm}m{1.05cm}}
+\toprule
+ &  & \multicolumn{3}{c}{gravity} & \multicolumn{3}{c}{traction} & \multicolumn{3}{c}{\makecell{compre\\ssion}} \\
+ &  & K & B & G & K & B & G & K & B & G \\
+\midrule
+\multirow{2}{*}{\makecell{\scriptsize 16464 \\ \scriptsize elem}} & \textbf{FP32} & 0.044 & 0.039 & 0.035 & 0.045 & 0.043 & 0.037 & 0.245 & 0.025 & 0.021 \\
+ & \textbf{FP64} & 0.039 & 0.062 & 0.046 & 0.041 & 0.061 & 0.048 & 0.023 & 0.034 & 0.028 \\
+\cline{1-11}
+\multirow{2}{*}{\makecell{\scriptsize 48000 \\ \scriptsize elem}} & \textbf{FP32} & 0.079 & 0.080 & 0.063 & 0.082 & 0.081 & 0.065 & 0.048 & 0.033 & 0.025 \\
+ & \textbf{FP64} & 0.067 & 0.147 & 0.107 & 0.068 & 0.146 & 0.109 & 0.034 & 0.071 & 0.053 \\
+\cline{1-11}
+\multirow{2}{*}{\makecell{\scriptsize 162000 \\ \scriptsize elem}} & \textbf{FP32} & 0.484 & 0.237 & 0.151 & 0.440 & 0.247 & 0.162 & 0.383 & 0.147 & 0.087 \\
+ & \textbf{FP64} & 0.530 & 1.038 & 0.234 & 0.548 & 1.052 & 0.248 & 0.290 & 0.557 & 0.141 \\
+\cline{1-11}
+\multirow{2}{*}{\makecell{\scriptsize 444528 \\ \scriptsize elem}} & \textbf{FP32} & 1.981 & 1.767 & 0.625 & 1.842 & 1.699 & 0.642 & 4.411 & 1.038 & 0.359 \\
+ & \textbf{FP64} & 1.897 & 3.920 & 0.882 & 1.942 & 3.938 & 0.922 & 1.054 & 2.076 & 0.496 \\
+\cline{1-11}
+\bottomrule
+\end{tabular}\caption{Average solver stage runtimes (in seconds) for FP32 and FP64 precision using \textbf{JAX}. Results are averaged over runs 2--9 (run 1 discarded as warm-up).}\label{tab:jax_precision_solver}\end{table}
+\begin{table}[H]\center\begin{tabular}{m{0.9cm}|m{0.9cm}|m{1.05cm}m{1.05cm}|m{1.05cm}m{1.05cm}|m{1.05cm}m{1.05cm}}
+\toprule
+ &  & \multicolumn{2}{c}{gravity} & \multicolumn{2}{c}{traction} & \multicolumn{2}{c}{\makecell{compre\\ssion}} \\
+ &  & B & G & B & G & B & G \\
+\midrule
+\multirow{2}{*}{\makecell{\scriptsize 16464 \\ \scriptsize elem}} & \textbf{FP32} & 0.197 & 0.197 & 0.172 & 0.175 & 0.079 & 0.080 \\
+ & \textbf{FP64} & 0.106 & 0.098 & 0.106 & 0.102 & 0.061 & 0.054 \\
+\cline{1-8}
+\multirow{2}{*}{\makecell{\scriptsize 48000 \\ \scriptsize elem}} & \textbf{FP32} & 0.340 & 0.305 & 0.299 & 0.273 & 0.096 & 0.086 \\
+ & \textbf{FP64} & 0.209 & 0.157 & 0.207 & 0.162 & 0.098 & 0.077 \\
+\cline{1-8}
+\multirow{2}{*}{\makecell{\scriptsize 162000 \\ \scriptsize elem}} & \textbf{FP32} & 1.087 & 0.706 & 0.898 & 0.621 & 0.424 & 0.283 \\
+ & \textbf{FP64} & 0.674 & 0.360 & 0.704 & 0.376 & 0.371 & 0.204 \\
+\cline{1-8}
+\multirow{2}{*}{\makecell{\scriptsize 444528 \\ \scriptsize elem}} & \textbf{FP32} & 3.321 & 1.805 & 3.177 & 1.733 & 1.548 & 0.854 \\
+ & \textbf{FP64} & 1.949 & 0.940 & 1.999 & 0.979 & 1.052 & 0.529 \\
+\cline{1-8}
+\bottomrule
+\end{tabular}\caption{Average solver stage runtimes (in seconds) for FP32 and FP64 precision using \textbf{Warp}. Results are averaged over runs 2--9 (run 1 discarded as warm-up).}\label{tab:warp_precision_solver}\end{table}

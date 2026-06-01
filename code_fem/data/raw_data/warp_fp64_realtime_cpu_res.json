@@ -1,0 +1,1610 @@
+[
+    {
+        "framework": "warp",
+        "n_elems": 24576,
+        "version": "B",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.10712379100732505,
+            "2": 0.02897177985869348,
+            "3": 0.011436633998528123,
+            "4": 0.010945877991616726,
+            "5": 0.027901581022888422,
+            "6": 0.011331828078255057,
+            "7": 0.01106595085002482,
+            "8": 0.028970327926799655
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.1289379009976983,
+                "iterations": 995,
+                "force": 0.05,
+                "first_frame_latency": 0.14092231797985733
+            },
+            "2": {
+                "solve_stage_time": 0.1254093588795513,
+                "iterations": 995,
+                "force": 0.05,
+                "first_frame_latency": 0.1333119620103389
+            },
+            "3": {
+                "solve_stage_time": 0.13002598308958113,
+                "iterations": 995,
+                "force": 0.05,
+                "first_frame_latency": 0.1332530709914863
+            },
+            "4": {
+                "solve_stage_time": 0.12494006310589612,
+                "iterations": 995,
+                "force": 0.05,
+                "first_frame_latency": 0.1333048678934574
+            },
+            "5": {
+                "solve_stage_time": 0.12607815791852772,
+                "iterations": 995,
+                "force": 0.05,
+                "first_frame_latency": 0.13330596988089383
+            },
+            "6": {
+                "solve_stage_time": 0.12721570394933224,
+                "iterations": 995,
+                "force": 0.05,
+                "first_frame_latency": 0.1332900810521096
+            },
+            "7": {
+                "solve_stage_time": 0.12401239993050694,
+                "iterations": 995,
+                "force": 0.05,
+                "first_frame_latency": 0.13329085195437074
+            },
+            "8": {
+                "solve_stage_time": 0.12565539893694222,
+                "iterations": 995,
+                "force": 0.05,
+                "first_frame_latency": 0.13326379097998142
+            }
+        },
+        "peak_mem": 1039
+    },
+    {
+        "framework": "warp",
+        "n_elems": 24576,
+        "version": "G",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.1176894879899919,
+            "2": 0.027359368978068233,
+            "3": 0.011625457089394331,
+            "4": 0.011637168005108833,
+            "5": 0.02331584389321506,
+            "6": 0.011468613054603338,
+            "7": 0.011268640169873834,
+            "8": 0.0238828849978745
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.11459637898951769,
+                "iterations": 995,
+                "force": 0.05,
+                "first_frame_latency": 0.12525381799787283
+            },
+            "2": {
+                "solve_stage_time": 0.11261154199019074,
+                "iterations": 995,
+                "force": 0.05,
+                "first_frame_latency": 0.11660512210801244
+            },
+            "3": {
+                "solve_stage_time": 0.10998126794584095,
+                "iterations": 995,
+                "force": 0.05,
+                "first_frame_latency": 0.11661995993927121
+            },
+            "4": {
+                "solve_stage_time": 0.10782077303156257,
+                "iterations": 995,
+                "force": 0.05,
+                "first_frame_latency": 0.11672096909023821
+            },
+            "5": {
+                "solve_stage_time": 0.11116641294211149,
+                "iterations": 995,
+                "force": 0.05,
+                "first_frame_latency": 0.11657003685832024
+            },
+            "6": {
+                "solve_stage_time": 0.10819260799326003,
+                "iterations": 995,
+                "force": 0.05,
+                "first_frame_latency": 0.11663880595006049
+            },
+            "7": {
+                "solve_stage_time": 0.11025328701362014,
+                "iterations": 995,
+                "force": 0.05,
+                "first_frame_latency": 0.11670495895668864
+            },
+            "8": {
+                "solve_stage_time": 0.10981351509690285,
+                "iterations": 995,
+                "force": 0.05,
+                "first_frame_latency": 0.11658796016126871
+            }
+        },
+        "peak_mem": 1022
+    },
+    {
+        "framework": "warp",
+        "n_elems": 24576,
+        "version": "B",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.10711777000688016,
+            "2": 0.027354639023542404,
+            "3": 0.011689797043800354,
+            "4": 0.011411166051402688,
+            "5": 0.02605210687033832,
+            "6": 0.011431393912062049,
+            "7": 0.011253622127696872,
+            "8": 0.029749251902103424
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.1424914081580937,
+                "iterations": 1004,
+                "force": 0.1,
+                "first_frame_latency": 0.1586054100189358
+            },
+            "2": {
+                "solve_stage_time": 0.12887644488364458,
+                "iterations": 1004,
+                "force": 0.1,
+                "first_frame_latency": 0.13320389902219176
+            },
+            "3": {
+                "solve_stage_time": 0.12952306400984526,
+                "iterations": 1004,
+                "force": 0.1,
+                "first_frame_latency": 0.13330446695908904
+            },
+            "4": {
+                "solve_stage_time": 0.12836927804164588,
+                "iterations": 1004,
+                "force": 0.1,
+                "first_frame_latency": 0.13327117497101426
+            },
+            "5": {
+                "solve_stage_time": 0.1283719229977578,
+                "iterations": 1004,
+                "force": 0.1,
+                "first_frame_latency": 0.13331570918671787
+            },
+            "6": {
+                "solve_stage_time": 0.1309215750079602,
+                "iterations": 1004,
+                "force": 0.1,
+                "first_frame_latency": 0.13330598990432918
+            },
+            "7": {
+                "solve_stage_time": 0.1301079059485346,
+                "iterations": 1004,
+                "force": 0.1,
+                "first_frame_latency": 0.1333100979682058
+            },
+            "8": {
+                "solve_stage_time": 0.13025737483985722,
+                "iterations": 1004,
+                "force": 0.1,
+                "first_frame_latency": 0.13330734195187688
+            }
+        },
+        "peak_mem": 1038
+    },
+    {
+        "framework": "warp",
+        "n_elems": 24576,
+        "version": "G",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.11778671015053988,
+            "2": 0.027666842099279165,
+            "3": 0.01187638589181006,
+            "4": 0.011648761108517647,
+            "5": 0.028979624854400754,
+            "6": 0.011082512093707919,
+            "7": 0.01103956182487309,
+            "8": 0.02826531999744475
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.12350053293630481,
+                "iterations": 1004,
+                "force": 0.1,
+                "first_frame_latency": 0.13519346597604454
+            },
+            "2": {
+                "solve_stage_time": 0.11201761313714087,
+                "iterations": 1004,
+                "force": 0.1,
+                "first_frame_latency": 0.11655931710265577
+            },
+            "3": {
+                "solve_stage_time": 0.11096149985678494,
+                "iterations": 1004,
+                "force": 0.1,
+                "first_frame_latency": 0.11680025677196681
+            },
+            "4": {
+                "solve_stage_time": 0.11024387902580202,
+                "iterations": 1004,
+                "force": 0.1,
+                "first_frame_latency": 0.11664191097952425
+            },
+            "5": {
+                "solve_stage_time": 0.11055584182031453,
+                "iterations": 1004,
+                "force": 0.1,
+                "first_frame_latency": 0.11642180988565087
+            },
+            "6": {
+                "solve_stage_time": 0.11419444880448282,
+                "iterations": 1004,
+                "force": 0.1,
+                "first_frame_latency": 0.11658787983469665
+            },
+            "7": {
+                "solve_stage_time": 0.11016597389243543,
+                "iterations": 1004,
+                "force": 0.1,
+                "first_frame_latency": 0.1166202409658581
+            },
+            "8": {
+                "solve_stage_time": 0.1096802360843867,
+                "iterations": 1004,
+                "force": 0.1,
+                "first_frame_latency": 0.11660938011482358
+            }
+        },
+        "peak_mem": 1019
+    },
+    {
+        "framework": "warp",
+        "n_elems": 24576,
+        "version": "B",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.12089895294047892,
+            "2": 0.029400510946288705,
+            "3": 0.012113168137148023,
+            "4": 0.011642427882179618,
+            "5": 0.029800578020513058,
+            "6": 0.01129842596128583,
+            "7": 0.011052897898480296,
+            "8": 0.028284044936299324
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.06856735609471798,
+                "iterations": 441,
+                "force": -20.0,
+                "first_frame_latency": 0.07492181612178683
+            },
+            "2": {
+                "solve_stage_time": 0.06458597886376083,
+                "iterations": 441,
+                "force": -20.0,
+                "first_frame_latency": 0.06647368497215211
+            },
+            "3": {
+                "solve_stage_time": 0.06220336817204952,
+                "iterations": 441,
+                "force": -20.0,
+                "first_frame_latency": 0.06657497398555279
+            },
+            "4": {
+                "solve_stage_time": 0.060568223940208554,
+                "iterations": 441,
+                "force": -20.0,
+                "first_frame_latency": 0.06658357102423906
+            },
+            "5": {
+                "solve_stage_time": 0.06085891695693135,
+                "iterations": 441,
+                "force": -20.0,
+                "first_frame_latency": 0.06657067709602416
+            },
+            "6": {
+                "solve_stage_time": 0.060123051982373,
+                "iterations": 441,
+                "force": -20.0,
+                "first_frame_latency": 0.06656957394443452
+            },
+            "7": {
+                "solve_stage_time": 0.06005488382652402,
+                "iterations": 441,
+                "force": -20.0,
+                "first_frame_latency": 0.06658834894187748
+            },
+            "8": {
+                "solve_stage_time": 0.05974179017357528,
+                "iterations": 441,
+                "force": -20.0,
+                "first_frame_latency": 0.06658474309369922
+            }
+        },
+        "peak_mem": 1053
+    },
+    {
+        "framework": "warp",
+        "n_elems": 24576,
+        "version": "G",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.11276141298003495,
+            "2": 0.03166495100595057,
+            "3": 0.012080566957592964,
+            "4": 0.011871617054566741,
+            "5": 0.03147156001068652,
+            "6": 0.01117730000987649,
+            "7": 0.010897856904193759,
+            "8": 0.029182835016399622
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.0587783909868449,
+                "iterations": 441,
+                "force": -20.0,
+                "first_frame_latency": 0.07525190408341587
+            },
+            "2": {
+                "solve_stage_time": 0.05355510301887989,
+                "iterations": 441,
+                "force": -20.0,
+                "first_frame_latency": 0.06653914786875248
+            },
+            "3": {
+                "solve_stage_time": 0.051837513921782374,
+                "iterations": 441,
+                "force": -20.0,
+                "first_frame_latency": 0.06657034577801824
+            },
+            "4": {
+                "solve_stage_time": 0.05235056299716234,
+                "iterations": 441,
+                "force": -20.0,
+                "first_frame_latency": 0.06655134004540741
+            },
+            "5": {
+                "solve_stage_time": 0.05517361592501402,
+                "iterations": 441,
+                "force": -20.0,
+                "first_frame_latency": 0.06655604881234467
+            },
+            "6": {
+                "solve_stage_time": 0.05384865100495517,
+                "iterations": 441,
+                "force": -20.0,
+                "first_frame_latency": 0.06654740311205387
+            },
+            "7": {
+                "solve_stage_time": 0.054969293996691704,
+                "iterations": 441,
+                "force": -20.0,
+                "first_frame_latency": 0.0665524520445615
+            },
+            "8": {
+                "solve_stage_time": 0.056188652059063315,
+                "iterations": 441,
+                "force": -20.0,
+                "first_frame_latency": 0.06649311096407473
+            }
+        },
+        "peak_mem": 1050
+    },
+    {
+        "framework": "warp",
+        "n_elems": 63888,
+        "version": "B",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.14798411913216114,
+            "2": 0.049288451904430985,
+            "3": 0.0476168398745358,
+            "4": 0.029599864035844803,
+            "5": 0.0456285560503602,
+            "6": 0.04588339198380709,
+            "7": 0.04607923701405525,
+            "8": 0.0477909951005131
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.2505375121254474,
+                "iterations": 1322,
+                "force": 0.05,
+                "first_frame_latency": 0.253742469009012
+            },
+            "2": {
+                "solve_stage_time": 0.24384551215916872,
+                "iterations": 1322,
+                "force": 0.05,
+                "first_frame_latency": 0.24950281018391252
+            },
+            "3": {
+                "solve_stage_time": 0.2434936237987131,
+                "iterations": 1322,
+                "force": 0.05,
+                "first_frame_latency": 0.2502510668709874
+            },
+            "4": {
+                "solve_stage_time": 0.2460030121728778,
+                "iterations": 1322,
+                "force": 0.05,
+                "first_frame_latency": 0.24983566207811236
+            },
+            "5": {
+                "solve_stage_time": 0.24601888190954924,
+                "iterations": 1322,
+                "force": 0.05,
+                "first_frame_latency": 0.25007177190855145
+            },
+            "6": {
+                "solve_stage_time": 0.2423329958692193,
+                "iterations": 1322,
+                "force": 0.05,
+                "first_frame_latency": 0.25004074396565557
+            },
+            "7": {
+                "solve_stage_time": 0.2428000089712441,
+                "iterations": 1322,
+                "force": 0.05,
+                "first_frame_latency": 0.250252379802987
+            },
+            "8": {
+                "solve_stage_time": 0.24240777594968677,
+                "iterations": 1322,
+                "force": 0.05,
+                "first_frame_latency": 0.2500281110405922
+            }
+        },
+        "peak_mem": 1100
+    },
+    {
+        "framework": "warp",
+        "n_elems": 63888,
+        "version": "G",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.1502746979240328,
+            "2": 0.051720174960792065,
+            "3": 0.04882528795860708,
+            "4": 0.029297017958015203,
+            "5": 0.04602560703642666,
+            "6": 0.046001723036170006,
+            "7": 0.04732359200716019,
+            "8": 0.04797401721589267
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.18801147188059986,
+                "iterations": 1322,
+                "force": 0.05,
+                "first_frame_latency": 0.19103314587846398
+            },
+            "2": {
+                "solve_stage_time": 0.1798076769337058,
+                "iterations": 1322,
+                "force": 0.05,
+                "first_frame_latency": 0.18194593209773302
+            },
+            "3": {
+                "solve_stage_time": 0.18783046398311853,
+                "iterations": 1322,
+                "force": 0.05,
+                "first_frame_latency": 0.19990000990219414
+            },
+            "4": {
+                "solve_stage_time": 0.18569546611979604,
+                "iterations": 1322,
+                "force": 0.05,
+                "first_frame_latency": 0.19998763408511877
+            },
+            "5": {
+                "solve_stage_time": 0.18693100288510323,
+                "iterations": 1322,
+                "force": 0.05,
+                "first_frame_latency": 0.1999647810589522
+            },
+            "6": {
+                "solve_stage_time": 0.18498636106960475,
+                "iterations": 1322,
+                "force": 0.05,
+                "first_frame_latency": 0.20002476312220097
+            },
+            "7": {
+                "solve_stage_time": 0.18447242095135152,
+                "iterations": 1322,
+                "force": 0.05,
+                "first_frame_latency": 0.19999467697925866
+            },
+            "8": {
+                "solve_stage_time": 0.19087464991025627,
+                "iterations": 1322,
+                "force": 0.05,
+                "first_frame_latency": 0.19999992684461176
+            }
+        },
+        "peak_mem": 1055
+    },
+    {
+        "framework": "warp",
+        "n_elems": 63888,
+        "version": "B",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.15530330198816955,
+            "2": 0.0506212820764631,
+            "3": 0.05058874189853668,
+            "4": 0.030053091002628207,
+            "5": 0.0515323739964515,
+            "6": 0.045366987120360136,
+            "7": 0.045922985998913646,
+            "8": 0.04838848207145929
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.26361349900253117,
+                "iterations": 1330,
+                "force": 0.1,
+                "first_frame_latency": 0.27067336719483137
+            },
+            "2": {
+                "solve_stage_time": 0.24950142693705857,
+                "iterations": 1330,
+                "force": 0.1,
+                "first_frame_latency": 0.25163837894797325
+            },
+            "3": {
+                "solve_stage_time": 0.2491041449829936,
+                "iterations": 1330,
+                "force": 0.1,
+                "first_frame_latency": 0.26514164404943585
+            },
+            "4": {
+                "solve_stage_time": 0.2494172900915146,
+                "iterations": 1330,
+                "force": 0.1,
+                "first_frame_latency": 0.2519147351849824
+            },
+            "5": {
+                "solve_stage_time": 0.26144126104190946,
+                "iterations": 1330,
+                "force": 0.1,
+                "first_frame_latency": 0.26473645702935755
+            },
+            "6": {
+                "solve_stage_time": 0.25501724099740386,
+                "iterations": 1330,
+                "force": 0.1,
+                "first_frame_latency": 0.2667955730576068
+            },
+            "7": {
+                "solve_stage_time": 0.2530359800439328,
+                "iterations": 1330,
+                "force": 0.1,
+                "first_frame_latency": 0.26671933103352785
+            },
+            "8": {
+                "solve_stage_time": 0.25203208392485976,
+                "iterations": 1330,
+                "force": 0.1,
+                "first_frame_latency": 0.266706767026335
+            }
+        },
+        "peak_mem": 1112
+    },
+    {
+        "framework": "warp",
+        "n_elems": 63888,
+        "version": "G",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.14419167395681143,
+            "2": 0.04881672095507383,
+            "3": 0.04800870199687779,
+            "4": 0.02961861784569919,
+            "5": 0.04563419590704143,
+            "6": 0.04516229499131441,
+            "7": 0.04786204779520631,
+            "8": 0.0460776649415493
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.19448057585395873,
+                "iterations": 1330,
+                "force": 0.1,
+                "first_frame_latency": 0.2065782849676907
+            },
+            "2": {
+                "solve_stage_time": 0.18637044704519212,
+                "iterations": 1330,
+                "force": 0.1,
+                "first_frame_latency": 0.199833506019786
+            },
+            "3": {
+                "solve_stage_time": 0.1852471479214728,
+                "iterations": 1330,
+                "force": 0.1,
+                "first_frame_latency": 0.1999947070144117
+            },
+            "4": {
+                "solve_stage_time": 0.1847523539327085,
+                "iterations": 1330,
+                "force": 0.1,
+                "first_frame_latency": 0.20002738782204688
+            },
+            "5": {
+                "solve_stage_time": 0.18357563600875437,
+                "iterations": 1330,
+                "force": 0.1,
+                "first_frame_latency": 0.20001757983118296
+            },
+            "6": {
+                "solve_stage_time": 0.183928064070642,
+                "iterations": 1330,
+                "force": 0.1,
+                "first_frame_latency": 0.20002505416050553
+            },
+            "7": {
+                "solve_stage_time": 0.18251931201666594,
+                "iterations": 1330,
+                "force": 0.1,
+                "first_frame_latency": 0.18477690988220274
+            },
+            "8": {
+                "solve_stage_time": 0.18426023400388658,
+                "iterations": 1330,
+                "force": 0.1,
+                "first_frame_latency": 0.1985576420556754
+            }
+        },
+        "peak_mem": 1047
+    },
+    {
+        "framework": "warp",
+        "n_elems": 63888,
+        "version": "B",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.14712037495337427,
+            "2": 0.055889394134283066,
+            "3": 0.05041774199344218,
+            "4": 0.02937377104535699,
+            "5": 0.04705988895148039,
+            "6": 0.04740087618120015,
+            "7": 0.04839891102164984,
+            "8": 0.05063355481252074
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.15511404909193516,
+                "iterations": 691,
+                "force": -20.0,
+                "first_frame_latency": 0.16646179696545005
+            },
+            "2": {
+                "solve_stage_time": 0.14043397502973676,
+                "iterations": 691,
+                "force": -20.0,
+                "first_frame_latency": 0.14988968893885612
+            },
+            "3": {
+                "solve_stage_time": 0.1414512051269412,
+                "iterations": 691,
+                "force": -20.0,
+                "first_frame_latency": 0.14995458000339568
+            },
+            "4": {
+                "solve_stage_time": 0.140465104021132,
+                "iterations": 691,
+                "force": -20.0,
+                "first_frame_latency": 0.1498749922029674
+            },
+            "5": {
+                "solve_stage_time": 0.1395792078692466,
+                "iterations": 691,
+                "force": -20.0,
+                "first_frame_latency": 0.1499036350287497
+            },
+            "6": {
+                "solve_stage_time": 0.13970679719932377,
+                "iterations": 691,
+                "force": -20.0,
+                "first_frame_latency": 0.1499311861116439
+            },
+            "7": {
+                "solve_stage_time": 0.14133344497531652,
+                "iterations": 691,
+                "force": -20.0,
+                "first_frame_latency": 0.14986701612360775
+            },
+            "8": {
+                "solve_stage_time": 0.13998545799404383,
+                "iterations": 691,
+                "force": -20.0,
+                "first_frame_latency": 0.14985778904519975
+            }
+        },
+        "peak_mem": 1114
+    },
+    {
+        "framework": "warp",
+        "n_elems": 63888,
+        "version": "G",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.1511885249055922,
+            "2": 0.049671587999910116,
+            "3": 0.049513402162119746,
+            "4": 0.02950275200419128,
+            "5": 0.04740722803398967,
+            "6": 0.045988027937710285,
+            "7": 0.04594536800868809,
+            "8": 0.04818261694163084
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.11218410404399037,
+                "iterations": 691,
+                "force": -20.0,
+                "first_frame_latency": 0.12316875299438834
+            },
+            "2": {
+                "solve_stage_time": 0.1080412338487804,
+                "iterations": 691,
+                "force": -20.0,
+                "first_frame_latency": 0.11660087388008833
+            },
+            "3": {
+                "solve_stage_time": 0.10093933786265552,
+                "iterations": 691,
+                "force": -20.0,
+                "first_frame_latency": 0.11669971887022257
+            },
+            "4": {
+                "solve_stage_time": 0.09939215797930956,
+                "iterations": 691,
+                "force": -20.0,
+                "first_frame_latency": 0.10145823820494115
+            },
+            "5": {
+                "solve_stage_time": 0.10053303907625377,
+                "iterations": 691,
+                "force": -20.0,
+                "first_frame_latency": 0.11502648307941854
+            },
+            "6": {
+                "solve_stage_time": 0.09941064193844795,
+                "iterations": 691,
+                "force": -20.0,
+                "first_frame_latency": 0.10140498797409236
+            },
+            "7": {
+                "solve_stage_time": 0.10028751008212566,
+                "iterations": 691,
+                "force": -20.0,
+                "first_frame_latency": 0.1151622470933944
+            },
+            "8": {
+                "solve_stage_time": 0.09961702721193433,
+                "iterations": 691,
+                "force": -20.0,
+                "first_frame_latency": 0.11660972121171653
+            }
+        },
+        "peak_mem": 1047
+    },
+    {
+        "framework": "warp",
+        "n_elems": 162000,
+        "version": "B",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.23081229510717094,
+            "2": 0.12339555704966187,
+            "3": 0.11835619295015931,
+            "4": 0.129649420036003,
+            "5": 0.13269623089581728,
+            "6": 0.1188072960358113,
+            "7": 0.14391249301843345,
+            "8": 0.12875311519019306
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.6852294921409339,
+                "iterations": 1754,
+                "force": 0.05,
+                "first_frame_latency": 0.7015483560971916
+            },
+            "2": {
+                "solve_stage_time": 0.6765075079165399,
+                "iterations": 1754,
+                "force": 0.05,
+                "first_frame_latency": 0.6836343619506806
+            },
+            "3": {
+                "solve_stage_time": 0.6847243378870189,
+                "iterations": 1754,
+                "force": 0.05,
+                "first_frame_latency": 0.7004123539663851
+            },
+            "4": {
+                "solve_stage_time": 0.6800010448787361,
+                "iterations": 1754,
+                "force": 0.05,
+                "first_frame_latency": 0.6839634370990098
+            },
+            "5": {
+                "solve_stage_time": 0.6749991709366441,
+                "iterations": 1754,
+                "force": 0.05,
+                "first_frame_latency": 0.6833988020662218
+            },
+            "6": {
+                "solve_stage_time": 0.6828025279100984,
+                "iterations": 1754,
+                "force": 0.05,
+                "first_frame_latency": 0.686906904913485
+            },
+            "7": {
+                "solve_stage_time": 0.6797828068956733,
+                "iterations": 1754,
+                "force": 0.05,
+                "first_frame_latency": 0.6837300199549645
+            },
+            "8": {
+                "solve_stage_time": 0.6745558429975063,
+                "iterations": 1754,
+                "force": 0.05,
+                "first_frame_latency": 0.6805018300656229
+            }
+        },
+        "peak_mem": 1176
+    },
+    {
+        "framework": "warp",
+        "n_elems": 162000,
+        "version": "G",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.20864500617608428,
+            "2": 0.1174645780120045,
+            "3": 0.11427603103220463,
+            "4": 0.1133981510065496,
+            "5": 0.11160674504935741,
+            "6": 0.11036045686341822,
+            "7": 0.1327272600028664,
+            "8": 0.11966702202335
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.37526239291764796,
+                "iterations": 1754,
+                "force": 0.05,
+                "first_frame_latency": 0.3855472858995199
+            },
+            "2": {
+                "solve_stage_time": 0.35650565405376256,
+                "iterations": 1754,
+                "force": 0.05,
+                "first_frame_latency": 0.3667586469091475
+            },
+            "3": {
+                "solve_stage_time": 0.35624183202162385,
+                "iterations": 1754,
+                "force": 0.05,
+                "first_frame_latency": 0.36683173407800496
+            },
+            "4": {
+                "solve_stage_time": 0.35711945104412735,
+                "iterations": 1754,
+                "force": 0.05,
+                "first_frame_latency": 0.36681531299836934
+            },
+            "5": {
+                "solve_stage_time": 0.3576763810124248,
+                "iterations": 1754,
+                "force": 0.05,
+                "first_frame_latency": 0.3668271149508655
+            },
+            "6": {
+                "solve_stage_time": 0.3566284340340644,
+                "iterations": 1754,
+                "force": 0.05,
+                "first_frame_latency": 0.36682361899875104
+            },
+            "7": {
+                "solve_stage_time": 0.35805999813601375,
+                "iterations": 1754,
+                "force": 0.05,
+                "first_frame_latency": 0.3670583670027554
+            },
+            "8": {
+                "solve_stage_time": 0.3570490190759301,
+                "iterations": 1754,
+                "force": 0.05,
+                "first_frame_latency": 0.3665576621424407
+            }
+        },
+        "peak_mem": 1064
+    },
+    {
+        "framework": "warp",
+        "n_elems": 162000,
+        "version": "B",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.223074730951339,
+            "2": 0.11907114903442562,
+            "3": 0.1187239910941571,
+            "4": 0.11505053797736764,
+            "5": 0.1121553999837488,
+            "6": 0.11283138301223516,
+            "7": 0.13576648593880236,
+            "8": 0.1228346792049706
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.7110158521682024,
+                "iterations": 1765,
+                "force": 0.1,
+                "first_frame_latency": 0.7185058831237257
+            },
+            "2": {
+                "solve_stage_time": 0.6867906481493264,
+                "iterations": 1765,
+                "force": 0.1,
+                "first_frame_latency": 0.7005756790749729
+            },
+            "3": {
+                "solve_stage_time": 0.6867920400109142,
+                "iterations": 1765,
+                "force": 0.1,
+                "first_frame_latency": 0.7002110970206559
+            },
+            "4": {
+                "solve_stage_time": 0.6862868759781122,
+                "iterations": 1765,
+                "force": 0.1,
+                "first_frame_latency": 0.7003872259519994
+            },
+            "5": {
+                "solve_stage_time": 0.6871885310392827,
+                "iterations": 1765,
+                "force": 0.1,
+                "first_frame_latency": 0.7004426699131727
+            },
+            "6": {
+                "solve_stage_time": 0.6872482730541378,
+                "iterations": 1765,
+                "force": 0.1,
+                "first_frame_latency": 0.7003347289282829
+            },
+            "7": {
+                "solve_stage_time": 0.6860090380068868,
+                "iterations": 1765,
+                "force": 0.1,
+                "first_frame_latency": 0.7003915349487215
+            },
+            "8": {
+                "solve_stage_time": 0.6858766600489616,
+                "iterations": 1765,
+                "force": 0.1,
+                "first_frame_latency": 0.7004043490160257
+            }
+        },
+        "peak_mem": 1154
+    },
+    {
+        "framework": "warp",
+        "n_elems": 162000,
+        "version": "G",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.20913472096435726,
+            "2": 0.12179305288009346,
+            "3": 0.11348521383479238,
+            "4": 0.11469852109439671,
+            "5": 0.11345257284119725,
+            "6": 0.11072029918432236,
+            "7": 0.14286469598300755,
+            "8": 0.12411641399376094
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.3841579088475555,
+                "iterations": 1765,
+                "force": 0.1,
+                "first_frame_latency": 0.39546487107872963
+            },
+            "2": {
+                "solve_stage_time": 0.37347761797718704,
+                "iterations": 1765,
+                "force": 0.1,
+                "first_frame_latency": 0.3833986110985279
+            },
+            "3": {
+                "solve_stage_time": 0.3736756690777838,
+                "iterations": 1765,
+                "force": 0.1,
+                "first_frame_latency": 0.38348730793222785
+            },
+            "4": {
+                "solve_stage_time": 0.37407510494813323,
+                "iterations": 1765,
+                "force": 0.1,
+                "first_frame_latency": 0.38348651491105556
+            },
+            "5": {
+                "solve_stage_time": 0.37408671621233225,
+                "iterations": 1765,
+                "force": 0.1,
+                "first_frame_latency": 0.38350215507671237
+            },
+            "6": {
+                "solve_stage_time": 0.3744563970249146,
+                "iterations": 1765,
+                "force": 0.1,
+                "first_frame_latency": 0.3835122240707278
+            },
+            "7": {
+                "solve_stage_time": 0.3748833651188761,
+                "iterations": 1765,
+                "force": 0.1,
+                "first_frame_latency": 0.3835030971094966
+            },
+            "8": {
+                "solve_stage_time": 0.3748810510151088,
+                "iterations": 1765,
+                "force": 0.1,
+                "first_frame_latency": 0.38365278602577746
+            }
+        },
+        "peak_mem": 1057
+    },
+    {
+        "framework": "warp",
+        "n_elems": 162000,
+        "version": "B",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.21437235502526164,
+            "2": 0.11935910698957741,
+            "3": 0.11683324910700321,
+            "4": 0.11468113795854151,
+            "5": 0.11344521003775299,
+            "6": 0.11099094501696527,
+            "7": 0.13690599496476352,
+            "8": 0.12104331306181848
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.3885964408982545,
+                "iterations": 917,
+                "force": -20.0,
+                "first_frame_latency": 0.40121564408764243
+            },
+            "2": {
+                "solve_stage_time": 0.3659015470184386,
+                "iterations": 917,
+                "force": -20.0,
+                "first_frame_latency": 0.36977514321915805
+            },
+            "3": {
+                "solve_stage_time": 0.3641042790841311,
+                "iterations": 917,
+                "force": -20.0,
+                "first_frame_latency": 0.380580066004768
+            },
+            "4": {
+                "solve_stage_time": 0.3652982988860458,
+                "iterations": 917,
+                "force": -20.0,
+                "first_frame_latency": 0.36922311084344983
+            },
+            "5": {
+                "solve_stage_time": 0.3660178629215807,
+                "iterations": 917,
+                "force": -20.0,
+                "first_frame_latency": 0.3809779698494822
+            },
+            "6": {
+                "solve_stage_time": 0.3650573589839041,
+                "iterations": 917,
+                "force": -20.0,
+                "first_frame_latency": 0.36902411887422204
+            },
+            "7": {
+                "solve_stage_time": 0.364852637052536,
+                "iterations": 917,
+                "force": -20.0,
+                "first_frame_latency": 0.38119234004989266
+            },
+            "8": {
+                "solve_stage_time": 0.3653130470775068,
+                "iterations": 917,
+                "force": -20.0,
+                "first_frame_latency": 0.36922822101041675
+            }
+        },
+        "peak_mem": 1152
+    },
+    {
+        "framework": "warp",
+        "n_elems": 162000,
+        "version": "G",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.21489310800097883,
+            "2": 0.11718375305645168,
+            "3": 0.11517906910739839,
+            "4": 0.11299720290116966,
+            "5": 0.11351989884860814,
+            "6": 0.10907916282303631,
+            "7": 0.13672765204682946,
+            "8": 0.12213887996040285
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.21322021284140646,
+                "iterations": 917,
+                "force": -20.0,
+                "first_frame_latency": 0.2285779919475317
+            },
+            "2": {
+                "solve_stage_time": 0.2020630908664316,
+                "iterations": 917,
+                "force": -20.0,
+                "first_frame_latency": 0.2163304928690195
+            },
+            "3": {
+                "solve_stage_time": 0.20214365096762776,
+                "iterations": 917,
+                "force": -20.0,
+                "first_frame_latency": 0.21665935590863228
+            },
+            "4": {
+                "solve_stage_time": 0.2032063959632069,
+                "iterations": 917,
+                "force": -20.0,
+                "first_frame_latency": 0.21665643202140927
+            },
+            "5": {
+                "solve_stage_time": 0.20143949589692056,
+                "iterations": 917,
+                "force": -20.0,
+                "first_frame_latency": 0.2166583260986954
+            },
+            "6": {
+                "solve_stage_time": 0.20324756391346455,
+                "iterations": 917,
+                "force": -20.0,
+                "first_frame_latency": 0.21689139096997678
+            },
+            "7": {
+                "solve_stage_time": 0.20242686988785863,
+                "iterations": 917,
+                "force": -20.0,
+                "first_frame_latency": 0.21642315504141152
+            },
+            "8": {
+                "solve_stage_time": 0.2028700178489089,
+                "iterations": 917,
+                "force": -20.0,
+                "first_frame_latency": 0.21665653097443283
+            }
+        },
+        "peak_mem": 1056
+    },
+    {
+        "framework": "warp",
+        "n_elems": 444528,
+        "version": "B",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.4617320210672915,
+            "2": 0.4021482060197741,
+            "3": 0.38081826106645167,
+            "4": 0.3412675198633224,
+            "5": 0.355834981193766,
+            "6": 0.38948931894265115,
+            "7": 0.3403408480808139,
+            "8": 0.3922217129729688
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 1.939156458945945,
+                "iterations": 2393,
+                "force": 0.05,
+                "first_frame_latency": 1.9498168230056763
+            },
+            "2": {
+                "solve_stage_time": 1.9361847979016602,
+                "iterations": 2393,
+                "force": 0.05,
+                "first_frame_latency": 1.947945887921378
+            },
+            "3": {
+                "solve_stage_time": 1.9384491071105003,
+                "iterations": 2393,
+                "force": 0.05,
+                "first_frame_latency": 1.9514089471194893
+            },
+            "4": {
+                "solve_stage_time": 1.9329873740207404,
+                "iterations": 2393,
+                "force": 0.05,
+                "first_frame_latency": 1.9411918399855494
+            },
+            "5": {
+                "solve_stage_time": 1.935750846983865,
+                "iterations": 2393,
+                "force": 0.05,
+                "first_frame_latency": 1.9448787379078567
+            },
+            "6": {
+                "solve_stage_time": 1.9371689560357481,
+                "iterations": 2393,
+                "force": 0.05,
+                "first_frame_latency": 1.9515159770380706
+            },
+            "7": {
+                "solve_stage_time": 1.9358180528506637,
+                "iterations": 2393,
+                "force": 0.05,
+                "first_frame_latency": 1.9514222820289433
+            },
+            "8": {
+                "solve_stage_time": 1.9383000389207155,
+                "iterations": 2393,
+                "force": 0.05,
+                "first_frame_latency": 1.951444452861324
+            }
+        },
+        "peak_mem": 1308
+    },
+    {
+        "framework": "warp",
+        "n_elems": 444528,
+        "version": "G",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.46334868110716343,
+            "2": 0.4000712661072612,
+            "3": 0.40149064804427326,
+            "4": 0.36718665715307,
+            "5": 0.37908824998885393,
+            "6": 0.409225185867399,
+            "7": 0.33376357215456665,
+            "8": 0.396395870950073
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.9794103698804975,
+                "iterations": 2393,
+                "force": 0.05,
+                "first_frame_latency": 0.9904591399244964
+            },
+            "2": {
+                "solve_stage_time": 0.9412386850453913,
+                "iterations": 2393,
+                "force": 0.05,
+                "first_frame_latency": 0.958028820110485
+            },
+            "3": {
+                "solve_stage_time": 0.9449152930174023,
+                "iterations": 2393,
+                "force": 0.05,
+                "first_frame_latency": 0.9533300220500678
+            },
+            "4": {
+                "solve_stage_time": 0.9447680879384279,
+                "iterations": 2393,
+                "force": 0.05,
+                "first_frame_latency": 0.9532825129572302
+            },
+            "5": {
+                "solve_stage_time": 0.9403978639747947,
+                "iterations": 2393,
+                "force": 0.05,
+                "first_frame_latency": 0.9488504340406507
+            },
+            "6": {
+                "solve_stage_time": 0.9413505638949573,
+                "iterations": 2393,
+                "force": 0.05,
+                "first_frame_latency": 0.9496255519334227
+            },
+            "7": {
+                "solve_stage_time": 0.963376919971779,
+                "iterations": 2393,
+                "force": 0.05,
+                "first_frame_latency": 0.9719902300275862
+            },
+            "8": {
+                "solve_stage_time": 0.9421768779866397,
+                "iterations": 2393,
+                "force": 0.05,
+                "first_frame_latency": 0.9505462420638651
+            }
+        },
+        "peak_mem": 1153
+    },
+    {
+        "framework": "warp",
+        "n_elems": 444528,
+        "version": "B",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.454609164968133,
+            "2": 0.4233064199797809,
+            "3": 0.408510030945763,
+            "4": 0.3551808700431138,
+            "5": 0.3599723898805678,
+            "6": 0.3947648729663342,
+            "7": 0.3403266011737287,
+            "8": 0.38764845998957753
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 1.9957380041014403,
+                "iterations": 2408,
+                "force": 0.1,
+                "first_frame_latency": 2.012089007999748
+            },
+            "2": {
+                "solve_stage_time": 1.983814500970766,
+                "iterations": 2408,
+                "force": 0.1,
+                "first_frame_latency": 1.9920774369966239
+            },
+            "3": {
+                "solve_stage_time": 1.9848966218996793,
+                "iterations": 2408,
+                "force": 0.1,
+                "first_frame_latency": 1.99405870703049
+            },
+            "4": {
+                "solve_stage_time": 1.9871162681374699,
+                "iterations": 2408,
+                "force": 0.1,
+                "first_frame_latency": 2.001530976034701
+            },
+            "5": {
+                "solve_stage_time": 2.0072041139937937,
+                "iterations": 2408,
+                "force": 0.1,
+                "first_frame_latency": 2.018139671999961
+            },
+            "6": {
+                "solve_stage_time": 1.9827927220612764,
+                "iterations": 2408,
+                "force": 0.1,
+                "first_frame_latency": 1.9911295850761235
+            },
+            "7": {
+                "solve_stage_time": 1.9833589200861752,
+                "iterations": 2408,
+                "force": 0.1,
+                "first_frame_latency": 1.9950943319126964
+            },
+            "8": {
+                "solve_stage_time": 1.9813238279893994,
+                "iterations": 2408,
+                "force": 0.1,
+                "first_frame_latency": 1.9896652200259268
+            }
+        },
+        "peak_mem": 1330
+    },
+    {
+        "framework": "warp",
+        "n_elems": 444528,
+        "version": "G",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.45439882203936577,
+            "2": 0.39207337610423565,
+            "3": 0.3798273198772222,
+            "4": 0.34810066409409046,
+            "5": 0.3772777470294386,
+            "6": 0.4214644799940288,
+            "7": 0.34838422294706106,
+            "8": 0.41855890210717916
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.9987382560502738,
+                "iterations": 2408,
+                "force": 0.1,
+                "first_frame_latency": 1.0104603038635105
+            },
+            "2": {
+                "solve_stage_time": 0.982703953050077,
+                "iterations": 2408,
+                "force": 0.1,
+                "first_frame_latency": 0.9910515060182661
+            },
+            "3": {
+                "solve_stage_time": 0.9937214849051088,
+                "iterations": 2408,
+                "force": 0.1,
+                "first_frame_latency": 1.0102245130110532
+            },
+            "4": {
+                "solve_stage_time": 0.9854677061084658,
+                "iterations": 2408,
+                "force": 0.1,
+                "first_frame_latency": 1.0005459019448608
+            },
+            "5": {
+                "solve_stage_time": 0.9881283568684012,
+                "iterations": 2408,
+                "force": 0.1,
+                "first_frame_latency": 1.00046602380462
+            },
+            "6": {
+                "solve_stage_time": 1.0248185449745506,
+                "iterations": 2408,
+                "force": 0.1,
+                "first_frame_latency": 1.0339893859345466
+            },
+            "7": {
+                "solve_stage_time": 1.0142668541520834,
+                "iterations": 2408,
+                "force": 0.1,
+                "first_frame_latency": 1.0228155530057847
+            },
+            "8": {
+                "solve_stage_time": 0.9937074878253043,
+                "iterations": 2408,
+                "force": 0.1,
+                "first_frame_latency": 1.001976263942197
+            }
+        },
+        "peak_mem": 1164
+    },
+    {
+        "framework": "warp",
+        "n_elems": 444528,
+        "version": "B",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.4683661030139774,
+            "2": 0.39505413407459855,
+            "3": 0.39075431204400957,
+            "4": 0.34825395001098514,
+            "5": 0.3543842718936503,
+            "6": 0.3987437370233238,
+            "7": 0.3327115559950471,
+            "8": 0.3993277468252927
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 1.0687733839731663,
+                "iterations": 1254,
+                "force": -20.0,
+                "first_frame_latency": 1.0812656600028276
+            },
+            "2": {
+                "solve_stage_time": 1.0488467901013792,
+                "iterations": 1254,
+                "force": -20.0,
+                "first_frame_latency": 1.0649797569494694
+            },
+            "3": {
+                "solve_stage_time": 1.0506324560847133,
+                "iterations": 1254,
+                "force": -20.0,
+                "first_frame_latency": 1.0673218229785562
+            },
+            "4": {
+                "solve_stage_time": 1.0497596350032836,
+                "iterations": 1254,
+                "force": -20.0,
+                "first_frame_latency": 1.061029247008264
+            },
+            "5": {
+                "solve_stage_time": 1.0487707681022584,
+                "iterations": 1254,
+                "force": -20.0,
+                "first_frame_latency": 1.0601779071148485
+            },
+            "6": {
+                "solve_stage_time": 1.0487180398777127,
+                "iterations": 1254,
+                "force": -20.0,
+                "first_frame_latency": 1.0641534039750695
+            },
+            "7": {
+                "solve_stage_time": 1.0468858871608973,
+                "iterations": 1254,
+                "force": -20.0,
+                "first_frame_latency": 1.0583576671779156
+            },
+            "8": {
+                "solve_stage_time": 1.0480853170156479,
+                "iterations": 1254,
+                "force": -20.0,
+                "first_frame_latency": 1.0595609340816736
+            }
+        },
+        "peak_mem": 1327
+    },
+    {
+        "framework": "warp",
+        "n_elems": 444528,
+        "version": "G",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.4603786619845778,
+            "2": 0.39787871995940804,
+            "3": 0.39054449019022286,
+            "4": 0.34630739386193454,
+            "5": 0.35470317816361785,
+            "6": 0.3905305229127407,
+            "7": 0.33495822292752564,
+            "8": 0.38780367001891136
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.5531227011233568,
+                "iterations": 1254,
+                "force": -20.0,
+                "first_frame_latency": 0.562526528025046
+            },
+            "2": {
+                "solve_stage_time": 0.528420747956261,
+                "iterations": 1254,
+                "force": -20.0,
+                "first_frame_latency": 0.5368302168790251
+            },
+            "3": {
+                "solve_stage_time": 0.5282267651055008,
+                "iterations": 1254,
+                "force": -20.0,
+                "first_frame_latency": 0.5366489281877875
+            },
+            "4": {
+                "solve_stage_time": 0.5282274049241096,
+                "iterations": 1254,
+                "force": -20.0,
+                "first_frame_latency": 0.5436766049824655
+            },
+            "5": {
+                "solve_stage_time": 0.5268188549671322,
+                "iterations": 1254,
+                "force": -20.0,
+                "first_frame_latency": 0.5352412879001349
+            },
+            "6": {
+                "solve_stage_time": 0.5269316849298775,
+                "iterations": 1254,
+                "force": -20.0,
+                "first_frame_latency": 0.5354023990221322
+            },
+            "7": {
+                "solve_stage_time": 0.5277988861780614,
+                "iterations": 1254,
+                "force": -20.0,
+                "first_frame_latency": 0.5363848239649087
+            },
+            "8": {
+                "solve_stage_time": 0.5279753350187093,
+                "iterations": 1254,
+                "force": -20.0,
+                "first_frame_latency": 0.5438807669561356
+            }
+        },
+        "peak_mem": 1133
+    }
+]

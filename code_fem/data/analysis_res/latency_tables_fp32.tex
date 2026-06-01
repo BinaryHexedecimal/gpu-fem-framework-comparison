@@ -1,0 +1,39 @@
+\begin{table}[H]\centering\begin{tabular}{>{\centering\arraybackslash}m{1.2cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}}
+\toprule
+elements & \multicolumn{2}{|c}{gravity} & \multicolumn{2}{|c}{traction} & \multicolumn{2}{|c}{compression} \\
+ & B & G & B & G & B & G \\
+\midrule
+24\,576 & \makecell{0.293\\[-4pt](0.009)} & \makecell{0.557\\[-4pt](0.021)} & \makecell{0.300\\[-4pt](0.014)} & \makecell{0.541\\[-4pt](0.021)} & \makecell{0.102\\[-4pt](0.006)} & \makecell{0.174\\[-4pt](0.009)} \\
+63\,888 & \makecell{0.419\\[-4pt](0.015)} & \makecell{0.862\\[-4pt](0.049)} & \makecell{0.422\\[-4pt](0.021)} & \makecell{0.817\\[-4pt](0.033)} & \makecell{0.217\\[-4pt](0.001)} & \makecell{0.426\\[-4pt](0.012)} \\
+162\,000 & \makecell{0.896\\[-4pt](0.052)} & \makecell{1.690\\[-4pt](0.067)} & \makecell{0.874\\[-4pt](0.018)} & \makecell{1.637\\[-4pt](0.063)} & \makecell{0.500\\[-4pt](0.000)} & \makecell{0.882\\[-4pt](0.030)} \\
+444\,528 & \makecell{2.845\\[-4pt](0.114)} & \makecell{5.315\\[-4pt](0.225)} & \makecell{2.731\\[-4pt](0.113)} & \makecell{5.051\\[-4pt](0.062)} & \makecell{1.513\\[-4pt](0.011)} & \makecell{2.815\\[-4pt](0.005)} \\
+\bottomrule
+\end{tabular}\caption{Average first-frame latency times (in seconds) for different load types, computation variants and mesh sizes using \textbf{PyTorch} with \textbf{FP32} precision and CPU-based rendering data transfer. Results are averaged over 7 steady-state runs (run 1 discarded as cold start), with standard deviations shown in parentheses.}\label{tab:pytorch_latency_fp32}\end{table}
+
+
+\begin{table}[H]\centering\begin{tabular}{>{\centering\arraybackslash}m{1.2cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}}
+\toprule
+elements & \multicolumn{2}{|c}{gravity} & \multicolumn{2}{|c}{traction} & \multicolumn{2}{|c}{compression} \\
+ & B & G & B & G & B & G \\
+\midrule
+24\,576 & \makecell{0.067\\[-4pt](0.000)} & \makecell{0.050\\[-4pt](0.000)} & \makecell{0.067\\[-4pt](0.000)} & \makecell{0.055\\[-4pt](0.008)} & \makecell{0.033\\[-4pt](0.000)} & \makecell{0.033\\[-4pt](0.000)} \\
+63\,888 & \makecell{0.114\\[-4pt](0.005)} & \makecell{0.076\\[-4pt](0.008)} & \makecell{0.117\\[-4pt](0.000)} & \makecell{0.083\\[-4pt](0.000)} & \makecell{0.066\\[-4pt](0.001)} & \makecell{0.050\\[-4pt](0.001)} \\
+162\,000 & \makecell{0.245\\[-4pt](0.008)} & \makecell{0.133\\[-4pt](0.000)} & \makecell{0.259\\[-4pt](0.009)} & \makecell{0.148\\[-4pt](0.011)} & \makecell{0.155\\[-4pt](0.007)} & \makecell{0.083\\[-4pt](0.000)} \\
+444\,528 & \makecell{1.635\\[-4pt](0.022)} & \makecell{0.343\\[-4pt](0.015)} & \makecell{1.612\\[-4pt](0.074)} & \makecell{0.364\\[-4pt](0.019)} & \makecell{0.946\\[-4pt](0.037)} & \makecell{0.215\\[-4pt](0.004)} \\
+\bottomrule
+\end{tabular}\caption{Average first-frame latency times (in seconds) for different load types, computation variants and mesh sizes using \textbf{JAX} with \textbf{FP32} precision and CPU-based rendering data transfer. Results are averaged over 7 steady-state runs (run 1 discarded as cold start), with standard deviations shown in parentheses.}\label{tab:jax_latency_fp32}\end{table}
+
+
+\begin{table}[H]\centering\begin{tabular}{>{\centering\arraybackslash}m{1.2cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}}
+\toprule
+elements & \multicolumn{2}{|c}{gravity} & \multicolumn{2}{|c}{traction} & \multicolumn{2}{|c}{compression} \\
+ & B & G & B & G & B & G \\
+\midrule
+24\,576 & \makecell{0.221\\[-4pt](0.008)} & \makecell{0.219\\[-4pt](0.006)} & \makecell{0.212\\[-4pt](0.023)} & \makecell{0.202\\[-4pt](0.015)} & \makecell{0.069\\[-4pt](0.006)} & \makecell{0.074\\[-4pt](0.009)} \\
+63\,888 & \makecell{0.407\\[-4pt](0.040)} & \makecell{0.312\\[-4pt](0.027)} & \makecell{0.374\\[-4pt](0.041)} & \makecell{0.298\\[-4pt](0.031)} & \makecell{0.171\\[-4pt](0.008)} & \makecell{0.148\\[-4pt](0.006)} \\
+162\,000 & \makecell{1.046\\[-4pt](0.093)} & \makecell{0.688\\[-4pt](0.023)} & \makecell{0.846\\[-4pt](0.018)} & \makecell{0.610\\[-4pt](0.059)} & \makecell{0.441\\[-4pt](0.016)} & \makecell{0.293\\[-4pt](0.013)} \\
+444\,528 & \makecell{3.152\\[-4pt](0.242)} & \makecell{1.801\\[-4pt](0.050)} & \makecell{3.224\\[-4pt](0.065)} & \makecell{1.620\\[-4pt](0.162)} & \makecell{1.458\\[-4pt](0.040)} & \makecell{0.832\\[-4pt](0.016)} \\
+\bottomrule
+\end{tabular}\caption{Average first-frame latency times (in seconds) for different load types, computation variants and mesh sizes using \textbf{Warp} with \textbf{FP32} precision and CPU-based rendering data transfer. Results are averaged over 7 steady-state runs (run 1 discarded as cold start), with standard deviations shown in parentheses.}\label{tab:warp_latency_fp32}\end{table}
+
+

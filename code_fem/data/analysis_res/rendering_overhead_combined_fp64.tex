@@ -1,0 +1,10 @@
+\begin{table}[H]\centering\begin{tabular}{>{\centering\arraybackslash}m{2.0cm}|>{\centering\arraybackslash}m{1.9cm}>{\centering\arraybackslash}m{1.9cm}>{\centering\arraybackslash}m{1.9cm}>{\centering\arraybackslash}m{1.9cm}>{\centering\arraybackslash}m{1.9cm}}
+\toprule
+elements & \makecell{PyTorch\\CPU} & \makecell{JAX\\CPU} & \makecell{Warp\\CPU} & \makecell{Warp\\GPU} & \makecell{Warp\\Zero-copy} \\
+\midrule
+24\,576 & \makecell{0.008 \\[-4pt] (0.005)} & \makecell{0.007 \\[-4pt] (0.004)} & \makecell{0.007 \\[-4pt] (0.003)} & \makecell{0.008 \\[-4pt] (0.004)} & \makecell{0.009 \\[-4pt] (0.006)} \\
+63\,888 & \makecell{0.010 \\[-4pt] (0.005)} & \makecell{0.009 \\[-4pt] (0.004)} & \makecell{0.010 \\[-4pt] (0.005)} & \makecell{0.010 \\[-4pt] (0.005)} & \makecell{0.012 \\[-4pt] (0.005)} \\
+162\,000 & \makecell{0.009 \\[-4pt] (0.004)} & \makecell{0.009 \\[-4pt] (0.004)} & \makecell{0.011 \\[-4pt] (0.004)} & \makecell{0.009 \\[-4pt] (0.004)} & \makecell{0.008 \\[-4pt] (0.005)} \\
+444\,528 & \makecell{0.011 \\[-4pt] (0.003)} & \makecell{0.011 \\[-4pt] (0.003)} & \makecell{0.011 \\[-4pt] (0.003)} & \makecell{0.008 \\[-4pt] (0.005)} & \makecell{0.010 \\[-4pt] (0.005)} \\
+\bottomrule
+\end{tabular}\caption{Rendering overhead (in seconds) for different mesh sizes using \textbf{FP64} precision. The table compares CPU-based rendering transfer in PyTorch, JAX, and Warp, together with Warp-specific GPU-copy and zero-copy transfer strategies. Rendering overhead is defined as the elapsed time between completion of the solver computation and rendering of the deformed geometry on screen. Results are averaged over steady-state runs (run 1 discarded as warm-up), across all considered load types and solver variants. For PyTorch and JAX, each reported value is averaged over 63 measurements per mesh size (7 runs × 3 load types × 3 solver variants). For Warp, each reported value is averaged over 42 measurements per mesh size (7 runs × 3 load types × 2 solver variants), since the K variant is not implemented. Standard deviations are shown in parentheses.}\label{tab:rendering_overhead_combined_fp64}\end{table}

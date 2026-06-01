@@ -1,0 +1,39 @@
+\begin{table}[H]\centering\begin{tabular}{>{\centering\arraybackslash}m{1.2cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}}
+\toprule
+elements & \multicolumn{3}{|c}{gravity} & \multicolumn{3}{|c}{traction} & \multicolumn{3}{|c}{compression} \\
+ & K & B & G & K & B & G & K & B & G \\
+\midrule
+24\,576 & \makecell{0.168\\[-4pt](0.001)} & \makecell{0.197\\[-4pt](0.005)} & \makecell{0.355\\[-4pt](0.001)} & \makecell{0.179\\[-4pt](0.004)} & \makecell{0.211\\[-4pt](0.001)} & \makecell{0.369\\[-4pt](0.009)} & \makecell{0.080\\[-4pt](0.003)} & \makecell{0.092\\[-4pt](0.003)} & \makecell{0.163\\[-4pt](0.001)} \\
+63\,888 & \makecell{0.316\\[-4pt](0.002)} & \makecell{0.413\\[-4pt](0.009)} & \makecell{0.640\\[-4pt](0.014)} & \makecell{0.350\\[-4pt](0.001)} & \makecell{0.407\\[-4pt](0.008)} & \makecell{0.650\\[-4pt](0.015)} & \makecell{0.176\\[-4pt](0.006)} & \makecell{0.221\\[-4pt](0.006)} & \makecell{0.346\\[-4pt](0.007)} \\
+162\,000 & \makecell{0.770\\[-4pt](0.015)} & \makecell{1.058\\[-4pt](0.010)} & \makecell{1.519\\[-4pt](0.002)} & \makecell{0.773\\[-4pt](0.006)} & \makecell{1.086\\[-4pt](0.028)} & \makecell{1.540\\[-4pt](0.011)} & \makecell{0.409\\[-4pt](0.006)} & \makecell{0.563\\[-4pt](0.006)} & \makecell{0.814\\[-4pt](0.008)} \\
+444\,528 & \makecell{2.617\\[-4pt](0.018)} & \makecell{3.671\\[-4pt](0.027)} & \makecell{6.177\\[-4pt](0.041)} & \makecell{2.658\\[-4pt](0.016)} & \makecell{3.689\\[-4pt](0.004)} & \makecell{6.205\\[-4pt](0.054)} & \makecell{1.394\\[-4pt](0.001)} & \makecell{1.943\\[-4pt](0.001)} & \makecell{3.236\\[-4pt](0.001)} \\
+\bottomrule
+\end{tabular}\caption{Average solver-stage runtimes (in seconds) for different load types, computation variants and mesh sizes using \textbf{PyTorch} with \textbf{FP64} precision. Results are averaged over 7 steady-state runs (run 1 discarded as cold start), with standard deviations shown in parentheses.}\label{tab:pytorch_solver_fp64}\end{table}
+
+
+\begin{table}[H]\centering\begin{tabular}{>{\centering\arraybackslash}m{1.2cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}}
+\toprule
+elements & \multicolumn{3}{|c}{gravity} & \multicolumn{3}{|c}{traction} & \multicolumn{3}{|c}{compression} \\
+ & K & B & G & K & B & G & K & B & G \\
+\midrule
+24\,576 & \makecell{0.047\\[-4pt](0.004)} & \makecell{0.078\\[-4pt](0.003)} & \makecell{0.061\\[-4pt](0.002)} & \makecell{0.048\\[-4pt](0.004)} & \makecell{0.079\\[-4pt](0.003)} & \makecell{0.065\\[-4pt](0.004)} & \makecell{0.025\\[-4pt](0.002)} & \makecell{0.038\\[-4pt](0.002)} & \makecell{0.031\\[-4pt](0.001)} \\
+63\,888 & \makecell{0.156\\[-4pt](0.000)} & \makecell{0.197\\[-4pt](0.004)} & \makecell{0.124\\[-4pt](0.004)} & \makecell{0.171\\[-4pt](0.004)} & \makecell{0.210\\[-4pt](0.004)} & \makecell{0.131\\[-4pt](0.003)} & \makecell{0.089\\[-4pt](0.000)} & \makecell{0.115\\[-4pt](0.003)} & \makecell{0.074\\[-4pt](0.003)} \\
+162\,000 & \makecell{0.539\\[-4pt](0.017)} & \makecell{1.048\\[-4pt](0.011)} & \makecell{0.219\\[-4pt](0.003)} & \makecell{0.548\\[-4pt](0.005)} & \makecell{1.068\\[-4pt](0.006)} & \makecell{0.232\\[-4pt](0.000)} & \makecell{0.291\\[-4pt](0.002)} & \makecell{0.556\\[-4pt](0.001)} & \makecell{0.130\\[-4pt](0.003)} \\
+444\,528 & \makecell{1.885\\[-4pt](0.003)} & \makecell{3.867\\[-4pt](0.003)} & \makecell{0.821\\[-4pt](0.008)} & \makecell{1.928\\[-4pt](0.003)} & \makecell{3.968\\[-4pt](0.033)} & \makecell{0.869\\[-4pt](0.012)} & \makecell{1.031\\[-4pt](0.012)} & \makecell{2.077\\[-4pt](0.025)} & \makecell{0.462\\[-4pt](0.001)} \\
+\bottomrule
+\end{tabular}\caption{Average solver-stage runtimes (in seconds) for different load types, computation variants and mesh sizes using \textbf{JAX} with \textbf{FP64} precision. Results are averaged over 7 steady-state runs (run 1 discarded as cold start), with standard deviations shown in parentheses.}\label{tab:jax_solver_fp64}\end{table}
+
+
+\begin{table}[H]\centering\begin{tabular}{>{\centering\arraybackslash}m{1.2cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}}
+\toprule
+elements & \multicolumn{2}{|c}{gravity} & \multicolumn{2}{|c}{traction} & \multicolumn{2}{|c}{compression} \\
+ & B & G & B & G & B & G \\
+\midrule
+24\,576 & \makecell{0.126\\[-4pt](0.002)} & \makecell{0.110\\[-4pt](0.002)} & \makecell{0.129\\[-4pt](0.001)} & \makecell{0.111\\[-4pt](0.002)} & \makecell{0.061\\[-4pt](0.002)} & \makecell{0.054\\[-4pt](0.002)} \\
+63\,888 & \makecell{0.244\\[-4pt](0.002)} & \makecell{0.186\\[-4pt](0.003)} & \makecell{0.253\\[-4pt](0.004)} & \makecell{0.184\\[-4pt](0.001)} & \makecell{0.140\\[-4pt](0.001)} & \makecell{0.101\\[-4pt](0.003)} \\
+162\,000 & \makecell{0.679\\[-4pt](0.004)} & \makecell{0.357\\[-4pt](0.001)} & \makecell{0.687\\[-4pt](0.001)} & \makecell{0.374\\[-4pt](0.001)} & \makecell{0.365\\[-4pt](0.001)} & \makecell{0.202\\[-4pt](0.001)} \\
+444\,528 & \makecell{1.936\\[-4pt](0.002)} & \makecell{0.945\\[-4pt](0.008)} & \makecell{1.987\\[-4pt](0.009)} & \makecell{0.998\\[-4pt](0.016)} & \makecell{1.049\\[-4pt](0.001)} & \makecell{0.528\\[-4pt](0.001)} \\
+\bottomrule
+\end{tabular}\caption{Average solver-stage runtimes (in seconds) for different load types, computation variants and mesh sizes using \textbf{Warp} with \textbf{FP64} precision. Results are averaged over 7 steady-state runs (run 1 discarded as cold start), with standard deviations shown in parentheses.}\label{tab:warp_solver_fp64}\end{table}
+
+

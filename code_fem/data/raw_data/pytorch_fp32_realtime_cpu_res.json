@@ -1,0 +1,2414 @@
+[
+    {
+        "framework": "pytorch",
+        "n_elems": 24576,
+        "version": "K",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.19243752490729094,
+            "2": 0.013163052033632994,
+            "3": 0.012738569173961878,
+            "4": 0.012366574024781585,
+            "5": 0.07867594808340073,
+            "6": 0.012149748858064413,
+            "7": 0.01250184583477676,
+            "8": 0.012000140035524964
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.33896104991436005,
+                "iterations": 1877,
+                "force": 0.05,
+                "first_frame_latency": 0.3523755019996315
+            },
+            "2": {
+                "solve_stage_time": 0.27165529504418373,
+                "iterations": 1881,
+                "force": 0.05,
+                "first_frame_latency": 0.2833800900261849
+            },
+            "3": {
+                "solve_stage_time": 0.265291835879907,
+                "iterations": 1853,
+                "force": 0.05,
+                "first_frame_latency": 0.26663682889193296
+            },
+            "4": {
+                "solve_stage_time": 0.26228083088062704,
+                "iterations": 1847,
+                "force": 0.05,
+                "first_frame_latency": 0.26677421503700316
+            },
+            "5": {
+                "solve_stage_time": 0.26119516184553504,
+                "iterations": 1845,
+                "force": 0.05,
+                "first_frame_latency": 0.2667283390183002
+            },
+            "6": {
+                "solve_stage_time": 0.26096613402478397,
+                "iterations": 1839,
+                "force": 0.05,
+                "first_frame_latency": 0.2666980230715126
+            },
+            "7": {
+                "solve_stage_time": 0.2782025970518589,
+                "iterations": 1856,
+                "force": 0.05,
+                "first_frame_latency": 0.28360714414156973
+            },
+            "8": {
+                "solve_stage_time": 0.2796062391716987,
+                "iterations": 1826,
+                "force": 0.05,
+                "first_frame_latency": 0.28317761211656034
+            }
+        },
+        "peak_mem": 1260
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 24576,
+        "version": "B",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.1832411028444767,
+            "2": 0.012245608028024435,
+            "3": 0.011794545920565724,
+            "4": 0.01136227697134018,
+            "5": 0.07429124508053064,
+            "6": 0.01148889516480267,
+            "7": 0.01142690796405077,
+            "8": 0.01128879003226757
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.35837556002661586,
+                "iterations": 1545,
+                "force": 0.05,
+                "first_frame_latency": 0.36044191010296345
+            },
+            "2": {
+                "solve_stage_time": 0.2941112678963691,
+                "iterations": 1544,
+                "force": 0.05,
+                "first_frame_latency": 0.29870139295235276
+            },
+            "3": {
+                "solve_stage_time": 0.28552316199056804,
+                "iterations": 1480,
+                "force": 0.05,
+                "first_frame_latency": 0.30003710789605975
+            },
+            "4": {
+                "solve_stage_time": 0.2951634330675006,
+                "iterations": 1545,
+                "force": 0.05,
+                "first_frame_latency": 0.3000879141036421
+            },
+            "5": {
+                "solve_stage_time": 0.28356716805137694,
+                "iterations": 1496,
+                "force": 0.05,
+                "first_frame_latency": 0.3000668741296977
+            },
+            "6": {
+                "solve_stage_time": 0.2796282791532576,
+                "iterations": 1476,
+                "force": 0.05,
+                "first_frame_latency": 0.2833548311609775
+            },
+            "7": {
+                "solve_stage_time": 0.2785031469538808,
+                "iterations": 1474,
+                "force": 0.05,
+                "first_frame_latency": 0.2834056760184467
+            },
+            "8": {
+                "solve_stage_time": 0.27600476890802383,
+                "iterations": 1459,
+                "force": 0.05,
+                "first_frame_latency": 0.28339902381412685
+            }
+        },
+        "peak_mem": 1217
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 24576,
+        "version": "G",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.1849475798662752,
+            "2": 0.011822036001831293,
+            "3": 0.01124131097458303,
+            "4": 0.01115419901907444,
+            "5": 0.08069638209417462,
+            "6": 0.011255868943408132,
+            "7": 0.011175638996064663,
+            "8": 0.01096640806645155
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.6017116729635745,
+                "iterations": 1472,
+                "force": 0.05,
+                "first_frame_latency": 0.6059176600538194
+            },
+            "2": {
+                "solve_stage_time": 0.5144134270958602,
+                "iterations": 1401,
+                "force": 0.05,
+                "first_frame_latency": 0.5168469732161611
+            },
+            "3": {
+                "solve_stage_time": 0.5529035369399935,
+                "iterations": 1482,
+                "force": 0.05,
+                "first_frame_latency": 0.5670748320408165
+            },
+            "4": {
+                "solve_stage_time": 0.545642560813576,
+                "iterations": 1499,
+                "force": 0.05,
+                "first_frame_latency": 0.5502627829555422
+            },
+            "5": {
+                "solve_stage_time": 0.5514523251913488,
+                "iterations": 1515,
+                "force": 0.05,
+                "first_frame_latency": 0.5669864171650261
+            },
+            "6": {
+                "solve_stage_time": 0.5670705439988524,
+                "iterations": 1546,
+                "force": 0.05,
+                "first_frame_latency": 0.5836469130590558
+            },
+            "7": {
+                "solve_stage_time": 0.5444029751233757,
+                "iterations": 1483,
+                "force": 0.05,
+                "first_frame_latency": 0.5502014481462538
+            },
+            "8": {
+                "solve_stage_time": 0.5521286791190505,
+                "iterations": 1521,
+                "force": 0.05,
+                "first_frame_latency": 0.566992447944358
+            }
+        },
+        "peak_mem": 1200
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 24576,
+        "version": "K",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.19563236110843718,
+            "2": 0.013256397098302841,
+            "3": 0.01267729396931827,
+            "4": 0.012287666089832783,
+            "5": 0.07756526209414005,
+            "6": 0.01201999606564641,
+            "7": 0.011894400930032134,
+            "8": 0.01195959304459393
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.31226180400699377,
+                "iterations": 1557,
+                "force": 0.1,
+                "first_frame_latency": 0.3257663338445127
+            },
+            "2": {
+                "solve_stage_time": 0.221222089137882,
+                "iterations": 1519,
+                "force": 0.1,
+                "first_frame_latency": 0.2333276851568371
+            },
+            "3": {
+                "solve_stage_time": 0.22388966311700642,
+                "iterations": 1554,
+                "force": 0.1,
+                "first_frame_latency": 0.23336116806603968
+            },
+            "4": {
+                "solve_stage_time": 0.2341153360903263,
+                "iterations": 1552,
+                "force": 0.1,
+                "first_frame_latency": 0.2500698030926287
+            },
+            "5": {
+                "solve_stage_time": 0.2244507009163499,
+                "iterations": 1514,
+                "force": 0.1,
+                "first_frame_latency": 0.23330730688758194
+            },
+            "6": {
+                "solve_stage_time": 0.22088743303902447,
+                "iterations": 1479,
+                "force": 0.1,
+                "first_frame_latency": 0.233341891085729
+            },
+            "7": {
+                "solve_stage_time": 0.2283814640250057,
+                "iterations": 1559,
+                "force": 0.1,
+                "first_frame_latency": 0.23333640093915164
+            },
+            "8": {
+                "solve_stage_time": 0.2323563899844885,
+                "iterations": 1552,
+                "force": 0.1,
+                "first_frame_latency": 0.23367685708217323
+            }
+        },
+        "peak_mem": 1234
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 24576,
+        "version": "B",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.17958635208196938,
+            "2": 0.012498239055275917,
+            "3": 0.01146404817700386,
+            "4": 0.01105703809298575,
+            "5": 0.07851988496258855,
+            "6": 0.011682705953717232,
+            "7": 0.011334496084600687,
+            "8": 0.011323314858600497
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.34629165893420577,
+                "iterations": 1396,
+                "force": 0.1,
+                "first_frame_latency": 0.35881785093806684
+            },
+            "2": {
+                "solve_stage_time": 0.28860024688765407,
+                "iterations": 1514,
+                "force": 0.1,
+                "first_frame_latency": 0.30002342886291444
+            },
+            "3": {
+                "solve_stage_time": 0.30194547888822854,
+                "iterations": 1551,
+                "force": 0.1,
+                "first_frame_latency": 0.31676397379487753
+            },
+            "4": {
+                "solve_stage_time": 0.3000103540252894,
+                "iterations": 1551,
+                "force": 0.1,
+                "first_frame_latency": 0.3167415119241923
+            },
+            "5": {
+                "solve_stage_time": 0.2933581559918821,
+                "iterations": 1550,
+                "force": 0.1,
+                "first_frame_latency": 0.30005683097988367
+            },
+            "6": {
+                "solve_stage_time": 0.2803189749829471,
+                "iterations": 1485,
+                "force": 0.1,
+                "first_frame_latency": 0.28334805415943265
+            },
+            "7": {
+                "solve_stage_time": 0.278486181050539,
+                "iterations": 1465,
+                "force": 0.1,
+                "first_frame_latency": 0.28343562805093825
+            },
+            "8": {
+                "solve_stage_time": 0.29388051200658083,
+                "iterations": 1552,
+                "force": 0.1,
+                "first_frame_latency": 0.30007073702290654
+            }
+        },
+        "peak_mem": 1195
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 24576,
+        "version": "G",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.1765063269995153,
+            "2": 0.011711960891261697,
+            "3": 0.011063138023018837,
+            "4": 0.011022933991625905,
+            "5": 0.07071982207708061,
+            "6": 0.011071123881265521,
+            "7": 0.011006833985447884,
+            "8": 0.010900974972173572
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.6294690519571304,
+                "iterations": 1516,
+                "force": 0.1,
+                "first_frame_latency": 0.6369310929439962
+            },
+            "2": {
+                "solve_stage_time": 0.5216028620488942,
+                "iterations": 1395,
+                "force": 0.1,
+                "first_frame_latency": 0.5336113469675183
+            },
+            "3": {
+                "solve_stage_time": 0.5218816620763391,
+                "iterations": 1412,
+                "force": 0.1,
+                "first_frame_latency": 0.5333474930375814
+            },
+            "4": {
+                "solve_stage_time": 0.5139433811418712,
+                "iterations": 1409,
+                "force": 0.1,
+                "first_frame_latency": 0.5169789120554924
+            },
+            "5": {
+                "solve_stage_time": 0.5510067138820887,
+                "iterations": 1510,
+                "force": 0.1,
+                "first_frame_latency": 0.5669096750207245
+            },
+            "6": {
+                "solve_stage_time": 0.5350861910264939,
+                "iterations": 1467,
+                "force": 0.1,
+                "first_frame_latency": 0.5502697480842471
+            },
+            "7": {
+                "solve_stage_time": 0.5137435081414878,
+                "iterations": 1407,
+                "force": 0.1,
+                "first_frame_latency": 0.5169003650080413
+            },
+            "8": {
+                "solve_stage_time": 0.5501082260161638,
+                "iterations": 1508,
+                "force": 0.1,
+                "first_frame_latency": 0.5669740550220013
+            }
+        },
+        "peak_mem": 1171
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 24576,
+        "version": "K",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.18396465992555022,
+            "2": 0.013400495983660221,
+            "3": 0.01325742807239294,
+            "4": 0.013056633062660694,
+            "5": 0.07531985500827432,
+            "6": 0.013594818999990821,
+            "7": 0.012983435997739434,
+            "8": 0.012994997901841998
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.14363178820349276,
+                "iterations": 468,
+                "force": -20.0,
+                "first_frame_latency": 0.15876953909173608
+            },
+            "2": {
+                "solve_stage_time": 0.07474952982738614,
+                "iterations": 442,
+                "force": -20.0,
+                "first_frame_latency": 0.08317075297236443
+            },
+            "3": {
+                "solve_stage_time": 0.07402829290367663,
+                "iterations": 468,
+                "force": -20.0,
+                "first_frame_latency": 0.08355059288442135
+            },
+            "4": {
+                "solve_stage_time": 0.07101935101673007,
+                "iterations": 468,
+                "force": -20.0,
+                "first_frame_latency": 0.08282591891475022
+            },
+            "5": {
+                "solve_stage_time": 0.0678355130366981,
+                "iterations": 442,
+                "force": -20.0,
+                "first_frame_latency": 0.08321081707254052
+            },
+            "6": {
+                "solve_stage_time": 0.06708986009471118,
+                "iterations": 442,
+                "force": -20.0,
+                "first_frame_latency": 0.08323955116793513
+            },
+            "7": {
+                "solve_stage_time": 0.07150573912076652,
+                "iterations": 468,
+                "force": -20.0,
+                "first_frame_latency": 0.08324849815107882
+            },
+            "8": {
+                "solve_stage_time": 0.06677186605520546,
+                "iterations": 441,
+                "force": -20.0,
+                "first_frame_latency": 0.08327069994993508
+            }
+        },
+        "peak_mem": 1202
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 24576,
+        "version": "B",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.1803345379885286,
+            "2": 0.012264613062143326,
+            "3": 0.01161273499019444,
+            "4": 0.011488944059237838,
+            "5": 0.07326413388364017,
+            "6": 0.011154029052704573,
+            "7": 0.01106710615567863,
+            "8": 0.010954255005344748
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.16208399110473692,
+                "iterations": 442,
+                "force": -20.0,
+                "first_frame_latency": 0.17566324002109468
+            },
+            "2": {
+                "solve_stage_time": 0.09968023700639606,
+                "iterations": 443,
+                "force": -20.0,
+                "first_frame_latency": 0.11655676597729325
+            },
+            "3": {
+                "solve_stage_time": 0.09124785289168358,
+                "iterations": 442,
+                "force": -20.0,
+                "first_frame_latency": 0.09980176389217377
+            },
+            "4": {
+                "solve_stage_time": 0.08874048897996545,
+                "iterations": 443,
+                "force": -20.0,
+                "first_frame_latency": 0.09996143216267228
+            },
+            "5": {
+                "solve_stage_time": 0.0902378351893276,
+                "iterations": 442,
+                "force": -20.0,
+                "first_frame_latency": 0.09982272214256227
+            },
+            "6": {
+                "solve_stage_time": 0.09069245494902134,
+                "iterations": 468,
+                "force": -20.0,
+                "first_frame_latency": 0.09990545688197017
+            },
+            "7": {
+                "solve_stage_time": 0.08648680802434683,
+                "iterations": 442,
+                "force": -20.0,
+                "first_frame_latency": 0.0999320070259273
+            },
+            "8": {
+                "solve_stage_time": 0.08564630709588528,
+                "iterations": 441,
+                "force": -20.0,
+                "first_frame_latency": 0.10000959108583629
+            }
+        },
+        "peak_mem": 1193
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 24576,
+        "version": "G",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.18063901597633958,
+            "2": 0.01192906592041254,
+            "3": 0.011348912958055735,
+            "4": 0.011484606191515923,
+            "5": 0.07260320987552404,
+            "6": 0.010910694021731615,
+            "7": 0.010813461849465966,
+            "8": 0.010711702052503824
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.24969664099626243,
+                "iterations": 466,
+                "force": -20.0,
+                "first_frame_latency": 0.25685839098878205
+            },
+            "2": {
+                "solve_stage_time": 0.16499130218289793,
+                "iterations": 442,
+                "force": -20.0,
+                "first_frame_latency": 0.16654958412982523
+            },
+            "3": {
+                "solve_stage_time": 0.16824831697158515,
+                "iterations": 446,
+                "force": -20.0,
+                "first_frame_latency": 0.1833977501373738
+            },
+            "4": {
+                "solve_stage_time": 0.16697680205106735,
+                "iterations": 444,
+                "force": -20.0,
+                "first_frame_latency": 0.1832962001208216
+            },
+            "5": {
+                "solve_stage_time": 0.1630480419844389,
+                "iterations": 442,
+                "force": -20.0,
+                "first_frame_latency": 0.1665961209218949
+            },
+            "6": {
+                "solve_stage_time": 0.16169988294132054,
+                "iterations": 441,
+                "force": -20.0,
+                "first_frame_latency": 0.16672177496366203
+            },
+            "7": {
+                "solve_stage_time": 0.1731822348665446,
+                "iterations": 468,
+                "force": -20.0,
+                "first_frame_latency": 0.1832600529305637
+            },
+            "8": {
+                "solve_stage_time": 0.16332790488377213,
+                "iterations": 441,
+                "force": -20.0,
+                "first_frame_latency": 0.16659403685480356
+            }
+        },
+        "peak_mem": 1167
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 63888,
+        "version": "K",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.20439150091260672,
+            "2": 0.09485471085645258,
+            "3": 0.09855959191918373,
+            "4": 0.032657151110470295,
+            "5": 0.09241981199011207,
+            "6": 0.09454632503911853,
+            "7": 0.09268567780964077,
+            "8": 0.031458001118153334
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.6098750268574804,
+                "iterations": 3023,
+                "force": 0.05,
+                "first_frame_latency": 0.6189403829630464
+            },
+            "2": {
+                "solve_stage_time": 0.5661024488508701,
+                "iterations": 3070,
+                "force": 0.05,
+                "first_frame_latency": 0.5686614199075848
+            },
+            "3": {
+                "solve_stage_time": 0.5734053929336369,
+                "iterations": 3131,
+                "force": 0.05,
+                "first_frame_latency": 0.5818977989256382
+            },
+            "4": {
+                "solve_stage_time": 0.5556542400736362,
+                "iterations": 3027,
+                "force": 0.05,
+                "first_frame_latency": 0.5669261480215937
+            },
+            "5": {
+                "solve_stage_time": 0.5567461298778653,
+                "iterations": 3050,
+                "force": 0.05,
+                "first_frame_latency": 0.5668740009423345
+            },
+            "6": {
+                "solve_stage_time": 0.5640918829012662,
+                "iterations": 3057,
+                "force": 0.05,
+                "first_frame_latency": 0.5669078738428652
+            },
+            "7": {
+                "solve_stage_time": 0.5576528729870915,
+                "iterations": 3058,
+                "force": 0.05,
+                "first_frame_latency": 0.5670680329203606
+            },
+            "8": {
+                "solve_stage_time": 0.5646933859679848,
+                "iterations": 3083,
+                "force": 0.05,
+                "first_frame_latency": 0.5670057260431349
+            }
+        },
+        "peak_mem": 1330
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 63888,
+        "version": "B",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.2022064570337534,
+            "2": 0.09381842403672636,
+            "3": 0.09107473795302212,
+            "4": 0.02979246899485588,
+            "5": 0.10069434903562069,
+            "6": 0.09876764006912708,
+            "7": 0.0903763328678906,
+            "8": 0.09015212394297123
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.5030898049008101,
+                "iterations": 2064,
+                "force": 0.05,
+                "first_frame_latency": 0.5067366878502071
+            },
+            "2": {
+                "solve_stage_time": 0.4279492248315364,
+                "iterations": 1947,
+                "force": 0.05,
+                "first_frame_latency": 0.43302762298844755
+            },
+            "3": {
+                "solve_stage_time": 0.4242238150909543,
+                "iterations": 1948,
+                "force": 0.05,
+                "first_frame_latency": 0.4335199019405991
+            },
+            "4": {
+                "solve_stage_time": 0.40841368795372546,
+                "iterations": 1878,
+                "force": 0.05,
+                "first_frame_latency": 0.4167952169664204
+            },
+            "5": {
+                "solve_stage_time": 0.4247236989904195,
+                "iterations": 1973,
+                "force": 0.05,
+                "first_frame_latency": 0.4335234889294952
+            },
+            "6": {
+                "solve_stage_time": 0.3992603369988501,
+                "iterations": 1881,
+                "force": 0.05,
+                "first_frame_latency": 0.4013456229586154
+            },
+            "7": {
+                "solve_stage_time": 0.41396072087809443,
+                "iterations": 1944,
+                "force": 0.05,
+                "first_frame_latency": 0.416098325047642
+            },
+            "8": {
+                "solve_stage_time": 0.3982998630963266,
+                "iterations": 1860,
+                "force": 0.05,
+                "first_frame_latency": 0.4004177700262517
+            }
+        },
+        "peak_mem": 1227
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 63888,
+        "version": "G",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.20563010196201503,
+            "2": 0.09994641202501953,
+            "3": 0.10707011097110808,
+            "4": 0.030123918084427714,
+            "5": 0.08793530310504138,
+            "6": 0.08769171684980392,
+            "7": 0.10437870305031538,
+            "8": 0.08886380703188479
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.9476342790294439,
+                "iterations": 2014,
+                "force": 0.05,
+                "first_frame_latency": 0.9580847220495343
+            },
+            "2": {
+                "solve_stage_time": 0.9050676438491791,
+                "iterations": 2072,
+                "force": 0.05,
+                "first_frame_latency": 0.9171653660014272
+            },
+            "3": {
+                "solve_stage_time": 0.850705553079024,
+                "iterations": 1947,
+                "force": 0.05,
+                "first_frame_latency": 0.8671396959107369
+            },
+            "4": {
+                "solve_stage_time": 0.7931116851978004,
+                "iterations": 1819,
+                "force": 0.05,
+                "first_frame_latency": 0.8003535140305758
+            },
+            "5": {
+                "solve_stage_time": 0.8427464140113443,
+                "iterations": 1970,
+                "force": 0.05,
+                "first_frame_latency": 0.8507211629766971
+            },
+            "6": {
+                "solve_stage_time": 0.8396096238866448,
+                "iterations": 1944,
+                "force": 0.05,
+                "first_frame_latency": 0.8503118678927422
+            },
+            "7": {
+                "solve_stage_time": 0.8140777838416398,
+                "iterations": 1819,
+                "force": 0.05,
+                "first_frame_latency": 0.8171108099631965
+            },
+            "8": {
+                "solve_stage_time": 0.9228566158562899,
+                "iterations": 2033,
+                "force": 0.05,
+                "first_frame_latency": 0.93400366185233
+            }
+        },
+        "peak_mem": 1210
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 63888,
+        "version": "K",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.20621428196318448,
+            "2": 0.09513981197960675,
+            "3": 0.09135891799814999,
+            "4": 0.032527849078178406,
+            "5": 0.0908184580039233,
+            "6": 0.09285515290684998,
+            "7": 0.0958722501527518,
+            "8": 0.03163907793350518
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.5922864880412817,
+                "iterations": 2712,
+                "force": 0.1,
+                "first_frame_latency": 0.6053603531327099
+            },
+            "2": {
+                "solve_stage_time": 0.4860424401704222,
+                "iterations": 2639,
+                "force": 0.1,
+                "first_frame_latency": 0.5002064621075988
+            },
+            "3": {
+                "solve_stage_time": 0.48929173103533685,
+                "iterations": 2676,
+                "force": 0.1,
+                "first_frame_latency": 0.5002933039795607
+            },
+            "4": {
+                "solve_stage_time": 0.48488246416673064,
+                "iterations": 2650,
+                "force": 0.1,
+                "first_frame_latency": 0.5001753340475261
+            },
+            "5": {
+                "solve_stage_time": 0.4823191349860281,
+                "iterations": 2630,
+                "force": 0.1,
+                "first_frame_latency": 0.48459130991250277
+            },
+            "6": {
+                "solve_stage_time": 0.4893126499373466,
+                "iterations": 2678,
+                "force": 0.1,
+                "first_frame_latency": 0.4991685829591006
+            },
+            "7": {
+                "solve_stage_time": 0.4853084289934486,
+                "iterations": 2647,
+                "force": 0.1,
+                "first_frame_latency": 0.5003240718506277
+            },
+            "8": {
+                "solve_stage_time": 0.4855602700263262,
+                "iterations": 2654,
+                "force": 0.1,
+                "first_frame_latency": 0.5001825070939958
+            }
+        },
+        "peak_mem": 1323
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 63888,
+        "version": "B",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.20013613579794765,
+            "2": 0.09671456296928227,
+            "3": 0.10442044003866613,
+            "4": 0.030961622018367052,
+            "5": 0.09466604609042406,
+            "6": 0.08879219298250973,
+            "7": 0.09036242589354515,
+            "8": 0.08548275893554091
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.49878203915432096,
+                "iterations": 1957,
+                "force": 0.1,
+                "first_frame_latency": 0.5068752879742533
+            },
+            "2": {
+                "solve_stage_time": 0.39066457306034863,
+                "iterations": 1833,
+                "force": 0.1,
+                "first_frame_latency": 0.4001539209857583
+            },
+            "3": {
+                "solve_stage_time": 0.41612039995379746,
+                "iterations": 1867,
+                "force": 0.1,
+                "first_frame_latency": 0.41845927899703383
+            },
+            "4": {
+                "solve_stage_time": 0.39865148393437266,
+                "iterations": 1823,
+                "force": 0.1,
+                "first_frame_latency": 0.4152297859545797
+            },
+            "5": {
+                "solve_stage_time": 0.4547486240044236,
+                "iterations": 2080,
+                "force": 0.1,
+                "first_frame_latency": 0.46683319099247456
+            },
+            "6": {
+                "solve_stage_time": 0.41207364900037646,
+                "iterations": 1867,
+                "force": 0.1,
+                "first_frame_latency": 0.4168090259190649
+            },
+            "7": {
+                "solve_stage_time": 0.4067185139283538,
+                "iterations": 1836,
+                "force": 0.1,
+                "first_frame_latency": 0.41683877096511424
+            },
+            "8": {
+                "solve_stage_time": 0.41144588706083596,
+                "iterations": 1880,
+                "force": 0.1,
+                "first_frame_latency": 0.41680841497145593
+            }
+        },
+        "peak_mem": 1233
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 63888,
+        "version": "G",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.20339170680381358,
+            "2": 0.09580536396242678,
+            "3": 0.0985331900883466,
+            "4": 0.031931044068187475,
+            "5": 0.09482618398033082,
+            "6": 0.08615030604414642,
+            "7": 0.09002598701044917,
+            "8": 0.08829613495618105
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.9409504469949752,
+                "iterations": 1996,
+                "force": 0.1,
+                "first_frame_latency": 0.9533395320177078
+            },
+            "2": {
+                "solve_stage_time": 0.8775013110134751,
+                "iterations": 1990,
+                "force": 0.1,
+                "first_frame_latency": 0.8837517581414431
+            },
+            "3": {
+                "solve_stage_time": 0.7983001458924264,
+                "iterations": 1829,
+                "force": 0.1,
+                "first_frame_latency": 0.80045624403283
+            },
+            "4": {
+                "solve_stage_time": 0.7790713929571211,
+                "iterations": 1809,
+                "force": 0.1,
+                "first_frame_latency": 0.7839182079769671
+            },
+            "5": {
+                "solve_stage_time": 0.7995453721377999,
+                "iterations": 1830,
+                "force": 0.1,
+                "first_frame_latency": 0.801707450998947
+            },
+            "6": {
+                "solve_stage_time": 0.8176031080074608,
+                "iterations": 1864,
+                "force": 0.1,
+                "first_frame_latency": 0.8326152530498803
+            },
+            "7": {
+                "solve_stage_time": 0.7837704210542142,
+                "iterations": 1802,
+                "force": 0.1,
+                "first_frame_latency": 0.8004917199723423
+            },
+            "8": {
+                "solve_stage_time": 0.8028670269995928,
+                "iterations": 1833,
+                "force": 0.1,
+                "first_frame_latency": 0.8171836640685797
+            }
+        },
+        "peak_mem": 1200
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 63888,
+        "version": "K",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.21012092800810933,
+            "2": 0.10242258594371378,
+            "3": 0.10327385598793626,
+            "4": 0.03222537389956415,
+            "5": 0.10044705495238304,
+            "6": 0.0976485968567431,
+            "7": 0.09619895904324949,
+            "8": 0.032027964014559984
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.7735633088741452,
+                "iterations": 3467,
+                "force": -20.0,
+                "first_frame_latency": 0.7770719439722598
+            },
+            "2": {
+                "solve_stage_time": 0.6335446459706873,
+                "iterations": 3410,
+                "force": -20.0,
+                "first_frame_latency": 0.6474787779152393
+            },
+            "3": {
+                "solve_stage_time": 0.6468020039610565,
+                "iterations": 3445,
+                "force": -20.0,
+                "first_frame_latency": 0.6503267788793892
+            },
+            "4": {
+                "solve_stage_time": 0.664123723981902,
+                "iterations": 3597,
+                "force": -20.0,
+                "first_frame_latency": 0.6670138230547309
+            },
+            "5": {
+                "solve_stage_time": 0.6284509999677539,
+                "iterations": 3414,
+                "force": -20.0,
+                "first_frame_latency": 0.6337672020308673
+            },
+            "6": {
+                "solve_stage_time": 0.6549351869616657,
+                "iterations": 3540,
+                "force": -20.0,
+                "first_frame_latency": 0.6670360940042883
+            },
+            "7": {
+                "solve_stage_time": 0.6451708760578185,
+                "iterations": 3469,
+                "force": -20.0,
+                "first_frame_latency": 0.6503100669942796
+            },
+            "8": {
+                "solve_stage_time": 0.5281702349893749,
+                "iterations": 2862,
+                "force": -20.0,
+                "first_frame_latency": 0.5336101581342518
+            }
+        },
+        "peak_mem": 1341
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 63888,
+        "version": "B",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.2128923039417714,
+            "2": 0.09988907189108431,
+            "3": 0.09281587810255587,
+            "4": 0.031163229141384363,
+            "5": 0.09073321800678968,
+            "6": 0.10008579911664128,
+            "7": 0.10244080889970064,
+            "8": 0.0870151009876281
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.2951741120778024,
+                "iterations": 936,
+                "force": -20.0,
+                "first_frame_latency": 0.3067649360746145
+            },
+            "2": {
+                "solve_stage_time": 0.20881835301406682,
+                "iterations": 926,
+                "force": -20.0,
+                "first_frame_latency": 0.21669290494173765
+            },
+            "3": {
+                "solve_stage_time": 0.21581134689040482,
+                "iterations": 970,
+                "force": -20.0,
+                "first_frame_latency": 0.21796324686147273
+            },
+            "4": {
+                "solve_stage_time": 0.21191418613307178,
+                "iterations": 973,
+                "force": -20.0,
+                "first_frame_latency": 0.2154095161240548
+            },
+            "5": {
+                "solve_stage_time": 0.21576285688206553,
+                "iterations": 985,
+                "force": -20.0,
+                "first_frame_latency": 0.21786955301649868
+            },
+            "6": {
+                "solve_stage_time": 0.21485411911271513,
+                "iterations": 982,
+                "force": -20.0,
+                "first_frame_latency": 0.21695221913978457
+            },
+            "7": {
+                "solve_stage_time": 0.20309915905818343,
+                "iterations": 931,
+                "force": -20.0,
+                "first_frame_latency": 0.21530768601223826
+            },
+            "8": {
+                "solve_stage_time": 0.21280130394734442,
+                "iterations": 971,
+                "force": -20.0,
+                "first_frame_latency": 0.21675526001490653
+            }
+        },
+        "peak_mem": 1223
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 63888,
+        "version": "G",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.19822263810783625,
+            "2": 0.09366843104362488,
+            "3": 0.09391646413132548,
+            "4": 0.029581703944131732,
+            "5": 0.08809100999496877,
+            "6": 0.09346978995017707,
+            "7": 0.10846119606867433,
+            "8": 0.10190832405351102
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.5121136251837015,
+                "iterations": 984,
+                "force": -20.0,
+                "first_frame_latency": 0.5184852390084416
+            },
+            "2": {
+                "solve_stage_time": 0.39921889686957,
+                "iterations": 903,
+                "force": -20.0,
+                "first_frame_latency": 0.40133790601976216
+            },
+            "3": {
+                "solve_stage_time": 0.4275706638582051,
+                "iterations": 977,
+                "force": -20.0,
+                "first_frame_latency": 0.4323834148235619
+            },
+            "4": {
+                "solve_stage_time": 0.4157414440996945,
+                "iterations": 956,
+                "force": -20.0,
+                "first_frame_latency": 0.4178383620455861
+            },
+            "5": {
+                "solve_stage_time": 0.4214985698927194,
+                "iterations": 982,
+                "force": -20.0,
+                "first_frame_latency": 0.4325670381076634
+            },
+            "6": {
+                "solve_stage_time": 0.4237516480498016,
+                "iterations": 984,
+                "force": -20.0,
+                "first_frame_latency": 0.43353831209242344
+            },
+            "7": {
+                "solve_stage_time": 0.42616073903627694,
+                "iterations": 969,
+                "force": -20.0,
+                "first_frame_latency": 0.433526478940621
+            },
+            "8": {
+                "solve_stage_time": 0.4187387239653617,
+                "iterations": 972,
+                "force": -20.0,
+                "first_frame_latency": 0.43352394504472613
+            }
+        },
+        "peak_mem": 1189
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 162000,
+        "version": "K",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.3242024499922991,
+            "2": 0.21557647711597383,
+            "3": 0.22608787403441966,
+            "4": 0.1655955531168729,
+            "5": 0.2227851739153266,
+            "6": 0.2130503470543772,
+            "7": 0.21107833296991885,
+            "8": 0.21672016405500472
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 1.0128325980622321,
+                "iterations": 3316,
+                "force": 0.05,
+                "first_frame_latency": 1.0189632012043148
+            },
+            "2": {
+                "solve_stage_time": 0.9313678268808872,
+                "iterations": 3312,
+                "force": 0.05,
+                "first_frame_latency": 0.9466967748012394
+            },
+            "3": {
+                "solve_stage_time": 0.9316552339587361,
+                "iterations": 3294,
+                "force": 0.05,
+                "first_frame_latency": 0.9359436060767621
+            },
+            "4": {
+                "solve_stage_time": 0.8749746740795672,
+                "iterations": 3066,
+                "force": 0.05,
+                "first_frame_latency": 0.8817553010303527
+            },
+            "5": {
+                "solve_stage_time": 0.8780275771860033,
+                "iterations": 3065,
+                "force": 0.05,
+                "first_frame_latency": 0.8839485889766365
+            },
+            "6": {
+                "solve_stage_time": 0.951185479061678,
+                "iterations": 3358,
+                "force": 0.05,
+                "first_frame_latency": 0.9671977320685983
+            },
+            "7": {
+                "solve_stage_time": 0.9422106519341469,
+                "iterations": 3333,
+                "force": 0.05,
+                "first_frame_latency": 0.9506151229143143
+            },
+            "8": {
+                "solve_stage_time": 0.8719477271661162,
+                "iterations": 3085,
+                "force": 0.05,
+                "first_frame_latency": 0.8838537100236863
+            }
+        },
+        "peak_mem": 1553
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 162000,
+        "version": "B",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.3195827470626682,
+            "2": 0.21932255406863987,
+            "3": 0.2204794748686254,
+            "4": 0.2131929120514542,
+            "5": 0.20702749397605658,
+            "6": 0.19786304305307567,
+            "7": 0.2052358069922775,
+            "8": 0.21145474491640925
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.990342736011371,
+                "iterations": 2580,
+                "force": 0.05,
+                "first_frame_latency": 1.0019853368867189
+            },
+            "2": {
+                "solve_stage_time": 0.9231666398700327,
+                "iterations": 2597,
+                "force": 0.05,
+                "first_frame_latency": 0.933917534770444
+            },
+            "3": {
+                "solve_stage_time": 0.8534970041364431,
+                "iterations": 2402,
+                "force": 0.05,
+                "first_frame_latency": 0.867190646007657
+            },
+            "4": {
+                "solve_stage_time": 0.8596107359044254,
+                "iterations": 2425,
+                "force": 0.05,
+                "first_frame_latency": 0.8671972588635981
+            },
+            "5": {
+                "solve_stage_time": 0.9349519261159003,
+                "iterations": 2633,
+                "force": 0.05,
+                "first_frame_latency": 0.9506192849949002
+            },
+            "6": {
+                "solve_stage_time": 0.8250403408892453,
+                "iterations": 2327,
+                "force": 0.05,
+                "first_frame_latency": 0.8338424949906766
+            },
+            "7": {
+                "solve_stage_time": 0.8499555371236056,
+                "iterations": 2402,
+                "force": 0.05,
+                "first_frame_latency": 0.8539716200903058
+            },
+            "8": {
+                "solve_stage_time": 0.9486132869496942,
+                "iterations": 2588,
+                "force": 0.05,
+                "first_frame_latency": 0.9638214679434896
+            }
+        },
+        "peak_mem": 1321
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 162000,
+        "version": "G",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.31480035092681646,
+            "2": 0.204851808026433,
+            "3": 0.2008078140206635,
+            "4": 0.1981832101009786,
+            "5": 0.20054934080690145,
+            "6": 0.2010066951625049,
+            "7": 0.19727136683650315,
+            "8": 0.19900515605695546
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 1.6504268900025636,
+                "iterations": 2392,
+                "force": 0.05,
+                "first_frame_latency": 1.6563033079728484
+            },
+            "2": {
+                "solve_stage_time": 1.7233852071221918,
+                "iterations": 2582,
+                "force": 0.05,
+                "first_frame_latency": 1.7335883181076497
+            },
+            "3": {
+                "solve_stage_time": 1.6142537409905344,
+                "iterations": 2443,
+                "force": 0.05,
+                "first_frame_latency": 1.6181526051368564
+            },
+            "4": {
+                "solve_stage_time": 1.7254122220911086,
+                "iterations": 2594,
+                "force": 0.05,
+                "first_frame_latency": 1.734289747197181
+            },
+            "5": {
+                "solve_stage_time": 1.7888027159497142,
+                "iterations": 2649,
+                "force": 0.05,
+                "first_frame_latency": 1.8013745520729572
+            },
+            "6": {
+                "solve_stage_time": 1.636672540800646,
+                "iterations": 2428,
+                "force": 0.05,
+                "first_frame_latency": 1.6513045958708972
+            },
+            "7": {
+                "solve_stage_time": 1.6400814082007855,
+                "iterations": 2360,
+                "force": 0.05,
+                "first_frame_latency": 1.6509812511503696
+            },
+            "8": {
+                "solve_stage_time": 1.633318052161485,
+                "iterations": 2398,
+                "force": 0.05,
+                "first_frame_latency": 1.6371635461691767
+            }
+        },
+        "peak_mem": 1255
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 162000,
+        "version": "K",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.3400257150642574,
+            "2": 0.2345368228852749,
+            "3": 0.2229663380421698,
+            "4": 0.15392352384515107,
+            "5": 0.21117768483236432,
+            "6": 0.2176086688414216,
+            "7": 0.21697657811455429,
+            "8": 0.22366935084573925
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 1.027346711838618,
+                "iterations": 3344,
+                "force": 0.1,
+                "first_frame_latency": 1.0381876348983496
+            },
+            "2": {
+                "solve_stage_time": 0.9571763209532946,
+                "iterations": 3334,
+                "force": 0.1,
+                "first_frame_latency": 0.9671895781066269
+            },
+            "3": {
+                "solve_stage_time": 0.9470823751762509,
+                "iterations": 3320,
+                "force": 0.1,
+                "first_frame_latency": 0.9509846849832684
+            },
+            "4": {
+                "solve_stage_time": 0.9509190919343382,
+                "iterations": 3344,
+                "force": 0.1,
+                "first_frame_latency": 0.9670759460423142
+            },
+            "5": {
+                "solve_stage_time": 0.9456291599199176,
+                "iterations": 3318,
+                "force": 0.1,
+                "first_frame_latency": 0.950315834954381
+            },
+            "6": {
+                "solve_stage_time": 0.9400185481645167,
+                "iterations": 3306,
+                "force": 0.1,
+                "first_frame_latency": 0.9506768090650439
+            },
+            "7": {
+                "solve_stage_time": 0.9484145720489323,
+                "iterations": 3306,
+                "force": 0.1,
+                "first_frame_latency": 0.9523819540627301
+            },
+            "8": {
+                "solve_stage_time": 0.9359272941946983,
+                "iterations": 3288,
+                "force": 0.1,
+                "first_frame_latency": 0.9487824901007116
+            }
+        },
+        "peak_mem": 1548
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 162000,
+        "version": "B",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.315777312964201,
+            "2": 0.20593026001006365,
+            "3": 0.20076088421046734,
+            "4": 0.20070630218833685,
+            "5": 0.20080419396981597,
+            "6": 0.19742710608989,
+            "7": 0.19974290090613067,
+            "8": 0.2028485438786447
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.9828848841134459,
+                "iterations": 2444,
+                "force": 0.1,
+                "first_frame_latency": 0.9892210410907865
+            },
+            "2": {
+                "solve_stage_time": 0.8671917410101742,
+                "iterations": 2373,
+                "force": 0.1,
+                "first_frame_latency": 0.8817695148754865
+            },
+            "3": {
+                "solve_stage_time": 0.8722523250617087,
+                "iterations": 2413,
+                "force": 0.1,
+                "first_frame_latency": 0.8838957860134542
+            },
+            "4": {
+                "solve_stage_time": 0.8493243118282408,
+                "iterations": 2346,
+                "force": 0.1,
+                "first_frame_latency": 0.8532036999240518
+            },
+            "5": {
+                "solve_stage_time": 0.8562929998151958,
+                "iterations": 2369,
+                "force": 0.1,
+                "first_frame_latency": 0.8645188168156892
+            },
+            "6": {
+                "solve_stage_time": 0.8883648051414639,
+                "iterations": 2402,
+                "force": 0.1,
+                "first_frame_latency": 0.9005778410937637
+            },
+            "7": {
+                "solve_stage_time": 0.8753996340092272,
+                "iterations": 2409,
+                "force": 0.1,
+                "first_frame_latency": 0.8838972290977836
+            },
+            "8": {
+                "solve_stage_time": 0.8373172599822283,
+                "iterations": 2315,
+                "force": 0.1,
+                "first_frame_latency": 0.8505218781065196
+            }
+        },
+        "peak_mem": 1310
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 162000,
+        "version": "G",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.3123292690142989,
+            "2": 0.20813306514173746,
+            "3": 0.20661019999533892,
+            "4": 0.20087456400506198,
+            "5": 0.2071846229955554,
+            "6": 0.197216761065647,
+            "7": 0.19993740413337946,
+            "8": 0.20228708279319108
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 1.8224208601750433,
+                "iterations": 2600,
+                "force": 0.1,
+                "first_frame_latency": 1.8375537800602615
+            },
+            "2": {
+                "solve_stage_time": 1.6227080640383065,
+                "iterations": 2384,
+                "force": 0.1,
+                "first_frame_latency": 1.6345089001115412
+            },
+            "3": {
+                "solve_stage_time": 1.5955842330586165,
+                "iterations": 2383,
+                "force": 0.1,
+                "first_frame_latency": 1.6010311990976334
+            },
+            "4": {
+                "solve_stage_time": 1.5949588539078832,
+                "iterations": 2347,
+                "force": 0.1,
+                "first_frame_latency": 1.6011526249349117
+            },
+            "5": {
+                "solve_stage_time": 1.6501794741488993,
+                "iterations": 2406,
+                "force": 0.1,
+                "first_frame_latency": 1.6539987791329622
+            },
+            "6": {
+                "solve_stage_time": 1.5732958728913218,
+                "iterations": 2349,
+                "force": 0.1,
+                "first_frame_latency": 1.581716163083911
+            },
+            "7": {
+                "solve_stage_time": 1.7545134539250284,
+                "iterations": 2598,
+                "force": 0.1,
+                "first_frame_latency": 1.7679539630189538
+            },
+            "8": {
+                "solve_stage_time": 1.610323785804212,
+                "iterations": 2418,
+                "force": 0.1,
+                "first_frame_latency": 1.6177815778646618
+            }
+        },
+        "peak_mem": 1136
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 162000,
+        "version": "K",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.3353647100739181,
+            "2": 0.2261406839825213,
+            "3": 0.22908219904638827,
+            "4": 0.1539006989914924,
+            "5": 0.2142092038411647,
+            "6": 0.2118498869240284,
+            "7": 0.21984681603498757,
+            "8": 0.22756812116131186
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 1.062653792090714,
+                "iterations": 3366,
+                "force": -20.0,
+                "first_frame_latency": 1.0690209970343858
+            },
+            "2": {
+                "solve_stage_time": 0.8798301410861313,
+                "iterations": 2967,
+                "force": -20.0,
+                "first_frame_latency": 0.884183423127979
+            },
+            "3": {
+                "solve_stage_time": 0.9990824519190937,
+                "iterations": 3332,
+                "force": -20.0,
+                "first_frame_latency": 1.00303869205527
+            },
+            "4": {
+                "solve_stage_time": 0.9962556802202016,
+                "iterations": 3336,
+                "force": -20.0,
+                "first_frame_latency": 1.000949749024585
+            },
+            "5": {
+                "solve_stage_time": 0.9940833919681609,
+                "iterations": 3308,
+                "force": -20.0,
+                "first_frame_latency": 0.9979776667896658
+            },
+            "6": {
+                "solve_stage_time": 0.9787053328473121,
+                "iterations": 3330,
+                "force": -20.0,
+                "first_frame_latency": 0.9833084819838405
+            },
+            "7": {
+                "solve_stage_time": 0.9568790290504694,
+                "iterations": 3342,
+                "force": -20.0,
+                "first_frame_latency": 0.9672575371805578
+            },
+            "8": {
+                "solve_stage_time": 0.9304679979104549,
+                "iterations": 3253,
+                "force": -20.0,
+                "first_frame_latency": 0.9350142308976501
+            }
+        },
+        "peak_mem": 1464
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 162000,
+        "version": "B",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.31638906989246607,
+            "2": 0.20396673795767128,
+            "3": 0.20246526412665844,
+            "4": 0.2022149870172143,
+            "5": 0.1993894181214273,
+            "6": 0.20919174002483487,
+            "7": 0.2054419240448624,
+            "8": 0.21727414894849062
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.5214628260582685,
+                "iterations": 1193,
+                "force": -20.0,
+                "first_frame_latency": 0.535019441973418
+            },
+            "2": {
+                "solve_stage_time": 0.48849039897322655,
+                "iterations": 1299,
+                "force": -20.0,
+                "first_frame_latency": 0.5002133089583367
+            },
+            "3": {
+                "solve_stage_time": 0.48956494592130184,
+                "iterations": 1302,
+                "force": -20.0,
+                "first_frame_latency": 0.5002091508358717
+            },
+            "4": {
+                "solve_stage_time": 0.4943204000592232,
+                "iterations": 1302,
+                "force": -20.0,
+                "first_frame_latency": 0.5001969779841602
+            },
+            "5": {
+                "solve_stage_time": 0.491992951836437,
+                "iterations": 1302,
+                "force": -20.0,
+                "first_frame_latency": 0.5002767569385469
+            },
+            "6": {
+                "solve_stage_time": 0.494824392022565,
+                "iterations": 1303,
+                "force": -20.0,
+                "first_frame_latency": 0.5002219260204583
+            },
+            "7": {
+                "solve_stage_time": 0.4926178299356252,
+                "iterations": 1299,
+                "force": -20.0,
+                "first_frame_latency": 0.5001897448673844
+            },
+            "8": {
+                "solve_stage_time": 0.492233901983127,
+                "iterations": 1303,
+                "force": -20.0,
+                "first_frame_latency": 0.5002249099779874
+            }
+        },
+        "peak_mem": 1185
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 162000,
+        "version": "G",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.3173768939450383,
+            "2": 0.2222532390151173,
+            "3": 0.206527060829103,
+            "4": 0.2011211218778044,
+            "5": 0.20832808502018452,
+            "6": 0.21048298082314432,
+            "7": 0.2153298759367317,
+            "8": 0.2050672739278525
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.960171913029626,
+                "iterations": 1301,
+                "force": -20.0,
+                "first_frame_latency": 0.9705776530317962
+            },
+            "2": {
+                "solve_stage_time": 0.8821998101193458,
+                "iterations": 1302,
+                "force": -20.0,
+                "first_frame_latency": 0.886402492178604
+            },
+            "3": {
+                "solve_stage_time": 0.8226068720687181,
+                "iterations": 1209,
+                "force": -20.0,
+                "first_frame_latency": 0.8315412430092692
+            },
+            "4": {
+                "solve_stage_time": 0.8783150531817228,
+                "iterations": 1303,
+                "force": -20.0,
+                "first_frame_latency": 0.8836944531649351
+            },
+            "5": {
+                "solve_stage_time": 0.9226319431327283,
+                "iterations": 1300,
+                "force": -20.0,
+                "first_frame_latency": 0.9338993120472878
+            },
+            "6": {
+                "solve_stage_time": 0.8791932531166822,
+                "iterations": 1285,
+                "force": -20.0,
+                "first_frame_latency": 0.8838913799263537
+            },
+            "7": {
+                "solve_stage_time": 0.8758488851599395,
+                "iterations": 1301,
+                "force": -20.0,
+                "first_frame_latency": 0.8839089530520141
+            },
+            "8": {
+                "solve_stage_time": 0.8622293220832944,
+                "iterations": 1283,
+                "force": -20.0,
+                "first_frame_latency": 0.8671665759757161
+            }
+        },
+        "peak_mem": 1143
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 444528,
+        "version": "K",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.6589550040662289,
+            "2": 0.5207528849132359,
+            "3": 0.5887779940385371,
+            "4": 0.540873252088204,
+            "5": 0.559420138830319,
+            "6": 0.5309399161487818,
+            "7": 0.548432664014399,
+            "8": 0.532233291072771
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 2.741705071879551,
+                "iterations": 4419,
+                "force": 0.05,
+                "first_frame_latency": 2.753628236008808
+            },
+            "2": {
+                "solve_stage_time": 2.6677778349258006,
+                "iterations": 4426,
+                "force": 0.05,
+                "first_frame_latency": 2.6807035219389945
+            },
+            "3": {
+                "solve_stage_time": 2.6710975950118154,
+                "iterations": 4438,
+                "force": 0.05,
+                "first_frame_latency": 2.685372171923518
+            },
+            "4": {
+                "solve_stage_time": 2.6783419970888644,
+                "iterations": 4380,
+                "force": 0.05,
+                "first_frame_latency": 2.6864905098918825
+            },
+            "5": {
+                "solve_stage_time": 2.7646052159834653,
+                "iterations": 4414,
+                "force": 0.05,
+                "first_frame_latency": 2.772990240016952
+            },
+            "6": {
+                "solve_stage_time": 2.6183270488400012,
+                "iterations": 4254,
+                "force": 0.05,
+                "first_frame_latency": 2.629926166962832
+            },
+            "7": {
+                "solve_stage_time": 2.657382208155468,
+                "iterations": 4421,
+                "force": 0.05,
+                "first_frame_latency": 2.6686507791746408
+            },
+            "8": {
+                "solve_stage_time": 2.7666093970183283,
+                "iterations": 4417,
+                "force": 0.05,
+                "first_frame_latency": 2.7748887040652335
+            }
+        },
+        "peak_mem": 2191
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 444528,
+        "version": "B",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.6576865678653121,
+            "2": 0.5431239719036967,
+            "3": 0.6006472418084741,
+            "4": 0.5585508109070361,
+            "5": 0.5294176258612424,
+            "6": 0.5407391560729593,
+            "7": 0.5481909168884158,
+            "8": 0.5309335282072425
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 2.732895387103781,
+                "iterations": 3224,
+                "force": 0.05,
+                "first_frame_latency": 2.7476119801867753
+            },
+            "2": {
+                "solve_stage_time": 2.6983528358396143,
+                "iterations": 3219,
+                "force": 0.05,
+                "first_frame_latency": 2.707508349791169
+            },
+            "3": {
+                "solve_stage_time": 2.7978390068747103,
+                "iterations": 3270,
+                "force": 0.05,
+                "first_frame_latency": 2.8132888190448284
+            },
+            "4": {
+                "solve_stage_time": 2.9018708900548518,
+                "iterations": 3486,
+                "force": 0.05,
+                "first_frame_latency": 2.9191760579124093
+            },
+            "5": {
+                "solve_stage_time": 2.945585462031886,
+                "iterations": 3530,
+                "force": 0.05,
+                "first_frame_latency": 2.953991384943947
+            },
+            "6": {
+                "solve_stage_time": 2.9529414931312203,
+                "iterations": 3552,
+                "force": 0.05,
+                "first_frame_latency": 2.966827674070373
+            },
+            "7": {
+                "solve_stage_time": 2.8546657101251185,
+                "iterations": 3445,
+                "force": 0.05,
+                "first_frame_latency": 2.8688132201787084
+            },
+            "8": {
+                "solve_stage_time": 2.678760176990181,
+                "iterations": 3231,
+                "force": 0.05,
+                "first_frame_latency": 2.687148407101631
+            }
+        },
+        "peak_mem": 1701
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 444528,
+        "version": "G",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.6285340311005712,
+            "2": 0.5168236631434411,
+            "3": 0.5935769670177251,
+            "4": 0.5468748931307346,
+            "5": 0.5325102880597115,
+            "6": 0.5437018040101975,
+            "7": 0.5430027400143445,
+            "8": 0.5187664330005646
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 5.529217892093584,
+                "iterations": 3523,
+                "force": 0.05,
+                "first_frame_latency": 5.541514792945236
+            },
+            "2": {
+                "solve_stage_time": 5.545169476186857,
+                "iterations": 3565,
+                "force": 0.05,
+                "first_frame_latency": 5.553405902115628
+            },
+            "3": {
+                "solve_stage_time": 5.539762680884451,
+                "iterations": 3561,
+                "force": 0.05,
+                "first_frame_latency": 5.547998497029766
+            },
+            "4": {
+                "solve_stage_time": 5.215014362009242,
+                "iterations": 3335,
+                "force": 0.05,
+                "first_frame_latency": 5.223225000081584
+            },
+            "5": {
+                "solve_stage_time": 5.055498506175354,
+                "iterations": 3183,
+                "force": 0.05,
+                "first_frame_latency": 5.067650587996468
+            },
+            "6": {
+                "solve_stage_time": 5.243605585070327,
+                "iterations": 3277,
+                "force": 0.05,
+                "first_frame_latency": 5.254126089159399
+            },
+            "7": {
+                "solve_stage_time": 5.51007718895562,
+                "iterations": 3553,
+                "force": 0.05,
+                "first_frame_latency": 5.52103549009189
+            },
+            "8": {
+                "solve_stage_time": 5.028716622851789,
+                "iterations": 3235,
+                "force": 0.05,
+                "first_frame_latency": 5.0373854879289865
+            }
+        },
+        "peak_mem": 1436
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 444528,
+        "version": "K",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.6424699979834259,
+            "2": 0.5160064520314336,
+            "3": 0.5875680460594594,
+            "4": 0.5428209940437227,
+            "5": 0.5496512032113969,
+            "6": 0.5365326658356935,
+            "7": 0.545947884907946,
+            "8": 0.5275279940105975
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 2.8111989870667458,
+                "iterations": 4515,
+                "force": 0.1,
+                "first_frame_latency": 2.8230001230258495
+            },
+            "2": {
+                "solve_stage_time": 2.5602266548667103,
+                "iterations": 4218,
+                "force": 0.1,
+                "first_frame_latency": 2.5760798999108374
+            },
+            "3": {
+                "solve_stage_time": 2.7467077490873635,
+                "iterations": 4517,
+                "force": 0.1,
+                "first_frame_latency": 2.755034104222432
+            },
+            "4": {
+                "solve_stage_time": 2.749230801826343,
+                "iterations": 4520,
+                "force": 0.1,
+                "first_frame_latency": 2.7658164058811963
+            },
+            "5": {
+                "solve_stage_time": 2.7848902659025043,
+                "iterations": 4568,
+                "force": 0.1,
+                "first_frame_latency": 2.793069254839793
+            },
+            "6": {
+                "solve_stage_time": 2.7843809141777456,
+                "iterations": 4583,
+                "force": 0.1,
+                "first_frame_latency": 2.794487614184618
+            },
+            "7": {
+                "solve_stage_time": 2.7779540468472987,
+                "iterations": 4583,
+                "force": 0.1,
+                "first_frame_latency": 2.78611510200426
+            },
+            "8": {
+                "solve_stage_time": 2.6196088320575655,
+                "iterations": 4311,
+                "force": 0.1,
+                "first_frame_latency": 2.6346600190736353
+            }
+        },
+        "peak_mem": 2197
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 444528,
+        "version": "B",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.6279141318518668,
+            "2": 0.5092805530875921,
+            "3": 0.5696765789762139,
+            "4": 0.5323212349321693,
+            "5": 0.5161017158534378,
+            "6": 0.5176748840603977,
+            "7": 0.5258372731041163,
+            "8": 0.5161116039380431
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 2.7930183669086546,
+                "iterations": 3241,
+                "force": 0.1,
+                "first_frame_latency": 2.8048480660654604
+            },
+            "2": {
+                "solve_stage_time": 2.618585859891027,
+                "iterations": 3132,
+                "force": 0.1,
+                "first_frame_latency": 2.6280454008374363
+            },
+            "3": {
+                "solve_stage_time": 2.710738989058882,
+                "iterations": 3235,
+                "force": 0.1,
+                "first_frame_latency": 2.7189197211991996
+            },
+            "4": {
+                "solve_stage_time": 2.962419229093939,
+                "iterations": 3553,
+                "force": 0.1,
+                "first_frame_latency": 2.970752577064559
+            },
+            "5": {
+                "solve_stage_time": 2.69945240393281,
+                "iterations": 3231,
+                "force": 0.1,
+                "first_frame_latency": 2.707766154082492
+            },
+            "6": {
+                "solve_stage_time": 2.6588393528945744,
+                "iterations": 3185,
+                "force": 0.1,
+                "first_frame_latency": 2.667013492900878
+            },
+            "7": {
+                "solve_stage_time": 2.7302565060090274,
+                "iterations": 3267,
+                "force": 0.1,
+                "first_frame_latency": 2.7463583960197866
+            },
+            "8": {
+                "solve_stage_time": 2.6667769600171596,
+                "iterations": 3194,
+                "force": 0.1,
+                "first_frame_latency": 2.6749507191125304
+            }
+        },
+        "peak_mem": 1686
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 444528,
+        "version": "G",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.6378846829757094,
+            "2": 0.5076983240433037,
+            "3": 0.560839275829494,
+            "4": 0.5226995379198343,
+            "5": 0.5047948998399079,
+            "6": 0.5210824569221586,
+            "7": 0.5266251110006124,
+            "8": 0.504099991871044
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 5.107142705935985,
+                "iterations": 3237,
+                "force": 0.1,
+                "first_frame_latency": 5.119148152880371
+            },
+            "2": {
+                "solve_stage_time": 4.951402086066082,
+                "iterations": 3176,
+                "force": 0.1,
+                "first_frame_latency": 4.959883070085198
+            },
+            "3": {
+                "solve_stage_time": 5.126882196171209,
+                "iterations": 3249,
+                "force": 0.1,
+                "first_frame_latency": 5.135876037180424
+            },
+            "4": {
+                "solve_stage_time": 5.0843212062027305,
+                "iterations": 3228,
+                "force": 0.1,
+                "first_frame_latency": 5.097646699054167
+            },
+            "5": {
+                "solve_stage_time": 5.036336092976853,
+                "iterations": 3186,
+                "force": 0.1,
+                "first_frame_latency": 5.045068725943565
+            },
+            "6": {
+                "solve_stage_time": 5.073933465173468,
+                "iterations": 3229,
+                "force": 0.1,
+                "first_frame_latency": 5.08232486108318
+            },
+            "7": {
+                "solve_stage_time": 4.973136025015265,
+                "iterations": 3181,
+                "force": 0.1,
+                "first_frame_latency": 4.984479374950752
+            },
+            "8": {
+                "solve_stage_time": 5.0443000418599695,
+                "iterations": 3238,
+                "force": 0.1,
+                "first_frame_latency": 5.053992217872292
+            }
+        },
+        "peak_mem": 1404
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 444528,
+        "version": "K",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.6381690499838442,
+            "2": 0.5188434009905905,
+            "3": 0.5806100449990481,
+            "4": 0.5391854711342603,
+            "5": 0.538989826105535,
+            "6": 0.5202825190499425,
+            "7": 0.5526385330595076,
+            "8": 0.5330669209361076
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 1.4187672180123627,
+                "iterations": 2181,
+                "force": -20.0,
+                "first_frame_latency": 1.4306784288492054
+            },
+            "2": {
+                "solve_stage_time": 1.3459913979750127,
+                "iterations": 2182,
+                "force": -20.0,
+                "first_frame_latency": 1.3549186051823199
+            },
+            "3": {
+                "solve_stage_time": 1.336989742005244,
+                "iterations": 2171,
+                "force": -20.0,
+                "first_frame_latency": 1.346005363855511
+            },
+            "4": {
+                "solve_stage_time": 1.3470949800685048,
+                "iterations": 2179,
+                "force": -20.0,
+                "first_frame_latency": 1.3553421760443598
+            },
+            "5": {
+                "solve_stage_time": 1.3427951959893107,
+                "iterations": 2174,
+                "force": -20.0,
+                "first_frame_latency": 1.3512820298783481
+            },
+            "6": {
+                "solve_stage_time": 1.341767696896568,
+                "iterations": 2175,
+                "force": -20.0,
+                "first_frame_latency": 1.3499772329814732
+            },
+            "7": {
+                "solve_stage_time": 1.341500325128436,
+                "iterations": 2174,
+                "force": -20.0,
+                "first_frame_latency": 1.3496923081111163
+            },
+            "8": {
+                "solve_stage_time": 1.387202822836116,
+                "iterations": 2243,
+                "force": -20.0,
+                "first_frame_latency": 1.398446706822142
+            }
+        },
+        "peak_mem": 2200
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 444528,
+        "version": "B",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.6269736050162464,
+            "2": 0.5137404270935804,
+            "3": 0.5659983379300684,
+            "4": 0.5237215119414032,
+            "5": 0.5082587858196348,
+            "6": 0.5248359839897603,
+            "7": 0.5447973429691046,
+            "8": 0.5084194960072637
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 1.5838391620200127,
+                "iterations": 1778,
+                "force": -20.0,
+                "first_frame_latency": 1.5965691031888127
+            },
+            "2": {
+                "solve_stage_time": 1.5053772588726133,
+                "iterations": 1781,
+                "force": -20.0,
+                "first_frame_latency": 1.5176661359146237
+            },
+            "3": {
+                "solve_stage_time": 1.5073179239407182,
+                "iterations": 1781,
+                "force": -20.0,
+                "first_frame_latency": 1.5177175409626216
+            },
+            "4": {
+                "solve_stage_time": 1.5053385058417916,
+                "iterations": 1781,
+                "force": -20.0,
+                "first_frame_latency": 1.5176914117764682
+            },
+            "5": {
+                "solve_stage_time": 1.5022795719560236,
+                "iterations": 1780,
+                "force": -20.0,
+                "first_frame_latency": 1.5177160880994052
+            },
+            "6": {
+                "solve_stage_time": 1.5078397779725492,
+                "iterations": 1780,
+                "force": -20.0,
+                "first_frame_latency": 1.5176828759722412
+            },
+            "7": {
+                "solve_stage_time": 1.478674123995006,
+                "iterations": 1751,
+                "force": -20.0,
+                "first_frame_latency": 1.4871648261323571
+            },
+            "8": {
+                "solve_stage_time": 1.5037123181391507,
+                "iterations": 1779,
+                "force": -20.0,
+                "first_frame_latency": 1.514887894038111
+            }
+        },
+        "peak_mem": 1686
+    },
+    {
+        "framework": "pytorch",
+        "n_elems": 444528,
+        "version": "G",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.6313131989445537,
+            "2": 0.5140129630453885,
+            "3": 0.5875521600246429,
+            "4": 0.545718512032181,
+            "5": 0.5078414550516754,
+            "6": 0.5170738322194666,
+            "7": 0.5260995728895068,
+            "8": 0.5112431589514017
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 2.928053084993735,
+                "iterations": 1781,
+                "force": -20.0,
+                "first_frame_latency": 2.9402512221131474
+            },
+            "2": {
+                "solve_stage_time": 2.802607182879001,
+                "iterations": 1780,
+                "force": -20.0,
+                "first_frame_latency": 2.8117059299256653
+            },
+            "3": {
+                "solve_stage_time": 2.8083702879957855,
+                "iterations": 1781,
+                "force": -20.0,
+                "first_frame_latency": 2.8166033381130546
+            },
+            "4": {
+                "solve_stage_time": 2.8068546259310097,
+                "iterations": 1781,
+                "force": -20.0,
+                "first_frame_latency": 2.8184799128212035
+            },
+            "5": {
+                "solve_stage_time": 2.7986366839613765,
+                "iterations": 1776,
+                "force": -20.0,
+                "first_frame_latency": 2.806995457969606
+            },
+            "6": {
+                "solve_stage_time": 2.8026325970422477,
+                "iterations": 1780,
+                "force": -20.0,
+                "first_frame_latency": 2.813941332977265
+            },
+            "7": {
+                "solve_stage_time": 2.8150986440014094,
+                "iterations": 1781,
+                "force": -20.0,
+                "first_frame_latency": 2.82353410217911
+            },
+            "8": {
+                "solve_stage_time": 2.804466031026095,
+                "iterations": 1781,
+                "force": -20.0,
+                "first_frame_latency": 2.8140628691762686
+            }
+        },
+        "peak_mem": 1413
+    }
+]

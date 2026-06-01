@@ -1,0 +1,23 @@
+\begin{table}[H]\center\begin{tabular}{>{\centering\arraybackslash}m{1.0cm}|m{1.1cm}|>{\centering\arraybackslash}m{1.0cm}>{\centering\arraybackslash}m{1.0cm}|>{\centering\arraybackslash}m{1.0cm}>{\centering\arraybackslash}m{1.0cm}|>{\centering\arraybackslash}m{1.0cm}>{\centering\arraybackslash}m{1.0cm}}
+\toprule
+ &  & \multicolumn{2}{|c}{gravity} & \multicolumn{2}{|c}{traction} & \multicolumn{2}{|c}{compression} \\
+ &  & B & G & B & G & B & G \\
+\midrule
+\multirow{3}{*}{24,576} & \textbf{PyTorch} & \makecell{1537 \\[-4pt] (15.7)} & \makecell{1458 \\[-4pt] (81.8)} & \makecell{1463 \\[-4pt] (72.2)} & \makecell{1468 \\[-4pt] (58.1)} & \makecell{446 \\[-4pt] (10.6)} & \makecell{442 \\[-4pt] (0.5)} \\
+ & \textbf{Warp} & \makecell{1855 \\[-4pt] (238.4)} & \makecell{2040 \\[-4pt] (59.3)} & \makecell{1660 \\[-4pt] (169.9)} & \makecell{1738 \\[-4pt] (216.5)} & \makecell{525 \\[-4pt] (25.5)} & \makecell{509 \\[-4pt] (23.9)} \\
+ & \textbf{JAX} & \makecell{-1 \\[-4pt] (0.0)} & \makecell{-1 \\[-4pt] (0.0)} & \makecell{-1 \\[-4pt] (0.0)} & \makecell{-1 \\[-4pt] (0.0)} & \makecell{-1 \\[-4pt] (0.0)} & \makecell{-1 \\[-4pt] (0.0)} \\
+\cline{1-8}
+\multirow{3}{*}{63,888} & \textbf{PyTorch} & \makecell{1941 \\[-4pt] (84.9)} & \makecell{1910 \\[-4pt] (68.5)} & \makecell{1894 \\[-4pt] (100.0)} & \makecell{1865 \\[-4pt] (97.3)} & \makecell{957 \\[-4pt] (41.0)} & \makecell{964 \\[-4pt] (17.4)} \\
+ & \textbf{Warp} & \makecell{2439 \\[-4pt] (342.6)} & \makecell{2535 \\[-4pt] (294.8)} & \makecell{2406 \\[-4pt] (290.6)} & \makecell{2272 \\[-4pt] (247.5)} & \makecell{1059 \\[-4pt] (17.5)} & \makecell{1054 \\[-4pt] (28.5)} \\
+ & \textbf{JAX} & \makecell{-1 \\[-4pt] (0.0)} & \makecell{-1 \\[-4pt] (0.0)} & \makecell{-1 \\[-4pt] (0.0)} & \makecell{-1 \\[-4pt] (0.0)} & \makecell{-1 \\[-4pt] (0.0)} & \makecell{-1 \\[-4pt] (0.0)} \\
+\cline{1-8}
+\multirow{3}{*}{162,000} & \textbf{PyTorch} & \makecell{2493 \\[-4pt] (109.9)} & \makecell{2524 \\[-4pt] (76.3)} & \makecell{2440 \\[-4pt] (78.4)} & \makecell{2413 \\[-4pt] (103.4)} & \makecell{1280 \\[-4pt] (24.4)} & \makecell{1293 \\[-4pt] (15.4)} \\
+ & \textbf{Warp} & \makecell{3652 \\[-4pt] (91.8)} & \makecell{3542 \\[-4pt] (325.2)} & \makecell{2979 \\[-4pt] (241.2)} & \makecell{3216 \\[-4pt] (299.1)} & \makecell{1429 \\[-4pt] (31.5)} & \makecell{1428 \\[-4pt] (33.3)} \\
+ & \textbf{JAX} & \makecell{-1 \\[-4pt] (0.0)} & \makecell{-1 \\[-4pt] (0.0)} & \makecell{-1 \\[-4pt] (0.0)} & \makecell{-1 \\[-4pt] (0.0)} & \makecell{-1 \\[-4pt] (0.0)} & \makecell{-1 \\[-4pt] (0.0)} \\
+\cline{1-8}
+\multirow{3}{*}{444,528} & \textbf{PyTorch} & \makecell{3419 \\[-4pt] (176.1)} & \makecell{3421 \\[-4pt] (190.6)} & \makecell{3206 \\[-4pt] (20.6)} & \makecell{3291 \\[-4pt] (135.5)} & \makecell{1762 \\[-4pt] (28.6)} & \makecell{1776 \\[-4pt] (11.8)} \\
+ & \textbf{Warp} & \makecell{4961 \\[-4pt] (140.4)} & \makecell{5113 \\[-4pt] (24.0)} & \makecell{4668 \\[-4pt] (415.9)} & \makecell{4595 \\[-4pt] (482.0)} & \makecell{2202 \\[-4pt] (31.9)} & \makecell{2204 \\[-4pt] (43.0)} \\
+ & \textbf{JAX} & \makecell{-1 \\[-4pt] (0.0)} & \makecell{-1 \\[-4pt] (0.0)} & \makecell{-1 \\[-4pt] (0.0)} & \makecell{-1 \\[-4pt] (0.0)} & \makecell{-1 \\[-4pt] (0.0)} & \makecell{-1 \\[-4pt] (0.0)} \\
+\cline{1-8}
+\bottomrule
+\end{tabular}\caption{Number of iterations in the conjugate gradient (CG) solver using \textbf{FP32} precision. The reported values are averaged over 6 independent runs, with standard deviations shown in parentheses. In the Warp framework, the K solver is not implemented. Therefore, the corresponding entries are not available. In the JAX framework, a built-in CG solver is used, which does not directly provide the iteration count. Instead, the number of iterations is estimated by prescribing iteration limits and verifying convergence, resulting in an interval of possible values.}\label{tab:cg_iteration_fp32}\end{table}

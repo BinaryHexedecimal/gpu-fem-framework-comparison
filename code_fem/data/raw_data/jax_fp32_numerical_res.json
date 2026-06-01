@@ -1,0 +1,1406 @@
+[
+    {
+        "framework": "jax",
+        "version": "K",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 24576,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.08510943305729148,
+                "global_rel_error_same_mesh": 0.028912787916966227,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.08509105573176526,
+                "global_rel_error_same_mesh": 0.028886592030326595,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.08505488210456078,
+                "global_rel_error_same_mesh": 0.028854750133669914,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.08508105022336034,
+                "global_rel_error_same_mesh": 0.02888092471149298,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.08510796191477425,
+                "global_rel_error_same_mesh": 0.028912065407325657,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.0851329182417602,
+                "global_rel_error_same_mesh": 0.028937621374198363,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "B",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 24576,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.05877684431922073,
+                "global_rel_error_same_mesh": 2.0099651932492023e-06,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.05877666558282677,
+                "global_rel_error_same_mesh": 2.2385482758833183e-06,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.05877481056756068,
+                "global_rel_error_same_mesh": 2.177600571570261e-06,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.058776142044376645,
+                "global_rel_error_same_mesh": 2.1040145766858265e-06,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.058776078997647044,
+                "global_rel_error_same_mesh": 1.2564566381508184e-06,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.05877583272415886,
+                "global_rel_error_same_mesh": 1.9928720234780716e-06,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "G",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 24576,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.058777124198663634,
+                "global_rel_error_same_mesh": 1.4480978153436669e-06,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.05877621419585643,
+                "global_rel_error_same_mesh": 1.0064234782520241e-06,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.05877702466076859,
+                "global_rel_error_same_mesh": 1.2464768251219892e-06,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.05877423118359324,
+                "global_rel_error_same_mesh": 2.4886400411487712e-06,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.05877638267923631,
+                "global_rel_error_same_mesh": 9.52487278633644e-07,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.05877549360122749,
+                "global_rel_error_same_mesh": 2.0075814479954045e-06,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "K",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 24576,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.08495204025862815,
+                "global_rel_error_same_mesh": 0.028909451218565814,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.08493847281282875,
+                "global_rel_error_same_mesh": 0.028892970517189573,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.08494178652519684,
+                "global_rel_error_same_mesh": 0.028894573075502004,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.08486765263685511,
+                "global_rel_error_same_mesh": 0.028814438398564002,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.08493934036473776,
+                "global_rel_error_same_mesh": 0.02889232327280265,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.08493521929800629,
+                "global_rel_error_same_mesh": 0.02888729572386825,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "B",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 24576,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.05863577758453943,
+                "global_rel_error_same_mesh": 2.086795588761456e-06,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.05863744638181373,
+                "global_rel_error_same_mesh": 2.3123760719128595e-06,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.058635668524467555,
+                "global_rel_error_same_mesh": 2.4579875438545345e-06,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.05863716226749484,
+                "global_rel_error_same_mesh": 1.3797279513778402e-06,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.058634782726017264,
+                "global_rel_error_same_mesh": 3.172706082976747e-06,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.05863785451802951,
+                "global_rel_error_same_mesh": 2.4578688558071737e-06,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "G",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 24576,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.05863662064225051,
+                "global_rel_error_same_mesh": 1.5452819842066516e-06,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.05863842294478171,
+                "global_rel_error_same_mesh": 2.269162102369113e-06,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.05863680927339503,
+                "global_rel_error_same_mesh": 2.262654058293719e-06,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.05863584660449731,
+                "global_rel_error_same_mesh": 1.6170914388986363e-06,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.05863779337032804,
+                "global_rel_error_same_mesh": 1.2776147065960476e-06,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.058637604495804636,
+                "global_rel_error_same_mesh": 1.4425393934894246e-06,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "K",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 24576,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.0008897876819331322,
+                "global_rel_error_same_mesh": 0.00020070133039998535,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.0008909828210088962,
+                "global_rel_error_same_mesh": 0.00020057398282438015,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.0008890980318760391,
+                "global_rel_error_same_mesh": 0.0002011197612892905,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.0008911036657724941,
+                "global_rel_error_same_mesh": 0.00020088082940312765,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.0008907303448220023,
+                "global_rel_error_same_mesh": 0.00020086430713998557,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.0008901212638716288,
+                "global_rel_error_same_mesh": 0.00020062391761097915,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "B",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 24576,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.0008668251755506593,
+                "global_rel_error_same_mesh": 6.55177705229485e-06,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.000867196985054185,
+                "global_rel_error_same_mesh": 5.9813660190714605e-06,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.0008669422943324416,
+                "global_rel_error_same_mesh": 4.628705192631774e-06,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.0008682833683081846,
+                "global_rel_error_same_mesh": 7.322249159987718e-06,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.0008672690720839181,
+                "global_rel_error_same_mesh": 5.776719054161361e-06,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.0008690960146714525,
+                "global_rel_error_same_mesh": 4.790650749001814e-06,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "G",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 24576,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.0008682684113744218,
+                "global_rel_error_same_mesh": 1.2154864830350818e-06,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.0008674751641538733,
+                "global_rel_error_same_mesh": 7.378695998899097e-07,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.0008677533571603711,
+                "global_rel_error_same_mesh": 9.787782299879159e-07,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.0008681997813783411,
+                "global_rel_error_same_mesh": 1.492549324155365e-06,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.0008673548093800122,
+                "global_rel_error_same_mesh": 8.478914564781308e-07,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.0008682832414705513,
+                "global_rel_error_same_mesh": 1.2826908556894026e-06,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "K",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 63888,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.02249359439172203,
+                "global_rel_error_same_mesh": 0.009534889504366085,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.02249179888019744,
+                "global_rel_error_same_mesh": 0.009537439438792898,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.022500522358194212,
+                "global_rel_error_same_mesh": 0.00952509154939474,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.022490736341828126,
+                "global_rel_error_same_mesh": 0.009537204277163997,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.022487326395014967,
+                "global_rel_error_same_mesh": 0.009540194384872388,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.022445505742143303,
+                "global_rel_error_same_mesh": 0.009590303825527785,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "B",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 63888,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.031558338715049455,
+                "global_rel_error_same_mesh": 1.6362589485163395e-06,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.0315572175163947,
+                "global_rel_error_same_mesh": 2.504014733221336e-06,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.031558494003144665,
+                "global_rel_error_same_mesh": 1.90917461204505e-06,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.031558074513651696,
+                "global_rel_error_same_mesh": 2.1562791913366977e-06,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.03155934170085426,
+                "global_rel_error_same_mesh": 1.1094300250016723e-06,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.03155975321288997,
+                "global_rel_error_same_mesh": 1.6743498732774433e-06,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "G",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 63888,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.03155802332292743,
+                "global_rel_error_same_mesh": 1.7192312879232893e-06,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.03155846548185632,
+                "global_rel_error_same_mesh": 1.3320814299747916e-06,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.03155760849405018,
+                "global_rel_error_same_mesh": 2.0147678402507264e-06,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.031559488654155005,
+                "global_rel_error_same_mesh": 1.4974742850178913e-06,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.03155880985165583,
+                "global_rel_error_same_mesh": 1.2154968615188439e-06,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.031557255534721176,
+                "global_rel_error_same_mesh": 2.5362232562894913e-06,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "K",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 63888,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.022339531560642195,
+                "global_rel_error_same_mesh": 0.00955186188216705,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.02242228262544653,
+                "global_rel_error_same_mesh": 0.009462704875390752,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.022328514503320025,
+                "global_rel_error_same_mesh": 0.009561649805117168,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.022368604724124944,
+                "global_rel_error_same_mesh": 0.009521649845352524,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.022358011842724273,
+                "global_rel_error_same_mesh": 0.00953008483023232,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.022388065956716573,
+                "global_rel_error_same_mesh": 0.009499521811812895,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "B",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 63888,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.031404994934503556,
+                "global_rel_error_same_mesh": 1.919710862947225e-06,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.03140511815396213,
+                "global_rel_error_same_mesh": 1.2380437291934473e-06,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.0314045653196276,
+                "global_rel_error_same_mesh": 1.1248566131922217e-06,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.03140300817925185,
+                "global_rel_error_same_mesh": 2.4537790770165463e-06,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.03140524830694158,
+                "global_rel_error_same_mesh": 1.375677696662715e-06,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.031405342350002335,
+                "global_rel_error_same_mesh": 1.2779553467719764e-06,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "G",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 63888,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.03140404952650766,
+                "global_rel_error_same_mesh": 1.3310690085113871e-06,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.03140518724096622,
+                "global_rel_error_same_mesh": 1.2357693755171205e-06,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.031403803327639056,
+                "global_rel_error_same_mesh": 1.4312893289578966e-06,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.03140386624597304,
+                "global_rel_error_same_mesh": 1.4606024588420152e-06,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.031403600193826715,
+                "global_rel_error_same_mesh": 1.4416833326337657e-06,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.031403425593403596,
+                "global_rel_error_same_mesh": 1.8635604927419501e-06,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "K",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 63888,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 4.014068475781704,
+                "global_rel_error_same_mesh": 4.014050119945248,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 1682.8377401152668,
+                "global_rel_error_same_mesh": 1682.8282176943533,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 9092.043303959317,
+                "global_rel_error_same_mesh": 9091.991875976393,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 505.04098197273305,
+                "global_rel_error_same_mesh": 505.0381294388737,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 19.55876866231904,
+                "global_rel_error_same_mesh": 19.558663191014418,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 65726.07802471463,
+                "global_rel_error_same_mesh": 65725.7062839923,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "B",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 63888,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.0026337534697512158,
+                "global_rel_error_same_mesh": 2.1456318720483622e-05,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.0026319914519879065,
+                "global_rel_error_same_mesh": 2.0950679618505605e-05,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.0026146068776937217,
+                "global_rel_error_same_mesh": 1.1307505700536902e-05,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.002604707088904881,
+                "global_rel_error_same_mesh": 2.2516849601790263e-05,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.002622517370678668,
+                "global_rel_error_same_mesh": 1.3499735466163974e-05,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.0026144469709709424,
+                "global_rel_error_same_mesh": 1.0722152829130094e-05,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "G",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 63888,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.0026234434748633644,
+                "global_rel_error_same_mesh": 1.1127769760116509e-05,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.0026272135860091954,
+                "global_rel_error_same_mesh": 9.895049002211368e-06,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.0026138571269239646,
+                "global_rel_error_same_mesh": 1.0039344311282198e-05,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.002615580828538609,
+                "global_rel_error_same_mesh": 1.4149103352450777e-05,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.0026211988253515266,
+                "global_rel_error_same_mesh": 1.8004098021578646e-05,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.002620752315187928,
+                "global_rel_error_same_mesh": 1.4716621937861372e-05,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "K",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 162000,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.06695342821461472,
+                "global_rel_error_same_mesh": 0.051948917379119455,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.06693755285741244,
+                "global_rel_error_same_mesh": 0.05193273566140522,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.06689976579645146,
+                "global_rel_error_same_mesh": 0.051895273559408935,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.06695760231808778,
+                "global_rel_error_same_mesh": 0.05195256682543356,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.06694831466676728,
+                "global_rel_error_same_mesh": 0.05194306421618467,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.06690019645797655,
+                "global_rel_error_same_mesh": 0.05189331143590749,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "B",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 162000,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.016526188323445656,
+                "global_rel_error_same_mesh": 2.31854109059508e-06,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.016526139658969423,
+                "global_rel_error_same_mesh": 1.6112510991749588e-06,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.016526187106721858,
+                "global_rel_error_same_mesh": 1.9004687994448213e-06,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.016527039083588088,
+                "global_rel_error_same_mesh": 2.1452668557678254e-06,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.016525681299252533,
+                "global_rel_error_same_mesh": 1.5570129974065636e-06,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.016525585415726404,
+                "global_rel_error_same_mesh": 1.4499779406730063e-06,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "G",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 162000,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.016524903270936565,
+                "global_rel_error_same_mesh": 1.5130624474904278e-06,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.0165257352361654,
+                "global_rel_error_same_mesh": 1.4757207821023615e-06,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.016525079859968875,
+                "global_rel_error_same_mesh": 1.5038067960593317e-06,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.016525975920543196,
+                "global_rel_error_same_mesh": 1.6083249185394883e-06,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.01652525686770333,
+                "global_rel_error_same_mesh": 1.3903365737633313e-06,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.01652514995545507,
+                "global_rel_error_same_mesh": 1.2400548343141417e-06,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "K",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 162000,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.0668514416366658,
+                "global_rel_error_same_mesh": 0.0519784321859068,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.06684824439084806,
+                "global_rel_error_same_mesh": 0.0519742308468675,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.0669464968819378,
+                "global_rel_error_same_mesh": 0.05207602758789712,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.06685727760563873,
+                "global_rel_error_same_mesh": 0.0519848663968426,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.06689035397052809,
+                "global_rel_error_same_mesh": 0.052018418041351565,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.06688578517860612,
+                "global_rel_error_same_mesh": 0.05201242807061018,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "B",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 162000,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.016400158299657238,
+                "global_rel_error_same_mesh": 1.4406958333426134e-06,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.01639971316757107,
+                "global_rel_error_same_mesh": 1.607416693983457e-06,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.016400974895799468,
+                "global_rel_error_same_mesh": 1.931702851565562e-06,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.01640174041393936,
+                "global_rel_error_same_mesh": 1.775206369509116e-06,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.016401019329261208,
+                "global_rel_error_same_mesh": 1.3173179887204253e-06,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.016400550674813184,
+                "global_rel_error_same_mesh": 1.2916953087547394e-06,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "G",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 162000,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.01639899023490382,
+                "global_rel_error_same_mesh": 1.9088387701392163e-06,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.016399899230199435,
+                "global_rel_error_same_mesh": 1.3375938831733434e-06,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.016399360093534467,
+                "global_rel_error_same_mesh": 1.8113211931194232e-06,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.016399489104990755,
+                "global_rel_error_same_mesh": 1.5040726423105655e-06,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.016399718689139555,
+                "global_rel_error_same_mesh": 1.4942811012236963e-06,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.016400019223777967,
+                "global_rel_error_same_mesh": 1.2251385647659866e-06,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "K",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 162000,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.01948769709078959,
+                "global_rel_error_same_mesh": 0.019811854792235684,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.01918993333970916,
+                "global_rel_error_same_mesh": 0.019519925716808703,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.01871778967499346,
+                "global_rel_error_same_mesh": 0.01905508254770468,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.0190178783821799,
+                "global_rel_error_same_mesh": 0.019349083764342204,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.019355022204204098,
+                "global_rel_error_same_mesh": 0.019682076103987013,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.018814538027052227,
+                "global_rel_error_same_mesh": 0.019149895277803648,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "B",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 162000,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.0016938221509762601,
+                "global_rel_error_same_mesh": 1.2869136872123649e-05,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.0017085685932757726,
+                "global_rel_error_same_mesh": 2.264757551815416e-05,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.0016864560249243473,
+                "global_rel_error_same_mesh": 2.273908142806035e-05,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.0016941664281487061,
+                "global_rel_error_same_mesh": 9.074470032364985e-06,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.0017116158100751767,
+                "global_rel_error_same_mesh": 2.1000307335980618e-05,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.001689709181085396,
+                "global_rel_error_same_mesh": 1.2288071673646088e-05,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "G",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 162000,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.0016949909279580027,
+                "global_rel_error_same_mesh": 9.676696784586133e-06,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.0016867623203616492,
+                "global_rel_error_same_mesh": 1.3145565448125472e-05,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.0016964416147882313,
+                "global_rel_error_same_mesh": 5.707190103468028e-06,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.0017053926563274126,
+                "global_rel_error_same_mesh": 1.6014117035031456e-05,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.0016911913177178773,
+                "global_rel_error_same_mesh": 1.1965422377836814e-05,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.0017086376306865558,
+                "global_rel_error_same_mesh": 1.4834592551108147e-05,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "K",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 444528,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.03426582906113663,
+                "global_rel_error_same_mesh": 0.02813259632973235,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.03425254501129992,
+                "global_rel_error_same_mesh": 0.028116156189215157,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.03428356459206602,
+                "global_rel_error_same_mesh": 0.028147883070554252,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.03424222357605486,
+                "global_rel_error_same_mesh": 0.028113995702176216,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.034251296812099964,
+                "global_rel_error_same_mesh": 0.0281169142384353,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.034219532053798594,
+                "global_rel_error_same_mesh": 0.028085978356993953,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "B",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 444528,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.007597191483035282,
+                "global_rel_error_same_mesh": 1.999000848168467e-06,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.007596976260295048,
+                "global_rel_error_same_mesh": 2.4372928238778017e-06,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.007598470600369092,
+                "global_rel_error_same_mesh": 2.5050517454408253e-06,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.007597626942163871,
+                "global_rel_error_same_mesh": 2.304101556341693e-06,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.007597743982894675,
+                "global_rel_error_same_mesh": 2.4781605989738463e-06,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.007598391137445623,
+                "global_rel_error_same_mesh": 2.6593785490239036e-06,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "G",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 444528,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.007596414116773494,
+                "global_rel_error_same_mesh": 2.3986748103977424e-06,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.007597578069113283,
+                "global_rel_error_same_mesh": 1.987531889674356e-06,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.007595783451627096,
+                "global_rel_error_same_mesh": 2.5589419655618546e-06,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.007596899688434815,
+                "global_rel_error_same_mesh": 2.0131480504784363e-06,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.007597244683240243,
+                "global_rel_error_same_mesh": 1.8943872096518578e-06,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.0075972382631607155,
+                "global_rel_error_same_mesh": 2.366010425667547e-06,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "K",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 444528,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.034713736758623305,
+                "global_rel_error_same_mesh": 0.028748521811040453,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.03475903299021189,
+                "global_rel_error_same_mesh": 0.028788512194726935,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.03476215720625325,
+                "global_rel_error_same_mesh": 0.028793063489222216,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.034706905292589824,
+                "global_rel_error_same_mesh": 0.02873888640891376,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.03476929307815572,
+                "global_rel_error_same_mesh": 0.028802399771187377,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.03472851524271233,
+                "global_rel_error_same_mesh": 0.028761847272918143,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "B",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 444528,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.007517710794582259,
+                "global_rel_error_same_mesh": 1.8887523495594334e-06,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.007518164990500615,
+                "global_rel_error_same_mesh": 2.0733637082154055e-06,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.0075178793578325395,
+                "global_rel_error_same_mesh": 1.9254247827031357e-06,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.007518709388182674,
+                "global_rel_error_same_mesh": 2.494526376953258e-06,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.007519148727595448,
+                "global_rel_error_same_mesh": 2.7910341895474174e-06,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.0075178943788133425,
+                "global_rel_error_same_mesh": 1.938894490740366e-06,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "G",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 444528,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.007517245406114984,
+                "global_rel_error_same_mesh": 1.4462220106392486e-06,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.0075170280495287295,
+                "global_rel_error_same_mesh": 1.6774172418676148e-06,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.007516716615984391,
+                "global_rel_error_same_mesh": 1.7516945573119198e-06,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.007517469775022916,
+                "global_rel_error_same_mesh": 1.404735645760584e-06,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.007517612136819133,
+                "global_rel_error_same_mesh": 1.545507599164185e-06,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.007516554610173563,
+                "global_rel_error_same_mesh": 1.7660065583707158e-06,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "K",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 444528,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 23.287547435851877,
+                "global_rel_error_same_mesh": 23.287515209178355,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 3970.6880030234643,
+                "global_rel_error_same_mesh": 3970.682864768697,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 989.5179598370116,
+                "global_rel_error_same_mesh": 989.5166796726811,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 251.0772771841971,
+                "global_rel_error_same_mesh": 251.07695242617078,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 11.256501655631652,
+                "global_rel_error_same_mesh": 11.256484945354432,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 36.283368038375805,
+                "global_rel_error_same_mesh": 36.28331903212207,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "B",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 444528,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.0009681613573775382,
+                "global_rel_error_same_mesh": 1.2455834898629304e-05,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.0009582668096059138,
+                "global_rel_error_same_mesh": 2.2118593487343672e-05,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.0009711325137905732,
+                "global_rel_error_same_mesh": 7.532957045093696e-06,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.0009651508753196548,
+                "global_rel_error_same_mesh": 1.1373831244254389e-05,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.0009609367636342094,
+                "global_rel_error_same_mesh": 1.3409771679667303e-05,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.0009875323755742804,
+                "global_rel_error_same_mesh": 2.226956855932076e-05,
+                "cg_iteration": -1
+            }
+        }
+    },
+    {
+        "framework": "jax",
+        "version": "G",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 444528,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.000984289605578122,
+                "global_rel_error_same_mesh": 1.9392635194258533e-05,
+                "cg_iteration": -1
+            },
+            "2": {
+                "global_rel_error_interp": 0.0009704677637243505,
+                "global_rel_error_same_mesh": 6.647084495615612e-06,
+                "cg_iteration": -1
+            },
+            "3": {
+                "global_rel_error_interp": 0.0009792755810090514,
+                "global_rel_error_same_mesh": 1.3128262056752817e-05,
+                "cg_iteration": -1
+            },
+            "4": {
+                "global_rel_error_interp": 0.0009769780656947737,
+                "global_rel_error_same_mesh": 1.739228420334503e-05,
+                "cg_iteration": -1
+            },
+            "5": {
+                "global_rel_error_interp": 0.0009640719238189073,
+                "global_rel_error_same_mesh": 1.1974617559031319e-05,
+                "cg_iteration": -1
+            },
+            "6": {
+                "global_rel_error_interp": 0.0009679363346198069,
+                "global_rel_error_same_mesh": 5.218726754485176e-06,
+                "cg_iteration": -1
+            }
+        }
+    }
+]

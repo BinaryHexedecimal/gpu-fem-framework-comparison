@@ -1,0 +1,33 @@
+\begin{table}[H]\centering\begin{tabular}{>{\centering\arraybackslash}m{1.35cm}|>{\centering\arraybackslash}m{1.0cm}>{\centering\arraybackslash}m{1.0cm}|>{\centering\arraybackslash}m{1.0cm}>{\centering\arraybackslash}m{1.0cm}|>{\centering\arraybackslash}m{1.0cm}>{\centering\arraybackslash}m{1.0cm}}
+\toprule
+ & \multicolumn{2}{|c}{gravity} & \multicolumn{2}{|c}{traction} & \multicolumn{2}{|c}{compression} \\
+ & B & G & B & G & B & G \\
+\midrule
+24\,576 & 1217 & 1200 & 1195 & 1171 & 1193 & 1167 \\
+63\,888 & 1227 & 1210 & 1233 & 1200 & 1223 & 1189 \\
+162\,000 & 1321 & 1255 & 1310 & 1136 & 1185 & 1143 \\
+444\,528 & 1701 & 1436 & 1686 & 1404 & 1686 & 1413 \\
+\bottomrule
+\end{tabular}\caption{Peak memory usage (MB) for different load types, computation variants and mesh sizes using \textbf{\textbf{PyTorch}} with \textbf{FP32} precision. Each value represents the maximum memory usage observed over the entire pipeline, including repeated precomputation and solver executions, and rendering via CPU.}\label{tab:pytorch_memory_fp32}\end{table}
+\begin{table}[H]\centering\begin{tabular}{>{\centering\arraybackslash}m{1.35cm}|>{\centering\arraybackslash}m{1.0cm}>{\centering\arraybackslash}m{1.0cm}|>{\centering\arraybackslash}m{1.0cm}>{\centering\arraybackslash}m{1.0cm}|>{\centering\arraybackslash}m{1.0cm}>{\centering\arraybackslash}m{1.0cm}}
+\toprule
+ & \multicolumn{2}{|c}{gravity} & \multicolumn{2}{|c}{traction} & \multicolumn{2}{|c}{compression} \\
+ & B & G & B & G & B & G \\
+\midrule
+24\,576 & 19091 & 19089 & 19084 & 19086 & 19086 & 19086 \\
+63\,888 & 19083 & 19087 & 19093 & 19074 & 19086 & 19075 \\
+162\,000 & 19085 & 19094 & 19099 & 19112 & 19076 & 19078 \\
+444\,528 & 19101 & 19103 & 19103 & 19102 & 19082 & 19084 \\
+\bottomrule
+\end{tabular}\caption{Peak memory usage (MB) for different load types, computation variants and mesh sizes using \textbf{\textbf{JAX}} with \textbf{FP32} precision. Each value represents the maximum memory usage observed over the entire pipeline, including repeated precomputation and solver executions, and rendering via CPU.}\label{tab:jax_memory_fp32}\end{table}
+\begin{table}[H]\centering\begin{tabular}{>{\centering\arraybackslash}m{1.35cm}|>{\centering\arraybackslash}m{1.0cm}>{\centering\arraybackslash}m{1.0cm}|>{\centering\arraybackslash}m{1.0cm}>{\centering\arraybackslash}m{1.0cm}|>{\centering\arraybackslash}m{1.0cm}>{\centering\arraybackslash}m{1.0cm}}
+\toprule
+ & \multicolumn{2}{|c}{gravity} & \multicolumn{2}{|c}{traction} & \multicolumn{2}{|c}{compression} \\
+ & B & G & B & G & B & G \\
+\midrule
+24\,576 & 1067 & 1038 & 1062 & 1078 & 1063 & 1072 \\
+63\,888 & 1099 & 1068 & 1082 & 1050 & 1084 & 1050 \\
+162\,000 & 1144 & 1048 & 1145 & 1072 & 1144 & 1077 \\
+444\,528 & 1220 & 1093 & 1294 & 1161 & 1288 & 1160 \\
+\bottomrule
+\end{tabular}\caption{Peak memory usage (MB) for different load types, computation variants and mesh sizes using \textbf{\textbf{Warp}} with \textbf{FP32} precision. Each value represents the maximum memory usage observed over the entire pipeline, including repeated precomputation and solver executions, and rendering via CPU.}\label{tab:warp_memory_fp32}\end{table}

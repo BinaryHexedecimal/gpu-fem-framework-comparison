@@ -1,0 +1,2450 @@
+[
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 24576,
+        "version": "K",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.7378884442150593,
+            "2": 0.015181659953668714,
+            "3": 0.04220410995185375,
+            "4": 0.013419267954304814,
+            "5": 0.012820780044421554,
+            "6": 0.03950033918954432,
+            "7": 0.013451919192448258,
+            "8": 0.01337115908972919
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.36276707192882895,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.3748505648691207
+            },
+            "2": {
+                "solve_stage_time": 0.05272739799693227,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.06657649902626872
+            },
+            "3": {
+                "solve_stage_time": 0.052799531957134604,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.06657173996791244
+            },
+            "4": {
+                "solve_stage_time": 0.04482441511936486,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.04986024205572903
+            },
+            "5": {
+                "solve_stage_time": 0.04450265411287546,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.049938598182052374
+            },
+            "6": {
+                "solve_stage_time": 0.04698240594007075,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.04992837901227176
+            },
+            "7": {
+                "solve_stage_time": 0.044644568813964725,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.04991483502089977
+            },
+            "8": {
+                "solve_stage_time": 0.04463011212646961,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.04992607515305281
+            }
+        },
+        "peak_mem": 19062
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 24576,
+        "version": "B",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.7327273718547076,
+            "2": 0.014037834014743567,
+            "3": 0.038853922160342336,
+            "4": 0.012424139073118567,
+            "5": 0.012410833965986967,
+            "6": 0.037085777847096324,
+            "7": 0.01244239299558103,
+            "8": 0.012464805040508509
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.40043514920398593,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.40792917809449136
+            },
+            "2": {
+                "solve_stage_time": 0.08456350001506507,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.09994130698032677
+            },
+            "3": {
+                "solve_stage_time": 0.07956980098970234,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.08317588805221021
+            },
+            "4": {
+                "solve_stage_time": 0.07642975612543523,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.08336358913220465
+            },
+            "5": {
+                "solve_stage_time": 0.07635637884959579,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.08345285593532026
+            },
+            "6": {
+                "solve_stage_time": 0.0760039200540632,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.08309642900712788
+            },
+            "7": {
+                "solve_stage_time": 0.07400075811892748,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.08330047107301652
+            },
+            "8": {
+                "solve_stage_time": 0.07861109008081257,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.08321421896107495
+            }
+        },
+        "peak_mem": 19064
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 24576,
+        "version": "G",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.4792991008143872,
+            "2": 0.014378299005329609,
+            "3": 0.04071047017350793,
+            "4": 0.01264001289382577,
+            "5": 0.012610306963324547,
+            "6": 0.012425922090187669,
+            "7": 0.04194245208054781,
+            "8": 0.011512696044519544
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.4750102190300822,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.49041465600021183
+            },
+            "2": {
+                "solve_stage_time": 0.059514367021620274,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.0665560110937804
+            },
+            "3": {
+                "solve_stage_time": 0.05906998715363443,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.06658353307284415
+            },
+            "4": {
+                "solve_stage_time": 0.05884289206005633,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.06666195904836059
+            },
+            "5": {
+                "solve_stage_time": 0.06345766317099333,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.06648246408440173
+            },
+            "6": {
+                "solve_stage_time": 0.06145947007462382,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.06678844499401748
+            },
+            "7": {
+                "solve_stage_time": 0.06151454383507371,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.06641255295835435
+            },
+            "8": {
+                "solve_stage_time": 0.06098215887323022,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.06660356000065804
+            }
+        },
+        "peak_mem": 19060
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 24576,
+        "version": "K",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.7279706147965044,
+            "2": 0.015525863040238619,
+            "3": 0.040243126917630434,
+            "4": 0.012875471962615848,
+            "5": 0.015948622953146696,
+            "6": 0.03811781597323716,
+            "7": 0.013216418912634254,
+            "8": 0.012634531827643514
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.48864241503179073,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.5016750709619373
+            },
+            "2": {
+                "solve_stage_time": 0.055211076978594065,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.06655222293920815
+            },
+            "3": {
+                "solve_stage_time": 0.050127119990065694,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.06661503086797893
+            },
+            "4": {
+                "solve_stage_time": 0.04458137112669647,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.049933868926018476
+            },
+            "5": {
+                "solve_stage_time": 0.04476436204276979,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.04993058298714459
+            },
+            "6": {
+                "solve_stage_time": 0.04499915102496743,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.049934941809624434
+            },
+            "7": {
+                "solve_stage_time": 0.04849295783787966,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.05007165693677962
+            },
+            "8": {
+                "solve_stage_time": 0.047686991980299354,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.049720932031050324
+            }
+        },
+        "peak_mem": 19054
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 24576,
+        "version": "B",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.7345273941755295,
+            "2": 0.014364744070917368,
+            "3": 0.04037260892800987,
+            "4": 0.012233061948791146,
+            "5": 0.011969319079071283,
+            "6": 0.03135675587691367,
+            "7": 0.01244188193231821,
+            "8": 0.012498467927798629
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.5131233469583094,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.5251663939561695
+            },
+            "2": {
+                "solve_stage_time": 0.08524888101965189,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.09989974903874099
+            },
+            "3": {
+                "solve_stage_time": 0.07532456098124385,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.08328734710812569
+            },
+            "4": {
+                "solve_stage_time": 0.08058300404809415,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.08321012114174664
+            },
+            "5": {
+                "solve_stage_time": 0.07946597691625357,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.0832364009693265
+            },
+            "6": {
+                "solve_stage_time": 0.07857333007268608,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.08345728390850127
+            },
+            "7": {
+                "solve_stage_time": 0.07646920997649431,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.08311154809780419
+            },
+            "8": {
+                "solve_stage_time": 0.07842948101460934,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.08327403105795383
+            }
+        },
+        "peak_mem": 19054
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 24576,
+        "version": "G",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.4863327199127525,
+            "2": 0.014053693041205406,
+            "3": 0.03612627601251006,
+            "4": 0.011980260023847222,
+            "5": 0.011974137974902987,
+            "6": 0.012197937117889524,
+            "7": 0.03535003587603569,
+            "8": 0.012501694029197097
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.5942323431372643,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.6065716440789402
+            },
+            "2": {
+                "solve_stage_time": 0.07147295610047877,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.08321520104072988
+            },
+            "3": {
+                "solve_stage_time": 0.0710088589694351,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.0833321891259402
+            },
+            "4": {
+                "solve_stage_time": 0.06239744299091399,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.06651110807433724
+            },
+            "5": {
+                "solve_stage_time": 0.06236417987383902,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.06660243682563305
+            },
+            "6": {
+                "solve_stage_time": 0.061576398089528084,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.06660765688866377
+            },
+            "7": {
+                "solve_stage_time": 0.06267148396000266,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.06660332879982889
+            },
+            "8": {
+                "solve_stage_time": 0.06350361788645387,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.06659638602286577
+            }
+        },
+        "peak_mem": 19053
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 24576,
+        "version": "K",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.7699312691111118,
+            "2": 0.01741700596176088,
+            "3": 0.04504619911313057,
+            "4": 0.015827096067368984,
+            "5": 0.0155810269061476,
+            "6": 0.05049361498095095,
+            "7": 0.014549488900229335,
+            "8": 0.015117421047762036
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.4664975970517844,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.4743968730326742
+            },
+            "2": {
+                "solve_stage_time": 0.027038680156692863,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.03322334308177233
+            },
+            "3": {
+                "solve_stage_time": 0.02644455013796687,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.03322967514395714
+            },
+            "4": {
+                "solve_stage_time": 0.026347328908741474,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.03319886792451143
+            },
+            "5": {
+                "solve_stage_time": 0.026153115089982748,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.03319298615679145
+            },
+            "6": {
+                "solve_stage_time": 0.02546517993323505,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.03324562497437
+            },
+            "7": {
+                "solve_stage_time": 0.021675691939890385,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.03324432298541069
+            },
+            "8": {
+                "solve_stage_time": 0.02178153907880187,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.033261795062571764
+            }
+        },
+        "peak_mem": 19061
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 24576,
+        "version": "B",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.8016346131917089,
+            "2": 0.01573635684326291,
+            "3": 0.047154336934909225,
+            "4": 0.014361367793753743,
+            "5": 0.014104057103395462,
+            "6": 0.05080887395888567,
+            "7": 0.013430798891931772,
+            "8": 0.01351230195723474
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.46747987112030387,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.4733014260418713
+            },
+            "2": {
+                "solve_stage_time": 0.04141538590192795,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.049888885114341974
+            },
+            "3": {
+                "solve_stage_time": 0.0392904169857502,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.04992627492174506
+            },
+            "4": {
+                "solve_stage_time": 0.03914904315024614,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.0499112771358341
+            },
+            "5": {
+                "solve_stage_time": 0.039072530111297965,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.04992135590873659
+            },
+            "6": {
+                "solve_stage_time": 0.03558954410254955,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.04993697511963546
+            },
+            "7": {
+                "solve_stage_time": 0.03570647188462317,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.049895417876541615
+            },
+            "8": {
+                "solve_stage_time": 0.035611473955214024,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.049918441101908684
+            }
+        },
+        "peak_mem": 19053
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 24576,
+        "version": "G",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.5466652249451727,
+            "2": 0.016439910978078842,
+            "3": 0.045642813201993704,
+            "4": 0.014502592151984572,
+            "5": 0.01491269818507135,
+            "6": 0.01417149300687015,
+            "7": 0.045574847143143415,
+            "8": 0.014135265024378896
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.5549800370354205,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.57149413600564
+            },
+            "2": {
+                "solve_stage_time": 0.0321448789909482,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.03349245595745742
+            },
+            "3": {
+                "solve_stage_time": 0.030642172088846564,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.032977885100990534
+            },
+            "4": {
+                "solve_stage_time": 0.030508733121678233,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.03323975414969027
+            },
+            "5": {
+                "solve_stage_time": 0.0309633519500494,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.03325296891853213
+            },
+            "6": {
+                "solve_stage_time": 0.03084577200934291,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.03324598493054509
+            },
+            "7": {
+                "solve_stage_time": 0.030484155984595418,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.0331926760263741
+            },
+            "8": {
+                "solve_stage_time": 0.03019749093800783,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.033245103899389505
+            }
+        },
+        "peak_mem": 19068
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 63888,
+        "version": "K",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.7710715490393341,
+            "2": 0.05872353003360331,
+            "3": 0.05824060714803636,
+            "4": 0.059851997066289186,
+            "5": 0.05745527008548379,
+            "6": 0.06038452195934951,
+            "7": 0.03347847983241081,
+            "8": 0.055840885033831
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.4971892300527543,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.5072622471489012
+            },
+            "2": {
+                "solve_stage_time": 0.15623005689121783,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.16665226686745882
+            },
+            "3": {
+                "solve_stage_time": 0.1560238420497626,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.1666976308915764
+            },
+            "4": {
+                "solve_stage_time": 0.155992774059996,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.1669281821232289
+            },
+            "5": {
+                "solve_stage_time": 0.15530206402763724,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.1664407909847796
+            },
+            "6": {
+                "solve_stage_time": 0.15608546696603298,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.16668427595868707
+            },
+            "7": {
+                "solve_stage_time": 0.15638289297930896,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.16667957790195942
+            },
+            "8": {
+                "solve_stage_time": 0.15639957413077354,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.1667077699676156
+            }
+        },
+        "peak_mem": 19030
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 63888,
+        "version": "B",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.7775403331033885,
+            "2": 0.07066960516385734,
+            "3": 0.05753026995807886,
+            "4": 0.055710169952362776,
+            "5": 0.0576118528842926,
+            "6": 0.06062955898232758,
+            "7": 0.030155912972986698,
+            "8": 0.05803149612620473
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.6015576859936118,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.6059733650181442
+            },
+            "2": {
+                "solve_stage_time": 0.19476707698777318,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.19994276599027216
+            },
+            "3": {
+                "solve_stage_time": 0.19428638904355466,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.20004564803093672
+            },
+            "4": {
+                "solve_stage_time": 0.19441725290380418,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.20003284304402769
+            },
+            "5": {
+                "solve_stage_time": 0.19920631917193532,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.2016490320675075
+            },
+            "6": {
+                "solve_stage_time": 0.20376555621623993,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.21511946618556976
+            },
+            "7": {
+                "solve_stage_time": 0.19386881892569363,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.20002979785203934
+            },
+            "8": {
+                "solve_stage_time": 0.19971935800276697,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.21673227893188596
+            }
+        },
+        "peak_mem": 19057
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 63888,
+        "version": "G",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.5012191280256957,
+            "2": 0.057278409134596586,
+            "3": 0.05518547003157437,
+            "4": 0.05574090708978474,
+            "5": 0.057392212096601725,
+            "6": 0.029452389106154442,
+            "7": 0.05602168198674917,
+            "8": 0.052713301964104176
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.578850727993995,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.5891174969729036
+            },
+            "2": {
+                "solve_stage_time": 0.12527527194470167,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.13329485291615129
+            },
+            "3": {
+                "solve_stage_time": 0.12179896701127291,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.13332319515757263
+            },
+            "4": {
+                "solve_stage_time": 0.1207950219977647,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.1333233560435474
+            },
+            "5": {
+                "solve_stage_time": 0.1324026759248227,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.13481808779761195
+            },
+            "6": {
+                "solve_stage_time": 0.1273542051203549,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.13181609008461237
+            },
+            "7": {
+                "solve_stage_time": 0.12140947114676237,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.13331917906180024
+            },
+            "8": {
+                "solve_stage_time": 0.12181876506656408,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.13338734512217343
+            }
+        },
+        "peak_mem": 19054
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 63888,
+        "version": "K",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.7904142609331757,
+            "2": 0.061925980960950255,
+            "3": 0.06096446514129639,
+            "4": 0.06508902995847166,
+            "5": 0.06372485193423927,
+            "6": 0.07341648684814572,
+            "7": 0.03414660785347223,
+            "8": 0.06412676186300814
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.6448545071762055,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.6565977439749986
+            },
+            "2": {
+                "solve_stage_time": 0.16290304204449058,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.16668876400217414
+            },
+            "3": {
+                "solve_stage_time": 0.16929991194047034,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.18328932486474514
+            },
+            "4": {
+                "solve_stage_time": 0.1717567618470639,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.18335850490257144
+            },
+            "5": {
+                "solve_stage_time": 0.17471095104701817,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.18332902994006872
+            },
+            "6": {
+                "solve_stage_time": 0.17297798302024603,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.18336483696475625
+            },
+            "7": {
+                "solve_stage_time": 0.17329121800139546,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.18336372403427958
+            },
+            "8": {
+                "solve_stage_time": 0.17233765707351267,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.18332898896187544
+            }
+        },
+        "peak_mem": 19057
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 63888,
+        "version": "B",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.7609173390083015,
+            "2": 0.05710358312353492,
+            "3": 0.053878759033977985,
+            "4": 0.06030652695335448,
+            "5": 0.05645099398680031,
+            "6": 0.06064755283296108,
+            "7": 0.03238783194683492,
+            "8": 0.05401036492548883
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.7514832559973001,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.7546829730272293
+            },
+            "2": {
+                "solve_stage_time": 0.21287324908189476,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.21547763515263796
+            },
+            "3": {
+                "solve_stage_time": 0.21021909220144153,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.2158620930276811
+            },
+            "4": {
+                "solve_stage_time": 0.20216968515887856,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.2167281610891223
+            },
+            "5": {
+                "solve_stage_time": 0.2161430181004107,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.2186520651448518
+            },
+            "6": {
+                "solve_stage_time": 0.2108576949685812,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.21471987897530198
+            },
+            "7": {
+                "solve_stage_time": 0.2105795161332935,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.21672386419959366
+            },
+            "8": {
+                "solve_stage_time": 0.20831256988458335,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.2169178759213537
+            }
+        },
+        "peak_mem": 19048
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 63888,
+        "version": "G",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.5102360709570348,
+            "2": 0.05547813605517149,
+            "3": 0.054090745048597455,
+            "4": 0.05243058386258781,
+            "5": 0.055453249951824546,
+            "6": 0.0294698819052428,
+            "7": 0.05327371787279844,
+            "8": 0.05237370799295604
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.7169029170181602,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.7241182560101151
+            },
+            "2": {
+                "solve_stage_time": 0.13683830201625824,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.1499905011150986
+            },
+            "3": {
+                "solve_stage_time": 0.12831472884863615,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.13329998194240034
+            },
+            "4": {
+                "solve_stage_time": 0.13373891217634082,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.15001441608183086
+            },
+            "5": {
+                "solve_stage_time": 0.1328276500571519,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.14997147605754435
+            },
+            "6": {
+                "solve_stage_time": 0.12898894888348877,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.13328550499863923
+            },
+            "7": {
+                "solve_stage_time": 0.1291422750800848,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.1333073559217155
+            },
+            "8": {
+                "solve_stage_time": 0.12899543112143874,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.1333099810872227
+            }
+        },
+        "peak_mem": 19040
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 63888,
+        "version": "K",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.8536751251667738,
+            "2": 0.06319796689786017,
+            "3": 0.0628837610129267,
+            "4": 0.060705021023750305,
+            "5": 0.06352499802596867,
+            "6": 0.0659741738345474,
+            "7": 0.0353590720333159,
+            "8": 0.06065549817867577
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.5573569859843701,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.5736404138151556
+            },
+            "2": {
+                "solve_stage_time": 0.08865990210324526,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.10001337109133601
+            },
+            "3": {
+                "solve_stage_time": 0.08935659402050078,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.0999112999998033
+            },
+            "4": {
+                "solve_stage_time": 0.0885465198662132,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.09996101283468306
+            },
+            "5": {
+                "solve_stage_time": 0.08870521700009704,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.0999726050067693
+            },
+            "6": {
+                "solve_stage_time": 0.08883742382749915,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.10015297192148864
+            },
+            "7": {
+                "solve_stage_time": 0.08878464507870376,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.09970957296900451
+            },
+            "8": {
+                "solve_stage_time": 0.0888788909651339,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.09996512997895479
+            }
+        },
+        "peak_mem": 19053
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 63888,
+        "version": "B",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.8397380500100553,
+            "2": 0.06532840710133314,
+            "3": 0.05930569698102772,
+            "4": 0.05454051494598389,
+            "5": 0.05954540381208062,
+            "6": 0.06455621495842934,
+            "7": 0.03237923700362444,
+            "8": 0.05954335117712617
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.6433647628873587,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.6532651979941875
+            },
+            "2": {
+                "solve_stage_time": 0.12074440810829401,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.13321034517139196
+            },
+            "3": {
+                "solve_stage_time": 0.115375337889418,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.11793960793875158
+            },
+            "4": {
+                "solve_stage_time": 0.11872192891314626,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.1320371029432863
+            },
+            "5": {
+                "solve_stage_time": 0.11233175289817154,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.11662421096116304
+            },
+            "6": {
+                "solve_stage_time": 0.11448412318713963,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.11685381014831364
+            },
+            "7": {
+                "solve_stage_time": 0.11358695686794817,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.11641061096452177
+            },
+            "8": {
+                "solve_stage_time": 0.1130849290639162,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.11672484898008406
+            }
+        },
+        "peak_mem": 19054
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 63888,
+        "version": "G",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.5829764839727432,
+            "2": 0.062855628086254,
+            "3": 0.05862173903733492,
+            "4": 0.05887921992689371,
+            "5": 0.06022386183030903,
+            "6": 0.03125150897540152,
+            "7": 0.05601486889645457,
+            "8": 0.058185182977467775
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.6553133230190724,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.6589488449972123
+            },
+            "2": {
+                "solve_stage_time": 0.0796493801753968,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.08211686904542148
+            },
+            "3": {
+                "solve_stage_time": 0.07017315807752311,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.08215560205280781
+            },
+            "4": {
+                "solve_stage_time": 0.07452312298119068,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.08327028388157487
+            },
+            "5": {
+                "solve_stage_time": 0.07337862509302795,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.08325427398085594
+            },
+            "6": {
+                "solve_stage_time": 0.07122946111485362,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.08328290702775121
+            },
+            "7": {
+                "solve_stage_time": 0.07066058809868991,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.08325835107825696
+            },
+            "8": {
+                "solve_stage_time": 0.07623360911384225,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.08318485412746668
+            }
+        },
+        "peak_mem": 19045
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 162000,
+        "version": "K",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.8862841699738055,
+            "2": 0.15656858892180026,
+            "3": 0.14735233201645315,
+            "4": 0.146277534076944,
+            "5": 0.1377843387890607,
+            "6": 0.13785358890891075,
+            "7": 0.13976598111912608,
+            "8": 0.1698793249670416
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.9043474120553583,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.9150537829846144
+            },
+            "2": {
+                "solve_stage_time": 0.569473969982937,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.583747664000839
+            },
+            "3": {
+                "solve_stage_time": 0.5426680950913578,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.5500843690242618
+            },
+            "4": {
+                "solve_stage_time": 0.5537838398013264,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.5669476909097284
+            },
+            "5": {
+                "solve_stage_time": 0.5271882270462811,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.5335847961250693
+            },
+            "6": {
+                "solve_stage_time": 0.5271308999508619,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.5336599769070745
+            },
+            "7": {
+                "solve_stage_time": 0.5265381229110062,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.5336308619007468
+            },
+            "8": {
+                "solve_stage_time": 0.5295453609433025,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.5336061059497297
+            }
+        },
+        "peak_mem": 19112
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 162000,
+        "version": "B",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.9060380598530173,
+            "2": 0.14720218209549785,
+            "3": 0.14489299803972244,
+            "4": 0.1429994609206915,
+            "5": 0.1331068710424006,
+            "6": 0.12918590707704425,
+            "7": 0.1363001260906458,
+            "8": 0.1399057221133262
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 1.439538539154455,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 1.4484349379781634
+            },
+            "2": {
+                "solve_stage_time": 1.0432060279417783,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 1.0507231899537146
+            },
+            "3": {
+                "solve_stage_time": 1.0479733331594616,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 1.0521298272069544
+            },
+            "4": {
+                "solve_stage_time": 1.0471524689346552,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 1.0512509648688138
+            },
+            "5": {
+                "solve_stage_time": 1.0473356710281223,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 1.051438194932416
+            },
+            "6": {
+                "solve_stage_time": 1.0401291190646589,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 1.0481041970197111
+            },
+            "7": {
+                "solve_stage_time": 1.0392461600713432,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 1.0507418951019645
+            },
+            "8": {
+                "solve_stage_time": 1.0709319300949574,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 1.0840568481944501
+            }
+        },
+        "peak_mem": 19115
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 162000,
+        "version": "G",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.6230527870357037,
+            "2": 0.14699641685001552,
+            "3": 0.14037173194810748,
+            "4": 0.1505449558608234,
+            "5": 0.13210349599830806,
+            "6": 0.13812921289354563,
+            "7": 0.12763965805061162,
+            "8": 0.13365186913870275
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.6730620882008225,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.6860315550584346
+            },
+            "2": {
+                "solve_stage_time": 0.21816351194866002,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.23335723392665386
+            },
+            "3": {
+                "solve_stage_time": 0.2182642489206046,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.23339284001849592
+            },
+            "4": {
+                "solve_stage_time": 0.21814782195724547,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.2333544788416475
+            },
+            "5": {
+                "solve_stage_time": 0.2182440620381385,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.23335590213537216
+            },
+            "6": {
+                "solve_stage_time": 0.21833199611864984,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.23337915493175387
+            },
+            "7": {
+                "solve_stage_time": 0.2182634079363197,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.23338162899017334
+            },
+            "8": {
+                "solve_stage_time": 0.2260571368969977,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.23333733691833913
+            }
+        },
+        "peak_mem": 19113
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 162000,
+        "version": "K",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.889708423987031,
+            "2": 0.1631299559958279,
+            "3": 0.1557974680326879,
+            "4": 0.15494686900638044,
+            "5": 0.14940271293744445,
+            "6": 0.14758973591960967,
+            "7": 0.16404108703136444,
+            "8": 0.1390420279931277
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 1.0093590680044144,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 1.0202620651107281
+            },
+            "2": {
+                "solve_stage_time": 0.5580580020323396,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.5669821330811828
+            },
+            "3": {
+                "solve_stage_time": 0.5476946840062737,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.5517437080852687
+            },
+            "4": {
+                "solve_stage_time": 0.5463584470562637,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.5507028931751847
+            },
+            "5": {
+                "solve_stage_time": 0.5459692410659045,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.5500797191634774
+            },
+            "6": {
+                "solve_stage_time": 0.5438618930056691,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.5486326450482011
+            },
+            "7": {
+                "solve_stage_time": 0.5452393470332026,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.550378035986796
+            },
+            "8": {
+                "solve_stage_time": 0.5463423777837306,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.5506886569783092
+            }
+        },
+        "peak_mem": 19119
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 162000,
+        "version": "B",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.9062509259674698,
+            "2": 0.1352487620897591,
+            "3": 0.13956815097481012,
+            "4": 0.13418684899806976,
+            "5": 0.13145371293649077,
+            "6": 0.13495798921212554,
+            "7": 0.13669504295103252,
+            "8": 0.13108121696859598
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 1.5828011769335717,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 1.5887215971015394
+            },
+            "2": {
+                "solve_stage_time": 1.0619727419689298,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 1.0664430130273104
+            },
+            "3": {
+                "solve_stage_time": 1.0772725529968739,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 1.0830700730439276
+            },
+            "4": {
+                "solve_stage_time": 1.063654783880338,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 1.0680721260141581
+            },
+            "5": {
+                "solve_stage_time": 1.0677641509100795,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 1.0833647139370441
+            },
+            "6": {
+                "solve_stage_time": 1.066551374970004,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 1.0709880830254406
+            },
+            "7": {
+                "solve_stage_time": 1.067200668156147,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 1.0804353510029614
+            },
+            "8": {
+                "solve_stage_time": 1.0743933750782162,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 1.084022002061829
+            }
+        },
+        "peak_mem": 19116
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 162000,
+        "version": "G",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.6501905499026179,
+            "2": 0.16193019412457943,
+            "3": 0.1539791210088879,
+            "4": 0.13834760105237365,
+            "5": 0.1337766218930483,
+            "6": 0.13545169099234045,
+            "7": 0.1337412861175835,
+            "8": 0.12675872212275863
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.7963017339352518,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.8031362509354949
+            },
+            "2": {
+                "solve_stage_time": 0.23256252892315388,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.23708823299966753
+            },
+            "3": {
+                "solve_stage_time": 0.2319026158656925,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.24636494182050228
+            },
+            "4": {
+                "solve_stage_time": 0.2319616370368749,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.23628873005509377
+            },
+            "5": {
+                "solve_stage_time": 0.23202241002582014,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.24718938302248716
+            },
+            "6": {
+                "solve_stage_time": 0.23225475405342877,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.23658442217856646
+            },
+            "7": {
+                "solve_stage_time": 0.2316196681931615,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.2470506641548127
+            },
+            "8": {
+                "solve_stage_time": 0.23243676382116973,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.23684106185100973
+            }
+        },
+        "peak_mem": 19115
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 162000,
+        "version": "K",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.9669008820783347,
+            "2": 0.16791250905953348,
+            "3": 0.15631099697202444,
+            "4": 0.14693926996551454,
+            "5": 0.159288358874619,
+            "6": 0.14808110403828323,
+            "7": 0.14857164002023637,
+            "8": 0.14858826086856425
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.748431839980185,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.7545499189291149
+            },
+            "2": {
+                "solve_stage_time": 0.2919973968528211,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.2982740818988532
+            },
+            "3": {
+                "solve_stage_time": 0.29072065092623234,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.30004319595173
+            },
+            "4": {
+                "solve_stage_time": 0.2940390210133046,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.300106565002352
+            },
+            "5": {
+                "solve_stage_time": 0.29040367901325226,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.3001256608404219
+            },
+            "6": {
+                "solve_stage_time": 0.29018812580034137,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.30008290987461805
+            },
+            "7": {
+                "solve_stage_time": 0.28892775205895305,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.3001158321276307
+            },
+            "8": {
+                "solve_stage_time": 0.2895164918154478,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.3001087389420718
+            }
+        },
+        "peak_mem": 19119
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 162000,
+        "version": "B",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.9616063111461699,
+            "2": 0.14201500196941197,
+            "3": 0.1389457678887993,
+            "4": 0.13506244285963476,
+            "5": 0.13931624917313457,
+            "6": 0.13110979995690286,
+            "7": 0.131825165823102,
+            "8": 0.13171480991877615
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 1.0797712488565594,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 1.08602071297355
+            },
+            "2": {
+                "solve_stage_time": 0.5558196799829602,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.5670469140168279
+            },
+            "3": {
+                "solve_stage_time": 0.5574946091510355,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.5669960281811655
+            },
+            "4": {
+                "solve_stage_time": 0.5570099840406328,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.566992481937632
+            },
+            "5": {
+                "solve_stage_time": 0.5550208881031722,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.5670661390759051
+            },
+            "6": {
+                "solve_stage_time": 0.5563717810437083,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.5669301240704954
+            },
+            "7": {
+                "solve_stage_time": 0.5551826499868184,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.5669875219464302
+            },
+            "8": {
+                "solve_stage_time": 0.5573489160742611,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.5669962780084461
+            }
+        },
+        "peak_mem": 19115
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 162000,
+        "version": "G",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.7102392229717225,
+            "2": 0.1576735619455576,
+            "3": 0.1448822368402034,
+            "4": 0.14376374916173518,
+            "5": 0.14993942505680025,
+            "6": 0.1428391512017697,
+            "7": 0.1419933510478586,
+            "8": 0.1403970888350159
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 0.694997580954805,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.7031994629651308
+            },
+            "2": {
+                "solve_stage_time": 0.13626319682225585,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.14991689193993807
+            },
+            "3": {
+                "solve_stage_time": 0.12915955716744065,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.13324209302663803
+            },
+            "4": {
+                "solve_stage_time": 0.1279411599971354,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.13340316386893392
+            },
+            "5": {
+                "solve_stage_time": 0.12950335908681154,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.1335991199593991
+            },
+            "6": {
+                "solve_stage_time": 0.12820132705383003,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.13289585593156517
+            },
+            "7": {
+                "solve_stage_time": 0.12837083404883742,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.13335541496053338
+            },
+            "8": {
+                "solve_stage_time": 0.12939054798334837,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.13381359004415572
+            }
+        },
+        "peak_mem": 19104
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 444528,
+        "version": "K",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 1.2803573419805616,
+            "2": 0.4553939891047776,
+            "3": 0.45039917808026075,
+            "4": 0.41838886216282845,
+            "5": 0.436506335856393,
+            "6": 0.4305995211470872,
+            "7": 0.4703779290430248,
+            "8": 0.38680996000766754
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 2.242371201980859,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 2.2551101688295603
+            },
+            "2": {
+                "solve_stage_time": 1.8830333210062236,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 1.8943572039715946
+            },
+            "3": {
+                "solve_stage_time": 1.882552282186225,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 1.891086023999378
+            },
+            "4": {
+                "solve_stage_time": 1.881517720175907,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 1.8950727710034698
+            },
+            "5": {
+                "solve_stage_time": 1.8898792990949005,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 1.9013970450032502
+            },
+            "6": {
+                "solve_stage_time": 1.88547010300681,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 1.9013846009038389
+            },
+            "7": {
+                "solve_stage_time": 1.8883802290074527,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 1.9013887299224734
+            },
+            "8": {
+                "solve_stage_time": 1.8861678747925907,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 1.901413043960929
+            }
+        },
+        "peak_mem": 19126
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 444528,
+        "version": "B",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 1.2265687100589275,
+            "2": 0.4365412809420377,
+            "3": 0.44687129789963365,
+            "4": 0.401045641861856,
+            "5": 0.41270361095666885,
+            "6": 0.422878447920084,
+            "7": 0.4682604030240327,
+            "8": 0.4395533772185445
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 4.287754914956167,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 4.301752141909674
+            },
+            "2": {
+                "solve_stage_time": 3.8661530101671815,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 3.88175734016113
+            },
+            "3": {
+                "solve_stage_time": 3.873435983899981,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 3.8863561898469925
+            },
+            "4": {
+                "solve_stage_time": 3.867522659013048,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 3.87609028397128
+            },
+            "5": {
+                "solve_stage_time": 3.8682250599376857,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 3.8800092639867216
+            },
+            "6": {
+                "solve_stage_time": 3.8642382728867233,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 3.8727980728726834
+            },
+            "7": {
+                "solve_stage_time": 3.865399311063811,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 3.8739265899639577
+            },
+            "8": {
+                "solve_stage_time": 3.866099478909746,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 3.8790799069684
+            }
+        },
+        "peak_mem": 19115
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 444528,
+        "version": "G",
+        "load": "gravity",
+        "precompute_runs": {
+            "1": 0.9586967800278217,
+            "2": 0.44595922296866775,
+            "3": 0.46427579899318516,
+            "4": 0.3809727549087256,
+            "5": 0.4439736641943455,
+            "6": 0.39702780707739294,
+            "7": 0.45952906203456223,
+            "8": 0.3872742869425565
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 1.2627376930322498,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 1.278234862955287
+            },
+            "2": {
+                "solve_stage_time": 0.8153582171071321,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.824646107153967
+            },
+            "3": {
+                "solve_stage_time": 0.8368985559791327,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.8455164050683379
+            },
+            "4": {
+                "solve_stage_time": 0.8151775600854307,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.8312490219250321
+            },
+            "5": {
+                "solve_stage_time": 0.8187109711579978,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.8339027401525527
+            },
+            "6": {
+                "solve_stage_time": 0.817615264095366,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.8338046059943736
+            },
+            "7": {
+                "solve_stage_time": 0.823315171059221,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.8338405729737133
+            },
+            "8": {
+                "solve_stage_time": 0.8172107879072428,
+                "iterations": 0,
+                "force": 0.05,
+                "first_frame_latency": 0.8338530969340354
+            }
+        },
+        "peak_mem": 19119
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 444528,
+        "version": "K",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 1.2425362460780889,
+            "2": 0.4527370138093829,
+            "3": 0.45652296603657305,
+            "4": 0.4148823998402804,
+            "5": 0.4245483560953289,
+            "6": 0.42276862100698054,
+            "7": 0.47543481388129294,
+            "8": 0.40338101400993764
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 2.4180987998843193,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 2.431181208929047
+            },
+            "2": {
+                "solve_stage_time": 1.9266621640417725,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 1.9354001269675791
+            },
+            "3": {
+                "solve_stage_time": 1.9271945480722934,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 1.9358995689544827
+            },
+            "4": {
+                "solve_stage_time": 1.9347040369175375,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 1.947679815813899
+            },
+            "5": {
+                "solve_stage_time": 1.927386075956747,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 1.9360461230389774
+            },
+            "6": {
+                "solve_stage_time": 1.927543219877407,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 1.9363605009857565
+            },
+            "7": {
+                "solve_stage_time": 1.9262692390475422,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 1.9350589390378445
+            },
+            "8": {
+                "solve_stage_time": 1.9251357421744615,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 1.933853326132521
+            }
+        },
+        "peak_mem": 19115
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 444528,
+        "version": "B",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 1.2337957960553467,
+            "2": 0.4557788451202214,
+            "3": 0.46464537899009883,
+            "4": 0.3931606418918818,
+            "5": 0.43028106400743127,
+            "6": 0.4172632659319788,
+            "7": 0.4464703968260437,
+            "8": 0.4724747738800943
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 4.498788658995181,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 4.5146370839793235
+            },
+            "2": {
+                "solve_stage_time": 3.952412113081664,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 3.9697582761291414
+            },
+            "3": {
+                "solve_stage_time": 3.9375721500255167,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 3.9528710190206766
+            },
+            "4": {
+                "solve_stage_time": 4.0133783088531345,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 4.021973394788802
+            },
+            "5": {
+                "solve_stage_time": 3.9582930968608707,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 3.9675781519617885
+            },
+            "6": {
+                "solve_stage_time": 4.015845245914534,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 4.024475056910887
+            },
+            "7": {
+                "solve_stage_time": 3.9407739599701017,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 3.9493901149835438
+            },
+            "8": {
+                "solve_stage_time": 3.9609258340205997,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 3.969676932087168
+            }
+        },
+        "peak_mem": 19126
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 444528,
+        "version": "G",
+        "load": "traction",
+        "precompute_runs": {
+            "1": 0.9264113269746304,
+            "2": 0.42710903915576637,
+            "3": 0.4177397459279746,
+            "4": 0.37182044703513384,
+            "5": 0.46520514297299087,
+            "6": 0.38136202096939087,
+            "7": 0.4608215349726379,
+            "8": 0.36852227593772113
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 1.4773427511099726,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 1.494342777179554
+            },
+            "2": {
+                "solve_stage_time": 0.8680098098702729,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.8838366048876196
+            },
+            "3": {
+                "solve_stage_time": 0.8576612891629338,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.8671077750623226
+            },
+            "4": {
+                "solve_stage_time": 0.8816578260157257,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.8903312981128693
+            },
+            "5": {
+                "solve_stage_time": 0.8892011570278555,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.8977092099376023
+            },
+            "6": {
+                "solve_stage_time": 0.8685939109418541,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.8803798279259354
+            },
+            "7": {
+                "solve_stage_time": 0.859864384168759,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.8683069450780749
+            },
+            "8": {
+                "solve_stage_time": 0.8585654678754508,
+                "iterations": 0,
+                "force": 0.1,
+                "first_frame_latency": 0.8670157929882407
+            }
+        },
+        "peak_mem": 19107
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 444528,
+        "version": "K",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 1.3468581789638847,
+            "2": 0.45240188599564135,
+            "3": 0.4520062569063157,
+            "4": 0.41559132211841643,
+            "5": 0.4226734230760485,
+            "6": 0.46657505189068615,
+            "7": 0.4398075689096004,
+            "8": 0.40406053187325597
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 1.4971808090340346,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 1.51106216898188
+            },
+            "2": {
+                "solve_stage_time": 1.01905802404508,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 1.0340290509629995
+            },
+            "3": {
+                "solve_stage_time": 1.0184207239653915,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 1.0341098618227988
+            },
+            "4": {
+                "solve_stage_time": 1.0356726709287614,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 1.0505094570107758
+            },
+            "5": {
+                "solve_stage_time": 1.0475690639577806,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 1.0560866659507155
+            },
+            "6": {
+                "solve_stage_time": 1.0455976319499314,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 1.0621796168852597
+            },
+            "7": {
+                "solve_stage_time": 1.0264074229635298,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 1.0349252249579877
+            },
+            "8": {
+                "solve_stage_time": 1.0237423339858651,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 1.032945676939562
+            }
+        },
+        "peak_mem": 19096
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 444528,
+        "version": "B",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 1.3149421270936728,
+            "2": 0.4373532941099256,
+            "3": 0.4257054759655148,
+            "4": 0.3819128591567278,
+            "5": 0.4028804979752749,
+            "6": 0.4498161158990115,
+            "7": 0.44010223005898297,
+            "8": 0.3963600981514901
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 2.6208889719564468,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 2.633748974883929
+            },
+            "2": {
+                "solve_stage_time": 2.069807928055525,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 2.0811135780531913
+            },
+            "3": {
+                "solve_stage_time": 2.061815687920898,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 2.0704714378807694
+            },
+            "4": {
+                "solve_stage_time": 2.058929106919095,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 2.067485901992768
+            },
+            "5": {
+                "solve_stage_time": 2.0615251059643924,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 2.070028250105679
+            },
+            "6": {
+                "solve_stage_time": 2.062927225138992,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 2.0715028340928257
+            },
+            "7": {
+                "solve_stage_time": 2.0996857609134167,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 2.111584127880633
+            },
+            "8": {
+                "solve_stage_time": 2.1247870719525963,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 2.134922033874318
+            }
+        },
+        "peak_mem": 19109
+    },
+    {
+        "framework": "jax",
+        "dtype": "fp64",
+        "n_elems": 444528,
+        "version": "G",
+        "load": "compression",
+        "precompute_runs": {
+            "1": 0.9899867670610547,
+            "2": 0.4271111108828336,
+            "3": 0.43093567597679794,
+            "4": 0.3823152710683644,
+            "5": 0.4548002160154283,
+            "6": 0.3925156651530415,
+            "7": 0.4109994841273874,
+            "8": 0.4008907109964639
+        },
+        "interactive_runs": {
+            "1": {
+                "solve_stage_time": 1.0456901229918003,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 1.061454270966351
+            },
+            "2": {
+                "solve_stage_time": 0.46309845708310604,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.4717339479830116
+            },
+            "3": {
+                "solve_stage_time": 0.46201617480255663,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.4786128189880401
+            },
+            "4": {
+                "solve_stage_time": 0.462263316847384,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.47104698582552373
+            },
+            "5": {
+                "solve_stage_time": 0.4614397690165788,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.470098583959043
+            },
+            "6": {
+                "solve_stage_time": 0.46167217195034027,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.476171487942338
+            },
+            "7": {
+                "solve_stage_time": 0.46124198008328676,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.4697928430978209
+            },
+            "8": {
+                "solve_stage_time": 0.46156330895610154,
+                "iterations": 0,
+                "force": -20.0,
+                "first_frame_latency": 0.4701996420044452
+            }
+        },
+        "peak_mem": 19076
+    }
+]

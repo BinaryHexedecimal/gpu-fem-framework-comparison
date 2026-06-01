@@ -1,0 +1,39 @@
+\begin{table}[H]\centering\begin{tabular}{>{\centering\arraybackslash}m{1.2cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}}
+\toprule
+elements & \multicolumn{3}{|c}{gravity} & \multicolumn{3}{|c}{traction} & \multicolumn{3}{|c}{compression} \\
+ & K & B & G & K & B & G & K & B & G \\
+\midrule
+24\,576 & \makecell{0.022\\[-4pt](0.022)} & \makecell{0.021\\[-4pt](0.025)} & \makecell{0.020\\[-4pt](0.023)} & \makecell{0.023\\[-4pt](0.024)} & \makecell{0.021\\[-4pt](0.024)} & \makecell{0.021\\[-4pt](0.025)} & \makecell{0.022\\[-4pt](0.023)} & \makecell{0.020\\[-4pt](0.022)} & \makecell{0.020\\[-4pt](0.023)} \\
+63\,888 & \makecell{0.077\\[-4pt](0.030)} & \makecell{0.090\\[-4pt](0.027)} & \makecell{0.090\\[-4pt](0.026)} & \makecell{0.082\\[-4pt](0.032)} & \makecell{0.086\\[-4pt](0.026)} & \makecell{0.084\\[-4pt](0.024)} & \makecell{0.083\\[-4pt](0.033)} & \makecell{0.085\\[-4pt](0.024)} & \makecell{0.082\\[-4pt](0.023)} \\
+162\,000 & \makecell{0.215\\[-4pt](0.025)} & \makecell{0.206\\[-4pt](0.006)} & \makecell{0.211\\[-4pt](0.007)} & \makecell{0.221\\[-4pt](0.030)} & \makecell{0.207\\[-4pt](0.005)} & \makecell{0.206\\[-4pt](0.004)} & \makecell{0.216\\[-4pt](0.027)} & \makecell{0.210\\[-4pt](0.007)} & \makecell{0.210\\[-4pt](0.010)} \\
+444\,528 & \makecell{0.563\\[-4pt](0.018)} & \makecell{0.546\\[-4pt](0.029)} & \makecell{0.538\\[-4pt](0.019)} & \makecell{0.558\\[-4pt](0.018)} & \makecell{0.527\\[-4pt](0.023)} & \makecell{0.527\\[-4pt](0.018)} & \makecell{0.555\\[-4pt](0.020)} & \makecell{0.531\\[-4pt](0.021)} & \makecell{0.525\\[-4pt](0.022)} \\
+\bottomrule
+\end{tabular}\caption{Average precomputation times (in seconds) for different load types, precomputation variants and mesh sizes using \textbf{PyTorch} with \textbf{FP64} precision. Results are averaged over 7 steady-state runs (run 1 discarded as cold start), with standard deviations shown in parentheses.}\label{tab:pytorch_precompute_fp64}\end{table}
+
+
+\begin{table}[H]\centering\begin{tabular}{>{\centering\arraybackslash}m{1.2cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}}
+\toprule
+elements & \multicolumn{3}{|c}{gravity} & \multicolumn{3}{|c}{traction} & \multicolumn{3}{|c}{compression} \\
+ & K & B & G & K & B & G & K & B & G \\
+\midrule
+24\,576 & \makecell{0.021\\[-4pt](0.013)} & \makecell{0.020\\[-4pt](0.012)} & \makecell{0.021\\[-4pt](0.014)} & \makecell{0.021\\[-4pt](0.012)} & \makecell{0.019\\[-4pt](0.012)} & \makecell{0.019\\[-4pt](0.011)} & \makecell{0.025\\[-4pt](0.016)} & \makecell{0.024\\[-4pt](0.017)} & \makecell{0.024\\[-4pt](0.015)} \\
+63\,888 & \makecell{0.055\\[-4pt](0.010)} & \makecell{0.056\\[-4pt](0.012)} & \makecell{0.052\\[-4pt](0.010)} & \makecell{0.060\\[-4pt](0.012)} & \makecell{0.054\\[-4pt](0.010)} & \makecell{0.050\\[-4pt](0.009)} & \makecell{0.059\\[-4pt](0.011)} & \makecell{0.056\\[-4pt](0.011)} & \makecell{0.055\\[-4pt](0.011)} \\
+162\,000 & \makecell{0.148\\[-4pt](0.012)} & \makecell{0.139\\[-4pt](0.007)} & \makecell{0.138\\[-4pt](0.008)} & \makecell{0.153\\[-4pt](0.009)} & \makecell{0.135\\[-4pt](0.003)} & \makecell{0.141\\[-4pt](0.013)} & \makecell{0.154\\[-4pt](0.008)} & \makecell{0.136\\[-4pt](0.004)} & \makecell{0.146\\[-4pt](0.006)} \\
+444\,528 & \makecell{0.435\\[-4pt](0.027)} & \makecell{0.433\\[-4pt](0.022)} & \makecell{0.426\\[-4pt](0.036)} & \makecell{0.436\\[-4pt](0.026)} & \makecell{0.440\\[-4pt](0.028)} & \makecell{0.413\\[-4pt](0.041)} & \makecell{0.436\\[-4pt](0.023)} & \makecell{0.419\\[-4pt](0.026)} & \makecell{0.414\\[-4pt](0.025)} \\
+\bottomrule
+\end{tabular}\caption{Average precomputation times (in seconds) for different load types, precomputation variants and mesh sizes using \textbf{JAX} with \textbf{FP64} precision. Results are averaged over 7 steady-state runs (run 1 discarded as cold start), with standard deviations shown in parentheses.}\label{tab:jax_precompute_fp64}\end{table}
+
+
+\begin{table}[H]\centering\begin{tabular}{>{\centering\arraybackslash}m{1.2cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}}
+\toprule
+elements & \multicolumn{2}{|c}{gravity} & \multicolumn{2}{|c}{traction} & \multicolumn{2}{|c}{compression} \\
+ & B & G & B & G & B & G \\
+\midrule
+24\,576 & \makecell{0.019\\[-4pt](0.009)} & \makecell{0.017\\[-4pt](0.007)} & \makecell{0.018\\[-4pt](0.009)} & \makecell{0.019\\[-4pt](0.009)} & \makecell{0.019\\[-4pt](0.009)} & \makecell{0.020\\[-4pt](0.010)} \\
+63\,888 & \makecell{0.045\\[-4pt](0.007)} & \makecell{0.045\\[-4pt](0.007)} & \makecell{0.046\\[-4pt](0.007)} & \makecell{0.044\\[-4pt](0.007)} & \makecell{0.047\\[-4pt](0.008)} & \makecell{0.045\\[-4pt](0.007)} \\
+162\,000 & \makecell{0.128\\[-4pt](0.009)} & \makecell{0.117\\[-4pt](0.008)} & \makecell{0.119\\[-4pt](0.008)} & \makecell{0.120\\[-4pt](0.011)} & \makecell{0.119\\[-4pt](0.009)} & \makecell{0.118\\[-4pt](0.009)} \\
+444\,528 & \makecell{0.372\\[-4pt](0.026)} & \makecell{0.384\\[-4pt](0.026)} & \makecell{0.381\\[-4pt](0.030)} & \makecell{0.384\\[-4pt](0.030)} & \makecell{0.374\\[-4pt](0.028)} & \makecell{0.372\\[-4pt](0.026)} \\
+\bottomrule
+\end{tabular}\caption{Average precomputation times (in seconds) for different load types, precomputation variants and mesh sizes using \textbf{Warp} with \textbf{FP64} precision. Results are averaged over 7 steady-state runs (run 1 discarded as cold start), with standard deviations shown in parentheses.}\label{tab:warp_precompute_fp64}\end{table}
+
+

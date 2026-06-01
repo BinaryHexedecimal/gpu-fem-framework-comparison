@@ -1,0 +1,938 @@
+[
+    {
+        "framework": "warp",
+        "version": "B",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 24576,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.05877668407616292,
+                "global_rel_error_same_mesh": 1.0253254706812949e-06,
+                "cg_iteration": 1555
+            },
+            "2": {
+                "global_rel_error_interp": 0.058776823044542556,
+                "global_rel_error_same_mesh": 1.001865269430308e-06,
+                "cg_iteration": 2041
+            },
+            "3": {
+                "global_rel_error_interp": 0.05877689622242825,
+                "global_rel_error_same_mesh": 1.0662346513776122e-06,
+                "cg_iteration": 1929
+            },
+            "4": {
+                "global_rel_error_interp": 0.05877585223843731,
+                "global_rel_error_same_mesh": 1.3695462500092998e-06,
+                "cg_iteration": 2084
+            },
+            "5": {
+                "global_rel_error_interp": 0.058776522023258705,
+                "global_rel_error_same_mesh": 2.3950705940131125e-06,
+                "cg_iteration": 1966
+            },
+            "6": {
+                "global_rel_error_interp": 0.05877527434893095,
+                "global_rel_error_same_mesh": 1.7108837607300674e-06,
+                "cg_iteration": 1556
+            }
+        }
+    },
+    {
+        "framework": "warp",
+        "version": "G",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 24576,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.05877707291971683,
+                "global_rel_error_same_mesh": 1.1087230295169803e-06,
+                "cg_iteration": 1921
+            },
+            "2": {
+                "global_rel_error_interp": 0.05877671042483545,
+                "global_rel_error_same_mesh": 1.2882703043122105e-06,
+                "cg_iteration": 2084
+            },
+            "3": {
+                "global_rel_error_interp": 0.05877605596832188,
+                "global_rel_error_same_mesh": 1.166604893164874e-06,
+                "cg_iteration": 2050
+            },
+            "4": {
+                "global_rel_error_interp": 0.05877532563597546,
+                "global_rel_error_same_mesh": 2.236965146681737e-06,
+                "cg_iteration": 2062
+            },
+            "5": {
+                "global_rel_error_interp": 0.05877746123396332,
+                "global_rel_error_same_mesh": 1.844134987754363e-06,
+                "cg_iteration": 2056
+            },
+            "6": {
+                "global_rel_error_interp": 0.05877591137017859,
+                "global_rel_error_same_mesh": 1.1199519461591904e-06,
+                "cg_iteration": 2065
+            }
+        }
+    },
+    {
+        "framework": "warp",
+        "version": "B",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 24576,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.058637385620136345,
+                "global_rel_error_same_mesh": 1.0579574936489265e-06,
+                "cg_iteration": 1613
+            },
+            "2": {
+                "global_rel_error_interp": 0.05863783051307388,
+                "global_rel_error_same_mesh": 1.4647510781654795e-06,
+                "cg_iteration": 1614
+            },
+            "3": {
+                "global_rel_error_interp": 0.05863680468115257,
+                "global_rel_error_same_mesh": 1.2367816786865047e-06,
+                "cg_iteration": 1615
+            },
+            "4": {
+                "global_rel_error_interp": 0.05863711276654258,
+                "global_rel_error_same_mesh": 1.526041107396699e-06,
+                "cg_iteration": 1612
+            },
+            "5": {
+                "global_rel_error_interp": 0.05863644565562762,
+                "global_rel_error_same_mesh": 1.4475190105848322e-06,
+                "cg_iteration": 1996
+            },
+            "6": {
+                "global_rel_error_interp": 0.05863773168341344,
+                "global_rel_error_same_mesh": 1.2160083584245684e-06,
+                "cg_iteration": 1509
+            }
+        }
+    },
+    {
+        "framework": "warp",
+        "version": "G",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 24576,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.05863662656956215,
+                "global_rel_error_same_mesh": 1.4852083122773483e-06,
+                "cg_iteration": 2052
+            },
+            "2": {
+                "global_rel_error_interp": 0.05863751122464275,
+                "global_rel_error_same_mesh": 1.1626960852458829e-06,
+                "cg_iteration": 1613
+            },
+            "3": {
+                "global_rel_error_interp": 0.05863632159667875,
+                "global_rel_error_same_mesh": 1.3955011018939112e-06,
+                "cg_iteration": 1611
+            },
+            "4": {
+                "global_rel_error_interp": 0.05863761787077331,
+                "global_rel_error_same_mesh": 1.132980551285904e-06,
+                "cg_iteration": 1977
+            },
+            "5": {
+                "global_rel_error_interp": 0.05863833568102186,
+                "global_rel_error_same_mesh": 1.8401629329764087e-06,
+                "cg_iteration": 1613
+            },
+            "6": {
+                "global_rel_error_interp": 0.05863725581205176,
+                "global_rel_error_same_mesh": 1.044195538389462e-06,
+                "cg_iteration": 1561
+            }
+        }
+    },
+    {
+        "framework": "warp",
+        "version": "B",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 24576,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.0008669818242950436,
+                "global_rel_error_same_mesh": 1.7226233297320983e-06,
+                "cg_iteration": 541
+            },
+            "2": {
+                "global_rel_error_interp": 0.0008670337906300456,
+                "global_rel_error_same_mesh": 1.159963490702645e-06,
+                "cg_iteration": 539
+            },
+            "3": {
+                "global_rel_error_interp": 0.0008670357511978446,
+                "global_rel_error_same_mesh": 1.5097366904773713e-06,
+                "cg_iteration": 502
+            },
+            "4": {
+                "global_rel_error_interp": 0.0008672877706537537,
+                "global_rel_error_same_mesh": 1.0294583039720208e-06,
+                "cg_iteration": 542
+            },
+            "5": {
+                "global_rel_error_interp": 0.0008671022463213186,
+                "global_rel_error_same_mesh": 2.1443716326339162e-06,
+                "cg_iteration": 542
+            },
+            "6": {
+                "global_rel_error_interp": 0.0008672637927477148,
+                "global_rel_error_same_mesh": 1.3780299313270388e-06,
+                "cg_iteration": 484
+            }
+        }
+    },
+    {
+        "framework": "warp",
+        "version": "G",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 24576,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.0008671399196838963,
+                "global_rel_error_same_mesh": 1.197521706945251e-06,
+                "cg_iteration": 497
+            },
+            "2": {
+                "global_rel_error_interp": 0.0008677077844474203,
+                "global_rel_error_same_mesh": 1.241472068508551e-06,
+                "cg_iteration": 482
+            },
+            "3": {
+                "global_rel_error_interp": 0.0008673094791259103,
+                "global_rel_error_same_mesh": 1.4454349346839792e-06,
+                "cg_iteration": 499
+            },
+            "4": {
+                "global_rel_error_interp": 0.0008671641479771494,
+                "global_rel_error_same_mesh": 9.912429724080115e-07,
+                "cg_iteration": 542
+            },
+            "5": {
+                "global_rel_error_interp": 0.0008674304291519103,
+                "global_rel_error_same_mesh": 1.0589932389363021e-06,
+                "cg_iteration": 535
+            },
+            "6": {
+                "global_rel_error_interp": 0.0008672475188071445,
+                "global_rel_error_same_mesh": 1.3624307928702408e-06,
+                "cg_iteration": 498
+            }
+        }
+    },
+    {
+        "framework": "warp",
+        "version": "B",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 63888,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.031559204100905076,
+                "global_rel_error_same_mesh": 1.2599243134235478e-06,
+                "cg_iteration": 2085
+            },
+            "2": {
+                "global_rel_error_interp": 0.031558356220597966,
+                "global_rel_error_same_mesh": 1.465783367078661e-06,
+                "cg_iteration": 2168
+            },
+            "3": {
+                "global_rel_error_interp": 0.03156045622443543,
+                "global_rel_error_same_mesh": 2.144206723320625e-06,
+                "cg_iteration": 2148
+            },
+            "4": {
+                "global_rel_error_interp": 0.031559813385331176,
+                "global_rel_error_same_mesh": 1.6060442962154662e-06,
+                "cg_iteration": 2833
+            },
+            "5": {
+                "global_rel_error_interp": 0.03156012425763168,
+                "global_rel_error_same_mesh": 1.730828172378373e-06,
+                "cg_iteration": 2775
+            },
+            "6": {
+                "global_rel_error_interp": 0.031559855054045585,
+                "global_rel_error_same_mesh": 1.2920805923898736e-06,
+                "cg_iteration": 2627
+            }
+        }
+    },
+    {
+        "framework": "warp",
+        "version": "G",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 63888,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.0315595193362878,
+                "global_rel_error_same_mesh": 1.5662882906030578e-06,
+                "cg_iteration": 2568
+            },
+            "2": {
+                "global_rel_error_interp": 0.03155737694557704,
+                "global_rel_error_same_mesh": 2.3043615082489536e-06,
+                "cg_iteration": 2727
+            },
+            "3": {
+                "global_rel_error_interp": 0.03155852226107911,
+                "global_rel_error_same_mesh": 1.3636584108840041e-06,
+                "cg_iteration": 2791
+            },
+            "4": {
+                "global_rel_error_interp": 0.03155896350492857,
+                "global_rel_error_same_mesh": 1.2972823526106563e-06,
+                "cg_iteration": 2173
+            },
+            "5": {
+                "global_rel_error_interp": 0.03155885042611246,
+                "global_rel_error_same_mesh": 1.1731843243364732e-06,
+                "cg_iteration": 2785
+            },
+            "6": {
+                "global_rel_error_interp": 0.031558949549240156,
+                "global_rel_error_same_mesh": 1.3327825815091009e-06,
+                "cg_iteration": 2164
+            }
+        }
+    },
+    {
+        "framework": "warp",
+        "version": "B",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 63888,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.03140384148090648,
+                "global_rel_error_same_mesh": 1.642403763890309e-06,
+                "cg_iteration": 2176
+            },
+            "2": {
+                "global_rel_error_interp": 0.03140498789079267,
+                "global_rel_error_same_mesh": 1.8519325884011142e-06,
+                "cg_iteration": 2168
+            },
+            "3": {
+                "global_rel_error_interp": 0.03140542655366873,
+                "global_rel_error_same_mesh": 1.562473701201807e-06,
+                "cg_iteration": 2612
+            },
+            "4": {
+                "global_rel_error_interp": 0.03140466671842044,
+                "global_rel_error_same_mesh": 1.2646912908204777e-06,
+                "cg_iteration": 2635
+            },
+            "5": {
+                "global_rel_error_interp": 0.03140460171994563,
+                "global_rel_error_same_mesh": 1.1520775742067522e-06,
+                "cg_iteration": 2752
+            },
+            "6": {
+                "global_rel_error_interp": 0.03140317830335424,
+                "global_rel_error_same_mesh": 2.2242699201306796e-06,
+                "cg_iteration": 2093
+            }
+        }
+    },
+    {
+        "framework": "warp",
+        "version": "G",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 63888,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.031404504917121885,
+                "global_rel_error_same_mesh": 1.2045297241728255e-06,
+                "cg_iteration": 2158
+            },
+            "2": {
+                "global_rel_error_interp": 0.031403373186662115,
+                "global_rel_error_same_mesh": 1.8611971987409898e-06,
+                "cg_iteration": 2184
+            },
+            "3": {
+                "global_rel_error_interp": 0.03140457707700226,
+                "global_rel_error_same_mesh": 1.4085973394316922e-06,
+                "cg_iteration": 2777
+            },
+            "4": {
+                "global_rel_error_interp": 0.03140399703527188,
+                "global_rel_error_same_mesh": 1.8567187078801468e-06,
+                "cg_iteration": 2178
+            },
+            "5": {
+                "global_rel_error_interp": 0.031404641749093694,
+                "global_rel_error_same_mesh": 1.3732095013938605e-06,
+                "cg_iteration": 2155
+            },
+            "6": {
+                "global_rel_error_interp": 0.03140440790911036,
+                "global_rel_error_same_mesh": 1.0544760979960045e-06,
+                "cg_iteration": 2183
+            }
+        }
+    },
+    {
+        "framework": "warp",
+        "version": "B",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 63888,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.002627685663317969,
+                "global_rel_error_same_mesh": 1.380834725676113e-05,
+                "cg_iteration": 1043
+            },
+            "2": {
+                "global_rel_error_interp": 0.002612844123917526,
+                "global_rel_error_same_mesh": 1.83282903102259e-05,
+                "cg_iteration": 1035
+            },
+            "3": {
+                "global_rel_error_interp": 0.0026248070590863598,
+                "global_rel_error_same_mesh": 2.2619293502681267e-05,
+                "cg_iteration": 1072
+            },
+            "4": {
+                "global_rel_error_interp": 0.002629551052292491,
+                "global_rel_error_same_mesh": 1.3707717515999184e-05,
+                "cg_iteration": 1066
+            },
+            "5": {
+                "global_rel_error_interp": 0.002622694969345879,
+                "global_rel_error_same_mesh": 9.674943220991618e-06,
+                "cg_iteration": 1081
+            },
+            "6": {
+                "global_rel_error_interp": 0.002631593085908709,
+                "global_rel_error_same_mesh": 1.4863309871509735e-05,
+                "cg_iteration": 1059
+            }
+        }
+    },
+    {
+        "framework": "warp",
+        "version": "G",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 63888,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.002617751127163441,
+                "global_rel_error_same_mesh": 7.689661260067611e-06,
+                "cg_iteration": 1064
+            },
+            "2": {
+                "global_rel_error_interp": 0.0026149513645885845,
+                "global_rel_error_same_mesh": 9.79199560787322e-06,
+                "cg_iteration": 1015
+            },
+            "3": {
+                "global_rel_error_interp": 0.0026232770919370043,
+                "global_rel_error_same_mesh": 7.0310665163513395e-06,
+                "cg_iteration": 1038
+            },
+            "4": {
+                "global_rel_error_interp": 0.0026280091338811325,
+                "global_rel_error_same_mesh": 9.890469177788031e-06,
+                "cg_iteration": 1062
+            },
+            "5": {
+                "global_rel_error_interp": 0.0026282712235360527,
+                "global_rel_error_same_mesh": 9.375416774668692e-06,
+                "cg_iteration": 1099
+            },
+            "6": {
+                "global_rel_error_interp": 0.0026274502794860076,
+                "global_rel_error_same_mesh": 1.2068433413555197e-05,
+                "cg_iteration": 1044
+            }
+        }
+    },
+    {
+        "framework": "warp",
+        "version": "B",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 162000,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.01652467483998072,
+                "global_rel_error_same_mesh": 1.8669476804877364e-06,
+                "cg_iteration": 3509
+            },
+            "2": {
+                "global_rel_error_interp": 0.016525598942320217,
+                "global_rel_error_same_mesh": 1.9222004424624234e-06,
+                "cg_iteration": 3707
+            },
+            "3": {
+                "global_rel_error_interp": 0.01652576487600984,
+                "global_rel_error_same_mesh": 1.8936474207699481e-06,
+                "cg_iteration": 3726
+            },
+            "4": {
+                "global_rel_error_interp": 0.016526668445551965,
+                "global_rel_error_same_mesh": 2.0390321787628416e-06,
+                "cg_iteration": 3564
+            },
+            "5": {
+                "global_rel_error_interp": 0.01652568586048106,
+                "global_rel_error_same_mesh": 1.3351681513939467e-06,
+                "cg_iteration": 3705
+            },
+            "6": {
+                "global_rel_error_interp": 0.016525431280616492,
+                "global_rel_error_same_mesh": 1.6165589063352039e-06,
+                "cg_iteration": 3703
+            }
+        }
+    },
+    {
+        "framework": "warp",
+        "version": "G",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 162000,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.016524947273203375,
+                "global_rel_error_same_mesh": 1.6492603568185034e-06,
+                "cg_iteration": 3502
+            },
+            "2": {
+                "global_rel_error_interp": 0.01652504145258079,
+                "global_rel_error_same_mesh": 1.8273009524292432e-06,
+                "cg_iteration": 3670
+            },
+            "3": {
+                "global_rel_error_interp": 0.016526008227605003,
+                "global_rel_error_same_mesh": 1.5066367176070772e-06,
+                "cg_iteration": 3755
+            },
+            "4": {
+                "global_rel_error_interp": 0.016524467795193766,
+                "global_rel_error_same_mesh": 2.316504099405295e-06,
+                "cg_iteration": 3748
+            },
+            "5": {
+                "global_rel_error_interp": 0.016525781012438796,
+                "global_rel_error_same_mesh": 1.697057672180952e-06,
+                "cg_iteration": 3673
+            },
+            "6": {
+                "global_rel_error_interp": 0.01652545295586811,
+                "global_rel_error_same_mesh": 1.7137249102399563e-06,
+                "cg_iteration": 2905
+            }
+        }
+    },
+    {
+        "framework": "warp",
+        "version": "B",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 162000,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.016401557356261108,
+                "global_rel_error_same_mesh": 1.7932116283506732e-06,
+                "cg_iteration": 3462
+            },
+            "2": {
+                "global_rel_error_interp": 0.016401721697462558,
+                "global_rel_error_same_mesh": 2.329252251394911e-06,
+                "cg_iteration": 2799
+            },
+            "3": {
+                "global_rel_error_interp": 0.016401521368751195,
+                "global_rel_error_same_mesh": 2.390794825805083e-06,
+                "cg_iteration": 2942
+            },
+            "4": {
+                "global_rel_error_interp": 0.016400903240922537,
+                "global_rel_error_same_mesh": 1.5859286723340966e-06,
+                "cg_iteration": 2889
+            },
+            "5": {
+                "global_rel_error_interp": 0.01640016385001476,
+                "global_rel_error_same_mesh": 1.5306078347718078e-06,
+                "cg_iteration": 2890
+            },
+            "6": {
+                "global_rel_error_interp": 0.016400553454636993,
+                "global_rel_error_same_mesh": 1.2991916091768035e-06,
+                "cg_iteration": 2891
+            }
+        }
+    },
+    {
+        "framework": "warp",
+        "version": "G",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 162000,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.016401860719902666,
+                "global_rel_error_same_mesh": 1.9938167823323647e-06,
+                "cg_iteration": 3495
+            },
+            "2": {
+                "global_rel_error_interp": 0.01640061148833977,
+                "global_rel_error_same_mesh": 1.6550133009710506e-06,
+                "cg_iteration": 2803
+            },
+            "3": {
+                "global_rel_error_interp": 0.016400661839635244,
+                "global_rel_error_same_mesh": 1.6121477282215022e-06,
+                "cg_iteration": 3446
+            },
+            "4": {
+                "global_rel_error_interp": 0.016400738716703524,
+                "global_rel_error_same_mesh": 1.425425912627376e-06,
+                "cg_iteration": 3417
+            },
+            "5": {
+                "global_rel_error_interp": 0.016401809957533386,
+                "global_rel_error_same_mesh": 2.0219896180544965e-06,
+                "cg_iteration": 2892
+            },
+            "6": {
+                "global_rel_error_interp": 0.01640207006192653,
+                "global_rel_error_same_mesh": 2.2001736463404404e-06,
+                "cg_iteration": 3242
+            }
+        }
+    },
+    {
+        "framework": "warp",
+        "version": "B",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 162000,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.0016952998495315546,
+                "global_rel_error_same_mesh": 4.9210609594097316e-06,
+                "cg_iteration": 1457
+            },
+            "2": {
+                "global_rel_error_interp": 0.0016993552826494863,
+                "global_rel_error_same_mesh": 1.1123896066931208e-05,
+                "cg_iteration": 1464
+            },
+            "3": {
+                "global_rel_error_interp": 0.0016954206047139133,
+                "global_rel_error_same_mesh": 1.2677181231635523e-05,
+                "cg_iteration": 1449
+            },
+            "4": {
+                "global_rel_error_interp": 0.0016973264080726855,
+                "global_rel_error_same_mesh": 1.2782757969190085e-05,
+                "cg_iteration": 1398
+            },
+            "5": {
+                "global_rel_error_interp": 0.0016925462510292448,
+                "global_rel_error_same_mesh": 1.0692354409223098e-05,
+                "cg_iteration": 1417
+            },
+            "6": {
+                "global_rel_error_interp": 0.0016949063841966328,
+                "global_rel_error_same_mesh": 3.702741462485799e-06,
+                "cg_iteration": 1391
+            }
+        }
+    },
+    {
+        "framework": "warp",
+        "version": "G",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 162000,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.0016868211870298081,
+                "global_rel_error_same_mesh": 1.4411854307070313e-05,
+                "cg_iteration": 1418
+            },
+            "2": {
+                "global_rel_error_interp": 0.0016930495329827472,
+                "global_rel_error_same_mesh": 1.873891911304653e-05,
+                "cg_iteration": 1471
+            },
+            "3": {
+                "global_rel_error_interp": 0.0017109269683785939,
+                "global_rel_error_same_mesh": 1.677615929680441e-05,
+                "cg_iteration": 1417
+            },
+            "4": {
+                "global_rel_error_interp": 0.001683111983783861,
+                "global_rel_error_same_mesh": 2.121702430724239e-05,
+                "cg_iteration": 1392
+            },
+            "5": {
+                "global_rel_error_interp": 0.0016980450654308858,
+                "global_rel_error_same_mesh": 7.100299547489857e-06,
+                "cg_iteration": 1466
+            },
+            "6": {
+                "global_rel_error_interp": 0.0017011369047668363,
+                "global_rel_error_same_mesh": 7.641895825826849e-06,
+                "cg_iteration": 1401
+            }
+        }
+    },
+    {
+        "framework": "warp",
+        "version": "B",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 444528,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.007599102208520126,
+                "global_rel_error_same_mesh": 3.8051836948577237e-06,
+                "cg_iteration": 5116
+            },
+            "2": {
+                "global_rel_error_interp": 0.007597264973609424,
+                "global_rel_error_same_mesh": 2.6310958737501013e-06,
+                "cg_iteration": 5129
+            },
+            "3": {
+                "global_rel_error_interp": 0.007598159002481952,
+                "global_rel_error_same_mesh": 3.0477139384462724e-06,
+                "cg_iteration": 4873
+            },
+            "4": {
+                "global_rel_error_interp": 0.007597244093275899,
+                "global_rel_error_same_mesh": 2.9574678328356753e-06,
+                "cg_iteration": 4865
+            },
+            "5": {
+                "global_rel_error_interp": 0.007599234310367927,
+                "global_rel_error_same_mesh": 3.5919243250090348e-06,
+                "cg_iteration": 4989
+            },
+            "6": {
+                "global_rel_error_interp": 0.007598859796821093,
+                "global_rel_error_same_mesh": 3.41796469984433e-06,
+                "cg_iteration": 4792
+            }
+        }
+    },
+    {
+        "framework": "warp",
+        "version": "G",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 444528,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.007598584701044189,
+                "global_rel_error_same_mesh": 3.0193833552649304e-06,
+                "cg_iteration": 5087
+            },
+            "2": {
+                "global_rel_error_interp": 0.007597581479700729,
+                "global_rel_error_same_mesh": 2.711820416309719e-06,
+                "cg_iteration": 5103
+            },
+            "3": {
+                "global_rel_error_interp": 0.00759862805635845,
+                "global_rel_error_same_mesh": 3.166976087575578e-06,
+                "cg_iteration": 5101
+            },
+            "4": {
+                "global_rel_error_interp": 0.007599364789654257,
+                "global_rel_error_same_mesh": 3.5083515639033796e-06,
+                "cg_iteration": 5113
+            },
+            "5": {
+                "global_rel_error_interp": 0.00759843751372735,
+                "global_rel_error_same_mesh": 3.7600150019021956e-06,
+                "cg_iteration": 5157
+            },
+            "6": {
+                "global_rel_error_interp": 0.007596726887425245,
+                "global_rel_error_same_mesh": 2.596745072200174e-06,
+                "cg_iteration": 5119
+            }
+        }
+    },
+    {
+        "framework": "warp",
+        "version": "B",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 444528,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.007517316450548294,
+                "global_rel_error_same_mesh": 2.189093320851179e-06,
+                "cg_iteration": 4763
+            },
+            "2": {
+                "global_rel_error_interp": 0.0075171370179524565,
+                "global_rel_error_same_mesh": 2.190492723613463e-06,
+                "cg_iteration": 4900
+            },
+            "3": {
+                "global_rel_error_interp": 0.0075175256123267715,
+                "global_rel_error_same_mesh": 3.126687462154126e-06,
+                "cg_iteration": 4879
+            },
+            "4": {
+                "global_rel_error_interp": 0.007516216573769142,
+                "global_rel_error_same_mesh": 2.6112604054741167e-06,
+                "cg_iteration": 3827
+            },
+            "5": {
+                "global_rel_error_interp": 0.007517035851450899,
+                "global_rel_error_same_mesh": 2.1771029510424017e-06,
+                "cg_iteration": 4767
+            },
+            "6": {
+                "global_rel_error_interp": 0.00751737440079261,
+                "global_rel_error_same_mesh": 2.3806526008959236e-06,
+                "cg_iteration": 4869
+            }
+        }
+    },
+    {
+        "framework": "warp",
+        "version": "G",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 444528,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.0075178583424284386,
+                "global_rel_error_same_mesh": 2.405505220878269e-06,
+                "cg_iteration": 4837
+            },
+            "2": {
+                "global_rel_error_interp": 0.00751744295704814,
+                "global_rel_error_same_mesh": 2.8845310885561036e-06,
+                "cg_iteration": 4850
+            },
+            "3": {
+                "global_rel_error_interp": 0.00751609244984151,
+                "global_rel_error_same_mesh": 2.6616842194755094e-06,
+                "cg_iteration": 3995
+            },
+            "4": {
+                "global_rel_error_interp": 0.007517736999871846,
+                "global_rel_error_same_mesh": 2.887601364304597e-06,
+                "cg_iteration": 5084
+            },
+            "5": {
+                "global_rel_error_interp": 0.0075161612072565265,
+                "global_rel_error_same_mesh": 3.201748800741091e-06,
+                "cg_iteration": 3975
+            },
+            "6": {
+                "global_rel_error_interp": 0.0075162025497622735,
+                "global_rel_error_same_mesh": 2.8499196903947657e-06,
+                "cg_iteration": 4828
+            }
+        }
+    },
+    {
+        "framework": "warp",
+        "version": "B",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 444528,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.0009696051849781024,
+                "global_rel_error_same_mesh": 8.05998448986011e-06,
+                "cg_iteration": 2177
+            },
+            "2": {
+                "global_rel_error_interp": 0.0009726122278746376,
+                "global_rel_error_same_mesh": 8.664218017636364e-06,
+                "cg_iteration": 2203
+            },
+            "3": {
+                "global_rel_error_interp": 0.0009758563670854115,
+                "global_rel_error_same_mesh": 1.076847581221542e-05,
+                "cg_iteration": 2180
+            },
+            "4": {
+                "global_rel_error_interp": 0.0009743343517647393,
+                "global_rel_error_same_mesh": 1.7036821657526588e-05,
+                "cg_iteration": 2246
+            },
+            "5": {
+                "global_rel_error_interp": 0.0009712504902655916,
+                "global_rel_error_same_mesh": 1.3713022542516262e-05,
+                "cg_iteration": 2234
+            },
+            "6": {
+                "global_rel_error_interp": 0.0009622952753463273,
+                "global_rel_error_same_mesh": 1.2704338519153387e-05,
+                "cg_iteration": 2170
+            }
+        }
+    },
+    {
+        "framework": "warp",
+        "version": "G",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 444528,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.0009717430038102437,
+                "global_rel_error_same_mesh": 1.5552267410248953e-05,
+                "cg_iteration": 2194
+            },
+            "2": {
+                "global_rel_error_interp": 0.000969062659185839,
+                "global_rel_error_same_mesh": 7.267046071899797e-06,
+                "cg_iteration": 2151
+            },
+            "3": {
+                "global_rel_error_interp": 0.0009755188275604898,
+                "global_rel_error_same_mesh": 1.233856628207803e-05,
+                "cg_iteration": 2182
+            },
+            "4": {
+                "global_rel_error_interp": 0.0009663538454329187,
+                "global_rel_error_same_mesh": 1.900201214598777e-05,
+                "cg_iteration": 2263
+            },
+            "5": {
+                "global_rel_error_interp": 0.0009717246605403751,
+                "global_rel_error_same_mesh": 8.703967010398544e-06,
+                "cg_iteration": 2183
+            },
+            "6": {
+                "global_rel_error_interp": 0.0009799036910996515,
+                "global_rel_error_same_mesh": 1.5811489874925633e-05,
+                "cg_iteration": 2248
+            }
+        }
+    }
+]

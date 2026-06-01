@@ -1,0 +1,1406 @@
+[
+    {
+        "framework": "pytorch",
+        "version": "K",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 24576,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.08515260534726535,
+                "global_rel_error_same_mesh": 0.02895797240845102,
+                "cg_iteration": 1557
+            },
+            "2": {
+                "global_rel_error_interp": 0.08509234117164817,
+                "global_rel_error_same_mesh": 0.028892213251706742,
+                "cg_iteration": 1886
+            },
+            "3": {
+                "global_rel_error_interp": 0.08509319712609809,
+                "global_rel_error_same_mesh": 0.028892980102582247,
+                "cg_iteration": 1749
+            },
+            "4": {
+                "global_rel_error_interp": 0.08512307984841752,
+                "global_rel_error_same_mesh": 0.028923517824774283,
+                "cg_iteration": 1851
+            },
+            "5": {
+                "global_rel_error_interp": 0.08509675282092215,
+                "global_rel_error_same_mesh": 0.02890019185356007,
+                "cg_iteration": 1558
+            },
+            "6": {
+                "global_rel_error_interp": 0.08513222109859613,
+                "global_rel_error_same_mesh": 0.028931187892442853,
+                "cg_iteration": 1822
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "B",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 24576,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.05877643712617706,
+                "global_rel_error_same_mesh": 9.820849741194333e-07,
+                "cg_iteration": 1547
+            },
+            "2": {
+                "global_rel_error_interp": 0.058776444738351634,
+                "global_rel_error_same_mesh": 9.259038640214092e-07,
+                "cg_iteration": 1546
+            },
+            "3": {
+                "global_rel_error_interp": 0.05877730927947926,
+                "global_rel_error_same_mesh": 1.8096883508138e-06,
+                "cg_iteration": 1509
+            },
+            "4": {
+                "global_rel_error_interp": 0.05877659913049392,
+                "global_rel_error_same_mesh": 1.5689871796902098e-06,
+                "cg_iteration": 1546
+            },
+            "5": {
+                "global_rel_error_interp": 0.058777714801326,
+                "global_rel_error_same_mesh": 1.623977568402954e-06,
+                "cg_iteration": 1546
+            },
+            "6": {
+                "global_rel_error_interp": 0.058774523725219886,
+                "global_rel_error_same_mesh": 2.179577965179656e-06,
+                "cg_iteration": 1527
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "G",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 24576,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.058776050008124206,
+                "global_rel_error_same_mesh": 1.1607161717483414e-06,
+                "cg_iteration": 1546
+            },
+            "2": {
+                "global_rel_error_interp": 0.058774781378399116,
+                "global_rel_error_same_mesh": 2.131155299182623e-06,
+                "cg_iteration": 1525
+            },
+            "3": {
+                "global_rel_error_interp": 0.05877554712423643,
+                "global_rel_error_same_mesh": 1.2904001313011049e-06,
+                "cg_iteration": 1398
+            },
+            "4": {
+                "global_rel_error_interp": 0.05877762538646719,
+                "global_rel_error_same_mesh": 1.850541979463771e-06,
+                "cg_iteration": 1522
+            },
+            "5": {
+                "global_rel_error_interp": 0.05877679237550026,
+                "global_rel_error_same_mesh": 9.222994392732374e-07,
+                "cg_iteration": 1357
+            },
+            "6": {
+                "global_rel_error_interp": 0.05877674259142055,
+                "global_rel_error_same_mesh": 1.2890147340015424e-06,
+                "cg_iteration": 1400
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "K",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 24576,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.08488904887758414,
+                "global_rel_error_same_mesh": 0.028837342621734163,
+                "cg_iteration": 1415
+            },
+            "2": {
+                "global_rel_error_interp": 0.08495262882585085,
+                "global_rel_error_same_mesh": 0.02890509169648898,
+                "cg_iteration": 1552
+            },
+            "3": {
+                "global_rel_error_interp": 0.08493241558727947,
+                "global_rel_error_same_mesh": 0.028882106581210494,
+                "cg_iteration": 1551
+            },
+            "4": {
+                "global_rel_error_interp": 0.08493032943170639,
+                "global_rel_error_same_mesh": 0.028880515221661202,
+                "cg_iteration": 1549
+            },
+            "5": {
+                "global_rel_error_interp": 0.08490144336268528,
+                "global_rel_error_same_mesh": 0.028849381973721833,
+                "cg_iteration": 1555
+            },
+            "6": {
+                "global_rel_error_interp": 0.08490555723956408,
+                "global_rel_error_same_mesh": 0.02885671487340987,
+                "cg_iteration": 1552
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "B",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 24576,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.058637741849788594,
+                "global_rel_error_same_mesh": 1.2877758685288983e-06,
+                "cg_iteration": 1412
+            },
+            "2": {
+                "global_rel_error_interp": 0.058635533726420254,
+                "global_rel_error_same_mesh": 2.6059406700758614e-06,
+                "cg_iteration": 1551
+            },
+            "3": {
+                "global_rel_error_interp": 0.05863778062639968,
+                "global_rel_error_same_mesh": 1.6574922641096765e-06,
+                "cg_iteration": 1551
+            },
+            "4": {
+                "global_rel_error_interp": 0.05863754510387295,
+                "global_rel_error_same_mesh": 9.920689674125107e-07,
+                "cg_iteration": 1395
+            },
+            "5": {
+                "global_rel_error_interp": 0.05863692578157781,
+                "global_rel_error_same_mesh": 1.4985690188522284e-06,
+                "cg_iteration": 1464
+            },
+            "6": {
+                "global_rel_error_interp": 0.058637137623831374,
+                "global_rel_error_same_mesh": 8.170615106707606e-07,
+                "cg_iteration": 1405
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "G",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 24576,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.05863696431976684,
+                "global_rel_error_same_mesh": 8.923813108891386e-07,
+                "cg_iteration": 1477
+            },
+            "2": {
+                "global_rel_error_interp": 0.05863735217418835,
+                "global_rel_error_same_mesh": 1.5958356558091946e-06,
+                "cg_iteration": 1488
+            },
+            "3": {
+                "global_rel_error_interp": 0.058636552397778964,
+                "global_rel_error_same_mesh": 1.145563125771349e-06,
+                "cg_iteration": 1395
+            },
+            "4": {
+                "global_rel_error_interp": 0.05863677896314136,
+                "global_rel_error_same_mesh": 1.0043937365779768e-06,
+                "cg_iteration": 1492
+            },
+            "5": {
+                "global_rel_error_interp": 0.05863642838546968,
+                "global_rel_error_same_mesh": 1.9514337891696655e-06,
+                "cg_iteration": 1408
+            },
+            "6": {
+                "global_rel_error_interp": 0.058637448139360566,
+                "global_rel_error_same_mesh": 9.361027579360477e-07,
+                "cg_iteration": 1551
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "K",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 24576,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.0008898852989736032,
+                "global_rel_error_same_mesh": 0.00020110834818673135,
+                "cg_iteration": 469
+            },
+            "2": {
+                "global_rel_error_interp": 0.0008894866851954603,
+                "global_rel_error_same_mesh": 0.0002006252865201145,
+                "cg_iteration": 444
+            },
+            "3": {
+                "global_rel_error_interp": 0.000890083873174025,
+                "global_rel_error_same_mesh": 0.00020033297356790298,
+                "cg_iteration": 468
+            },
+            "4": {
+                "global_rel_error_interp": 0.0008901779101190479,
+                "global_rel_error_same_mesh": 0.00020059298983793157,
+                "cg_iteration": 442
+            },
+            "5": {
+                "global_rel_error_interp": 0.0008907192259004725,
+                "global_rel_error_same_mesh": 0.00020031331561857737,
+                "cg_iteration": 469
+            },
+            "6": {
+                "global_rel_error_interp": 0.0008903267465979461,
+                "global_rel_error_same_mesh": 0.00020044777205837207,
+                "cg_iteration": 444
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "B",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 24576,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.0008681498436282551,
+                "global_rel_error_same_mesh": 1.3922198672661519e-06,
+                "cg_iteration": 441
+            },
+            "2": {
+                "global_rel_error_interp": 0.0008679077762641113,
+                "global_rel_error_same_mesh": 1.0247675223820513e-06,
+                "cg_iteration": 442
+            },
+            "3": {
+                "global_rel_error_interp": 0.000867588512313182,
+                "global_rel_error_same_mesh": 7.841149858748684e-07,
+                "cg_iteration": 442
+            },
+            "4": {
+                "global_rel_error_interp": 0.0008671995364095195,
+                "global_rel_error_same_mesh": 8.787607468538994e-07,
+                "cg_iteration": 468
+            },
+            "5": {
+                "global_rel_error_interp": 0.000867899546026092,
+                "global_rel_error_same_mesh": 9.597369938979334e-07,
+                "cg_iteration": 442
+            },
+            "6": {
+                "global_rel_error_interp": 0.0008682588243293542,
+                "global_rel_error_same_mesh": 1.451350388840375e-06,
+                "cg_iteration": 444
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "G",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 24576,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.0008670177023576978,
+                "global_rel_error_same_mesh": 1.2002277959057856e-06,
+                "cg_iteration": 442
+            },
+            "2": {
+                "global_rel_error_interp": 0.0008671065737834329,
+                "global_rel_error_same_mesh": 1.204352709906681e-06,
+                "cg_iteration": 442
+            },
+            "3": {
+                "global_rel_error_interp": 0.0008678718732559162,
+                "global_rel_error_same_mesh": 8.931600152577012e-07,
+                "cg_iteration": 441
+            },
+            "4": {
+                "global_rel_error_interp": 0.0008674456421504066,
+                "global_rel_error_same_mesh": 8.122103500795535e-07,
+                "cg_iteration": 442
+            },
+            "5": {
+                "global_rel_error_interp": 0.0008679601217123707,
+                "global_rel_error_same_mesh": 1.2721663170975782e-06,
+                "cg_iteration": 441
+            },
+            "6": {
+                "global_rel_error_interp": 0.0008673028183893089,
+                "global_rel_error_same_mesh": 9.702266255376003e-07,
+                "cg_iteration": 442
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "K",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 63888,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.031789350886242,
+                "global_rel_error_same_mesh": 0.0017737035962370321,
+                "cg_iteration": 3086
+            },
+            "2": {
+                "global_rel_error_interp": 0.031754939474581315,
+                "global_rel_error_same_mesh": 0.0017646996216813637,
+                "cg_iteration": 3059
+            },
+            "3": {
+                "global_rel_error_interp": 0.03177740036010555,
+                "global_rel_error_same_mesh": 0.0017801089815070946,
+                "cg_iteration": 3026
+            },
+            "4": {
+                "global_rel_error_interp": 0.031779730471760644,
+                "global_rel_error_same_mesh": 0.0017672481848938037,
+                "cg_iteration": 3066
+            },
+            "5": {
+                "global_rel_error_interp": 0.03180777967440656,
+                "global_rel_error_same_mesh": 0.0017686205014498114,
+                "cg_iteration": 3171
+            },
+            "6": {
+                "global_rel_error_interp": 0.03178552165759187,
+                "global_rel_error_same_mesh": 0.001775822304096417,
+                "cg_iteration": 3047
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "B",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 63888,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.03155916483909127,
+                "global_rel_error_same_mesh": 1.495119196642291e-06,
+                "cg_iteration": 1969
+            },
+            "2": {
+                "global_rel_error_interp": 0.031560127942853816,
+                "global_rel_error_same_mesh": 1.7001162604026057e-06,
+                "cg_iteration": 1978
+            },
+            "3": {
+                "global_rel_error_interp": 0.03155991314376753,
+                "global_rel_error_same_mesh": 1.754098155163795e-06,
+                "cg_iteration": 1816
+            },
+            "4": {
+                "global_rel_error_interp": 0.03156004071191148,
+                "global_rel_error_same_mesh": 1.3292640094026906e-06,
+                "cg_iteration": 2060
+            },
+            "5": {
+                "global_rel_error_interp": 0.03155985715161932,
+                "global_rel_error_same_mesh": 1.2346053276480829e-06,
+                "cg_iteration": 1946
+            },
+            "6": {
+                "global_rel_error_interp": 0.031559515760477046,
+                "global_rel_error_same_mesh": 1.14166122839065e-06,
+                "cg_iteration": 1877
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "G",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 63888,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.031558763792752624,
+                "global_rel_error_same_mesh": 1.0714591464774065e-06,
+                "cg_iteration": 1973
+            },
+            "2": {
+                "global_rel_error_interp": 0.03155878643660681,
+                "global_rel_error_same_mesh": 2.3327505582404705e-06,
+                "cg_iteration": 1822
+            },
+            "3": {
+                "global_rel_error_interp": 0.03155968082214599,
+                "global_rel_error_same_mesh": 1.107744975372362e-06,
+                "cg_iteration": 1824
+            },
+            "4": {
+                "global_rel_error_interp": 0.03156027798361161,
+                "global_rel_error_same_mesh": 1.6118960149625025e-06,
+                "cg_iteration": 1949
+            },
+            "5": {
+                "global_rel_error_interp": 0.031559780348847516,
+                "global_rel_error_same_mesh": 1.2112663901945082e-06,
+                "cg_iteration": 1946
+            },
+            "6": {
+                "global_rel_error_interp": 0.03155973786883067,
+                "global_rel_error_same_mesh": 1.2109352859104479e-06,
+                "cg_iteration": 1949
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "K",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 63888,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.03169934328939073,
+                "global_rel_error_same_mesh": 0.0017802698150333983,
+                "cg_iteration": 2678
+            },
+            "2": {
+                "global_rel_error_interp": 0.03171070837679294,
+                "global_rel_error_same_mesh": 0.001750224786224596,
+                "cg_iteration": 2631
+            },
+            "3": {
+                "global_rel_error_interp": 0.0317341712043857,
+                "global_rel_error_same_mesh": 0.0017660437126331078,
+                "cg_iteration": 2677
+            },
+            "4": {
+                "global_rel_error_interp": 0.031697450049115845,
+                "global_rel_error_same_mesh": 0.001740823086481119,
+                "cg_iteration": 2665
+            },
+            "5": {
+                "global_rel_error_interp": 0.03168135216778155,
+                "global_rel_error_same_mesh": 0.0017549264657559318,
+                "cg_iteration": 2712
+            },
+            "6": {
+                "global_rel_error_interp": 0.0317022575578065,
+                "global_rel_error_same_mesh": 0.0017685651125772925,
+                "cg_iteration": 2630
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "B",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 63888,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.03140401164148823,
+                "global_rel_error_same_mesh": 1.4955149021275015e-06,
+                "cg_iteration": 1953
+            },
+            "2": {
+                "global_rel_error_interp": 0.031405054072170265,
+                "global_rel_error_same_mesh": 1.3910840856224753e-06,
+                "cg_iteration": 2069
+            },
+            "3": {
+                "global_rel_error_interp": 0.03140597511339197,
+                "global_rel_error_same_mesh": 1.6954208899288476e-06,
+                "cg_iteration": 1850
+            },
+            "4": {
+                "global_rel_error_interp": 0.03140321864961368,
+                "global_rel_error_same_mesh": 1.8110227534312157e-06,
+                "cg_iteration": 1798
+            },
+            "5": {
+                "global_rel_error_interp": 0.03140432219986871,
+                "global_rel_error_same_mesh": 1.6554564475980838e-06,
+                "cg_iteration": 1862
+            },
+            "6": {
+                "global_rel_error_interp": 0.03140513997835985,
+                "global_rel_error_same_mesh": 1.0653808695758479e-06,
+                "cg_iteration": 1833
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "G",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 63888,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.03140550233256073,
+                "global_rel_error_same_mesh": 1.3041695582253294e-06,
+                "cg_iteration": 1810
+            },
+            "2": {
+                "global_rel_error_interp": 0.0314050121267363,
+                "global_rel_error_same_mesh": 1.432496943753131e-06,
+                "cg_iteration": 1821
+            },
+            "3": {
+                "global_rel_error_interp": 0.03140547500272679,
+                "global_rel_error_same_mesh": 1.2549601047538688e-06,
+                "cg_iteration": 1987
+            },
+            "4": {
+                "global_rel_error_interp": 0.03140541386510815,
+                "global_rel_error_same_mesh": 1.3602867004997744e-06,
+                "cg_iteration": 1753
+            },
+            "5": {
+                "global_rel_error_interp": 0.03140471288258171,
+                "global_rel_error_same_mesh": 1.4224433329125895e-06,
+                "cg_iteration": 1837
+            },
+            "6": {
+                "global_rel_error_interp": 0.03140532699579014,
+                "global_rel_error_same_mesh": 1.1576128183771034e-06,
+                "cg_iteration": 1984
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "K",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 63888,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 1.6872705787882512,
+                "global_rel_error_same_mesh": 1.687264210905722,
+                "cg_iteration": 3238
+            },
+            "2": {
+                "global_rel_error_interp": 1.7167503433003164,
+                "global_rel_error_same_mesh": 1.7167438254256302,
+                "cg_iteration": 3487
+            },
+            "3": {
+                "global_rel_error_interp": 1.5909626107642705,
+                "global_rel_error_same_mesh": 1.5909568440975406,
+                "cg_iteration": 3288
+            },
+            "4": {
+                "global_rel_error_interp": 1.5830583075509654,
+                "global_rel_error_same_mesh": 1.5830525816266232,
+                "cg_iteration": 3438
+            },
+            "5": {
+                "global_rel_error_interp": 1.8342176282970608,
+                "global_rel_error_same_mesh": 1.8342103894517916,
+                "cg_iteration": 3507
+            },
+            "6": {
+                "global_rel_error_interp": 1.9290530150746603,
+                "global_rel_error_same_mesh": 1.9290452635518784,
+                "cg_iteration": 3569
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "B",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 63888,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.0026138566680962145,
+                "global_rel_error_same_mesh": 1.82436963382714e-05,
+                "cg_iteration": 875
+            },
+            "2": {
+                "global_rel_error_interp": 0.002604329290693423,
+                "global_rel_error_same_mesh": 2.6016770250962258e-05,
+                "cg_iteration": 986
+            },
+            "3": {
+                "global_rel_error_interp": 0.002614409286227503,
+                "global_rel_error_same_mesh": 1.2701084968270056e-05,
+                "cg_iteration": 970
+            },
+            "4": {
+                "global_rel_error_interp": 0.002625485048732141,
+                "global_rel_error_same_mesh": 1.1802347513018102e-05,
+                "cg_iteration": 966
+            },
+            "5": {
+                "global_rel_error_interp": 0.0026254265840006353,
+                "global_rel_error_same_mesh": 2.922553971598393e-05,
+                "cg_iteration": 966
+            },
+            "6": {
+                "global_rel_error_interp": 0.002623845831995604,
+                "global_rel_error_same_mesh": 2.8308091160929643e-05,
+                "cg_iteration": 980
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "G",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 63888,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.0026077581316297197,
+                "global_rel_error_same_mesh": 2.982531582674307e-05,
+                "cg_iteration": 931
+            },
+            "2": {
+                "global_rel_error_interp": 0.0026150731877745245,
+                "global_rel_error_same_mesh": 8.937895361626779e-06,
+                "cg_iteration": 968
+            },
+            "3": {
+                "global_rel_error_interp": 0.002614404877849555,
+                "global_rel_error_same_mesh": 2.1008838436092082e-05,
+                "cg_iteration": 965
+            },
+            "4": {
+                "global_rel_error_interp": 0.0026204779793103368,
+                "global_rel_error_same_mesh": 1.4945049707241214e-05,
+                "cg_iteration": 967
+            },
+            "5": {
+                "global_rel_error_interp": 0.002615142090072953,
+                "global_rel_error_same_mesh": 2.3441758108114074e-05,
+                "cg_iteration": 983
+            },
+            "6": {
+                "global_rel_error_interp": 0.002605781190179124,
+                "global_rel_error_same_mesh": 2.8803799781740938e-05,
+                "cg_iteration": 970
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "K",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 162000,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.03555368037407902,
+                "global_rel_error_same_mesh": 0.01941070381541097,
+                "cg_iteration": 3302
+            },
+            "2": {
+                "global_rel_error_interp": 0.03559530048008367,
+                "global_rel_error_same_mesh": 0.01945336440979681,
+                "cg_iteration": 3341
+            },
+            "3": {
+                "global_rel_error_interp": 0.03558952827167658,
+                "global_rel_error_same_mesh": 0.01944769476353231,
+                "cg_iteration": 3337
+            },
+            "4": {
+                "global_rel_error_interp": 0.03558736660008743,
+                "global_rel_error_same_mesh": 0.019446009842323853,
+                "cg_iteration": 3322
+            },
+            "5": {
+                "global_rel_error_interp": 0.03558324689945393,
+                "global_rel_error_same_mesh": 0.01944110756046715,
+                "cg_iteration": 3063
+            },
+            "6": {
+                "global_rel_error_interp": 0.035583989279915046,
+                "global_rel_error_same_mesh": 0.019441805334908357,
+                "cg_iteration": 3351
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "B",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 162000,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.01652506326115605,
+                "global_rel_error_same_mesh": 1.5299305031963206e-06,
+                "cg_iteration": 2588
+            },
+            "2": {
+                "global_rel_error_interp": 0.01652540917731918,
+                "global_rel_error_same_mesh": 1.2365779586509957e-06,
+                "cg_iteration": 2398
+            },
+            "3": {
+                "global_rel_error_interp": 0.016525806715817767,
+                "global_rel_error_same_mesh": 1.571536253778678e-06,
+                "cg_iteration": 2587
+            },
+            "4": {
+                "global_rel_error_interp": 0.016526351223322227,
+                "global_rel_error_same_mesh": 1.643444056080996e-06,
+                "cg_iteration": 2356
+            },
+            "5": {
+                "global_rel_error_interp": 0.016525569675025165,
+                "global_rel_error_same_mesh": 1.440147701966938e-06,
+                "cg_iteration": 2430
+            },
+            "6": {
+                "global_rel_error_interp": 0.01652507580246966,
+                "global_rel_error_same_mesh": 1.3066487443563456e-06,
+                "cg_iteration": 2597
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "G",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 162000,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.016525235035599627,
+                "global_rel_error_same_mesh": 1.8512468501782037e-06,
+                "cg_iteration": 2589
+            },
+            "2": {
+                "global_rel_error_interp": 0.016525084826710324,
+                "global_rel_error_same_mesh": 1.7201108254981359e-06,
+                "cg_iteration": 2571
+            },
+            "3": {
+                "global_rel_error_interp": 0.016524456997600065,
+                "global_rel_error_same_mesh": 1.5626444836291523e-06,
+                "cg_iteration": 2431
+            },
+            "4": {
+                "global_rel_error_interp": 0.016525329236718657,
+                "global_rel_error_same_mesh": 1.2869393635567447e-06,
+                "cg_iteration": 2534
+            },
+            "5": {
+                "global_rel_error_interp": 0.016524987588713715,
+                "global_rel_error_same_mesh": 1.383269408403576e-06,
+                "cg_iteration": 2591
+            },
+            "6": {
+                "global_rel_error_interp": 0.01652563260017342,
+                "global_rel_error_same_mesh": 1.5311327049329014e-06,
+                "cg_iteration": 2427
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "K",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 162000,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.03551979685102597,
+                "global_rel_error_same_mesh": 0.019505009510444135,
+                "cg_iteration": 3315
+            },
+            "2": {
+                "global_rel_error_interp": 0.03556500911771627,
+                "global_rel_error_same_mesh": 0.019551300688630882,
+                "cg_iteration": 3309
+            },
+            "3": {
+                "global_rel_error_interp": 0.03549491204401168,
+                "global_rel_error_same_mesh": 0.019479144786143338,
+                "cg_iteration": 3311
+            },
+            "4": {
+                "global_rel_error_interp": 0.03551176624889901,
+                "global_rel_error_same_mesh": 0.019496498835968167,
+                "cg_iteration": 3313
+            },
+            "5": {
+                "global_rel_error_interp": 0.03549903981860253,
+                "global_rel_error_same_mesh": 0.019484302295879725,
+                "cg_iteration": 3313
+            },
+            "6": {
+                "global_rel_error_interp": 0.03549361300201055,
+                "global_rel_error_same_mesh": 0.019477668858751164,
+                "cg_iteration": 3306
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "B",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 162000,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.016400523314117472,
+                "global_rel_error_same_mesh": 1.2673885236582775e-06,
+                "cg_iteration": 2408
+            },
+            "2": {
+                "global_rel_error_interp": 0.016401422553024875,
+                "global_rel_error_same_mesh": 1.5553996729388238e-06,
+                "cg_iteration": 2598
+            },
+            "3": {
+                "global_rel_error_interp": 0.016400989576120437,
+                "global_rel_error_same_mesh": 1.4958728505167978e-06,
+                "cg_iteration": 2407
+            },
+            "4": {
+                "global_rel_error_interp": 0.01640098129830896,
+                "global_rel_error_same_mesh": 1.2555228040538489e-06,
+                "cg_iteration": 2388
+            },
+            "5": {
+                "global_rel_error_interp": 0.016400331217163156,
+                "global_rel_error_same_mesh": 1.2762433197367684e-06,
+                "cg_iteration": 2417
+            },
+            "6": {
+                "global_rel_error_interp": 0.016399164964509234,
+                "global_rel_error_same_mesh": 1.8553019523521507e-06,
+                "cg_iteration": 2420
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "G",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 162000,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.016400362596486372,
+                "global_rel_error_same_mesh": 1.374548733821813e-06,
+                "cg_iteration": 2319
+            },
+            "2": {
+                "global_rel_error_interp": 0.016400254742136806,
+                "global_rel_error_same_mesh": 1.425478242541782e-06,
+                "cg_iteration": 2602
+            },
+            "3": {
+                "global_rel_error_interp": 0.016399928369932527,
+                "global_rel_error_same_mesh": 1.2333538292422002e-06,
+                "cg_iteration": 2337
+            },
+            "4": {
+                "global_rel_error_interp": 0.01640023982815774,
+                "global_rel_error_same_mesh": 1.4962510819330435e-06,
+                "cg_iteration": 2452
+            },
+            "5": {
+                "global_rel_error_interp": 0.01640045790161114,
+                "global_rel_error_same_mesh": 1.2848332885219538e-06,
+                "cg_iteration": 2381
+            },
+            "6": {
+                "global_rel_error_interp": 0.016401203789513614,
+                "global_rel_error_same_mesh": 1.3233751072209506e-06,
+                "cg_iteration": 2388
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "K",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 162000,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.05152867115301079,
+                "global_rel_error_same_mesh": 0.051748003483660085,
+                "cg_iteration": 3351
+            },
+            "2": {
+                "global_rel_error_interp": 0.051293207615756224,
+                "global_rel_error_same_mesh": 0.05151345597612974,
+                "cg_iteration": 3352
+            },
+            "3": {
+                "global_rel_error_interp": 0.051946504489320575,
+                "global_rel_error_same_mesh": 0.0521645472215472,
+                "cg_iteration": 3344
+            },
+            "4": {
+                "global_rel_error_interp": 0.05507180995236488,
+                "global_rel_error_same_mesh": 0.05527646816082702,
+                "cg_iteration": 3330
+            },
+            "5": {
+                "global_rel_error_interp": 0.05131938138395294,
+                "global_rel_error_same_mesh": 0.051539480598961636,
+                "cg_iteration": 3278
+            },
+            "6": {
+                "global_rel_error_interp": 0.05328671107929745,
+                "global_rel_error_same_mesh": 0.05349866242390532,
+                "cg_iteration": 3178
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "B",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 162000,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.0016925719250327801,
+                "global_rel_error_same_mesh": 1.2889332234479848e-05,
+                "cg_iteration": 1281
+            },
+            "2": {
+                "global_rel_error_interp": 0.001678609142024761,
+                "global_rel_error_same_mesh": 2.5801556514300855e-05,
+                "cg_iteration": 1234
+            },
+            "3": {
+                "global_rel_error_interp": 0.0016923222304303747,
+                "global_rel_error_same_mesh": 1.1217717973200474e-05,
+                "cg_iteration": 1284
+            },
+            "4": {
+                "global_rel_error_interp": 0.0016847494879378873,
+                "global_rel_error_same_mesh": 1.676094571364858e-05,
+                "cg_iteration": 1303
+            },
+            "5": {
+                "global_rel_error_interp": 0.0016947729061105076,
+                "global_rel_error_same_mesh": 5.51352013835785e-06,
+                "cg_iteration": 1298
+            },
+            "6": {
+                "global_rel_error_interp": 0.0016882488065127045,
+                "global_rel_error_same_mesh": 1.7270044661162578e-05,
+                "cg_iteration": 1279
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "G",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 162000,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.001686436007385335,
+                "global_rel_error_same_mesh": 1.7030473629192755e-05,
+                "cg_iteration": 1303
+            },
+            "2": {
+                "global_rel_error_interp": 0.0016970648288268046,
+                "global_rel_error_same_mesh": 7.379504484050725e-06,
+                "cg_iteration": 1302
+            },
+            "3": {
+                "global_rel_error_interp": 0.0017019077321154916,
+                "global_rel_error_same_mesh": 7.5721329434871215e-06,
+                "cg_iteration": 1302
+            },
+            "4": {
+                "global_rel_error_interp": 0.001693083050162014,
+                "global_rel_error_same_mesh": 1.2105020966094426e-05,
+                "cg_iteration": 1267
+            },
+            "5": {
+                "global_rel_error_interp": 0.0016894590498474818,
+                "global_rel_error_same_mesh": 1.193542464238388e-05,
+                "cg_iteration": 1302
+            },
+            "6": {
+                "global_rel_error_interp": 0.0016901021640898326,
+                "global_rel_error_same_mesh": 9.350418224343217e-06,
+                "cg_iteration": 1280
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "K",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 444528,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.020460472741473976,
+                "global_rel_error_same_mesh": 0.02790406213607925,
+                "cg_iteration": 4418
+            },
+            "2": {
+                "global_rel_error_interp": 0.020380752658650313,
+                "global_rel_error_same_mesh": 0.027825512521044964,
+                "cg_iteration": 4440
+            },
+            "3": {
+                "global_rel_error_interp": 0.020428767479318155,
+                "global_rel_error_same_mesh": 0.027874690850096882,
+                "cg_iteration": 4443
+            },
+            "4": {
+                "global_rel_error_interp": 0.02046496764665155,
+                "global_rel_error_same_mesh": 0.027910731729972233,
+                "cg_iteration": 4199
+            },
+            "5": {
+                "global_rel_error_interp": 0.02044640892398196,
+                "global_rel_error_same_mesh": 0.027892776677639668,
+                "cg_iteration": 4421
+            },
+            "6": {
+                "global_rel_error_interp": 0.020502031505592936,
+                "global_rel_error_same_mesh": 0.02794528436205801,
+                "cg_iteration": 4197
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "B",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 444528,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.007597326416295031,
+                "global_rel_error_same_mesh": 1.8526155078595397e-06,
+                "cg_iteration": 3586
+            },
+            "2": {
+                "global_rel_error_interp": 0.007597067208090011,
+                "global_rel_error_same_mesh": 1.8938667995446891e-06,
+                "cg_iteration": 3591
+            },
+            "3": {
+                "global_rel_error_interp": 0.0075976688059428595,
+                "global_rel_error_same_mesh": 2.2274687644924913e-06,
+                "cg_iteration": 3262
+            },
+            "4": {
+                "global_rel_error_interp": 0.007598708994419439,
+                "global_rel_error_same_mesh": 2.7478495459645734e-06,
+                "cg_iteration": 3561
+            },
+            "5": {
+                "global_rel_error_interp": 0.007597731414988753,
+                "global_rel_error_same_mesh": 2.159954922889928e-06,
+                "cg_iteration": 3276
+            },
+            "6": {
+                "global_rel_error_interp": 0.007598036201814385,
+                "global_rel_error_same_mesh": 2.2554549327785823e-06,
+                "cg_iteration": 3239
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "G",
+        "load": "gravity",
+        "fp": "fp32",
+        "n_elems": 444528,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.007597062499649051,
+                "global_rel_error_same_mesh": 2.3446604834646536e-06,
+                "cg_iteration": 3213
+            },
+            "2": {
+                "global_rel_error_interp": 0.007598271936973986,
+                "global_rel_error_same_mesh": 2.3260461504625585e-06,
+                "cg_iteration": 3549
+            },
+            "3": {
+                "global_rel_error_interp": 0.007597348304212211,
+                "global_rel_error_same_mesh": 2.1407072464546177e-06,
+                "cg_iteration": 3280
+            },
+            "4": {
+                "global_rel_error_interp": 0.007597753196340275,
+                "global_rel_error_same_mesh": 2.390195066063595e-06,
+                "cg_iteration": 3678
+            },
+            "5": {
+                "global_rel_error_interp": 0.00759747036611019,
+                "global_rel_error_same_mesh": 2.2098920553846464e-06,
+                "cg_iteration": 3536
+            },
+            "6": {
+                "global_rel_error_interp": 0.00759844196618702,
+                "global_rel_error_same_mesh": 2.5613235808800955e-06,
+                "cg_iteration": 3270
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "K",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 444528,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.020703626835450944,
+                "global_rel_error_same_mesh": 0.028070621757076104,
+                "cg_iteration": 4512
+            },
+            "2": {
+                "global_rel_error_interp": 0.020640849538898515,
+                "global_rel_error_same_mesh": 0.028006085509049525,
+                "cg_iteration": 4237
+            },
+            "3": {
+                "global_rel_error_interp": 0.020675685169041936,
+                "global_rel_error_same_mesh": 0.028041888445286402,
+                "cg_iteration": 4553
+            },
+            "4": {
+                "global_rel_error_interp": 0.020701823587344872,
+                "global_rel_error_same_mesh": 0.02806728517280069,
+                "cg_iteration": 4290
+            },
+            "5": {
+                "global_rel_error_interp": 0.020572695173633918,
+                "global_rel_error_same_mesh": 0.027940356584583135,
+                "cg_iteration": 4203
+            },
+            "6": {
+                "global_rel_error_interp": 0.020711372270871223,
+                "global_rel_error_same_mesh": 0.02807886210339838,
+                "cg_iteration": 4518
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "B",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 444528,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.00751776483378979,
+                "global_rel_error_same_mesh": 1.5049682271163125e-06,
+                "cg_iteration": 3186
+            },
+            "2": {
+                "global_rel_error_interp": 0.007517327677581188,
+                "global_rel_error_same_mesh": 1.479004055479157e-06,
+                "cg_iteration": 3230
+            },
+            "3": {
+                "global_rel_error_interp": 0.007517331811865418,
+                "global_rel_error_same_mesh": 1.6569864945696276e-06,
+                "cg_iteration": 3217
+            },
+            "4": {
+                "global_rel_error_interp": 0.007517417057842146,
+                "global_rel_error_same_mesh": 1.5028394044594502e-06,
+                "cg_iteration": 3191
+            },
+            "5": {
+                "global_rel_error_interp": 0.007517023500428226,
+                "global_rel_error_same_mesh": 1.4965350141822312e-06,
+                "cg_iteration": 3227
+            },
+            "6": {
+                "global_rel_error_interp": 0.00751762727082596,
+                "global_rel_error_same_mesh": 1.5796916166145167e-06,
+                "cg_iteration": 3187
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "G",
+        "load": "traction",
+        "fp": "fp32",
+        "n_elems": 444528,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.0075170720987959416,
+                "global_rel_error_same_mesh": 1.5997377304974554e-06,
+                "cg_iteration": 3283
+            },
+            "2": {
+                "global_rel_error_interp": 0.007518139585985915,
+                "global_rel_error_same_mesh": 1.6650388646761865e-06,
+                "cg_iteration": 3227
+            },
+            "3": {
+                "global_rel_error_interp": 0.007517315632228906,
+                "global_rel_error_same_mesh": 1.5698194920151362e-06,
+                "cg_iteration": 3561
+            },
+            "4": {
+                "global_rel_error_interp": 0.007518089651067513,
+                "global_rel_error_same_mesh": 1.9863614512729515e-06,
+                "cg_iteration": 3235
+            },
+            "5": {
+                "global_rel_error_interp": 0.007516759766478512,
+                "global_rel_error_same_mesh": 1.69309019425305e-06,
+                "cg_iteration": 3249
+            },
+            "6": {
+                "global_rel_error_interp": 0.007517828185247654,
+                "global_rel_error_same_mesh": 1.6592739553903365e-06,
+                "cg_iteration": 3192
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "K",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 444528,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.004215562809251065,
+                "global_rel_error_same_mesh": 0.003432260906173031,
+                "cg_iteration": 2150
+            },
+            "2": {
+                "global_rel_error_interp": 0.004217351581266372,
+                "global_rel_error_same_mesh": 0.003434209187696189,
+                "cg_iteration": 2157
+            },
+            "3": {
+                "global_rel_error_interp": 0.0042014011890637686,
+                "global_rel_error_same_mesh": 0.003416739284274548,
+                "cg_iteration": 2209
+            },
+            "4": {
+                "global_rel_error_interp": 0.0042012283544377105,
+                "global_rel_error_same_mesh": 0.003415826782412741,
+                "cg_iteration": 2166
+            },
+            "5": {
+                "global_rel_error_interp": 0.004220559514859415,
+                "global_rel_error_same_mesh": 0.003435727816427642,
+                "cg_iteration": 2182
+            },
+            "6": {
+                "global_rel_error_interp": 0.004207205653570298,
+                "global_rel_error_same_mesh": 0.003422186950929233,
+                "cg_iteration": 2179
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "B",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 444528,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.0009697524289861261,
+                "global_rel_error_same_mesh": 1.0176353514687857e-05,
+                "cg_iteration": 1780
+            },
+            "2": {
+                "global_rel_error_interp": 0.0009556977674839867,
+                "global_rel_error_same_mesh": 1.9643060378906395e-05,
+                "cg_iteration": 1735
+            },
+            "3": {
+                "global_rel_error_interp": 0.0009776206845963189,
+                "global_rel_error_same_mesh": 1.0903171401469073e-05,
+                "cg_iteration": 1781
+            },
+            "4": {
+                "global_rel_error_interp": 0.0009708334519457397,
+                "global_rel_error_same_mesh": 1.2169951157838952e-05,
+                "cg_iteration": 1717
+            },
+            "5": {
+                "global_rel_error_interp": 0.0009590983003997322,
+                "global_rel_error_same_mesh": 1.573805470172971e-05,
+                "cg_iteration": 1779
+            },
+            "6": {
+                "global_rel_error_interp": 0.0009665087165488489,
+                "global_rel_error_same_mesh": 1.0852325086038033e-05,
+                "cg_iteration": 1781
+            }
+        }
+    },
+    {
+        "framework": "pytorch",
+        "version": "G",
+        "load": "compression",
+        "fp": "fp32",
+        "n_elems": 444528,
+        "runs": {
+            "1": {
+                "global_rel_error_interp": 0.0009669404922650012,
+                "global_rel_error_same_mesh": 9.234057682768863e-06,
+                "cg_iteration": 1780
+            },
+            "2": {
+                "global_rel_error_interp": 0.0009552252787262342,
+                "global_rel_error_same_mesh": 2.6171661856256162e-05,
+                "cg_iteration": 1782
+            },
+            "3": {
+                "global_rel_error_interp": 0.0009632115291575238,
+                "global_rel_error_same_mesh": 1.1725717530257946e-05,
+                "cg_iteration": 1752
+            },
+            "4": {
+                "global_rel_error_interp": 0.000964915056561294,
+                "global_rel_error_same_mesh": 1.6275241948045077e-05,
+                "cg_iteration": 1782
+            },
+            "5": {
+                "global_rel_error_interp": 0.0009686640574389845,
+                "global_rel_error_same_mesh": 9.964234148545088e-06,
+                "cg_iteration": 1781
+            },
+            "6": {
+                "global_rel_error_interp": 0.0009565658426302513,
+                "global_rel_error_same_mesh": 1.9995484278918468e-05,
+                "cg_iteration": 1779
+            }
+        }
+    }
+]

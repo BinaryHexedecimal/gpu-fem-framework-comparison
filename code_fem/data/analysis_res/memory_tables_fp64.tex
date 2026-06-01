@@ -1,0 +1,33 @@
+\begin{table}[H]\centering\begin{tabular}{>{\centering\arraybackslash}m{1.35cm}|>{\centering\arraybackslash}m{1.0cm}>{\centering\arraybackslash}m{1.0cm}>{\centering\arraybackslash}m{1.0cm}|>{\centering\arraybackslash}m{1.0cm}>{\centering\arraybackslash}m{1.0cm}>{\centering\arraybackslash}m{1.0cm}|>{\centering\arraybackslash}m{1.0cm}>{\centering\arraybackslash}m{1.0cm}>{\centering\arraybackslash}m{1.0cm}}
+\toprule
+elements & \multicolumn{3}{|c}{gravity} & \multicolumn{3}{|c}{traction} & \multicolumn{3}{|c}{compression} \\
+ & K & B & G & K & B & G & K & B & G \\
+\midrule
+24\,576 & 1067 & 991 & 981 & 1083 & 1004 & 998 & 1078 & 994 & 1000 \\
+63\,888 & 1224 & 1123 & 1255 & 1431 & 1316 & 1253 & 1438 & 1310 & 1281 \\
+162\,000 & 1878 & 1474 & 1357 & 1861 & 1443 & 1319 & 1824 & 1435 & 1325 \\
+444\,528 & 3211 & 2001 & 1657 & 3280 & 1987 & 1646 & 3230 & 1956 & 1597 \\
+\bottomrule
+\end{tabular}\caption{Peak memory usage (MB) for different load types, computation variants and mesh sizes using \textbf{\textbf{PyTorch}} with \textbf{FP64} precision. Each value represents the maximum memory usage observed over the entire pipeline, including repeated precomputation and solver executions, and rendering via CPU.}\label{tab:pytorch_memory_fp64}\end{table}
+\begin{table}[H]\centering\begin{tabular}{>{\centering\arraybackslash}m{1.35cm}|>{\centering\arraybackslash}m{1.0cm}>{\centering\arraybackslash}m{1.0cm}>{\centering\arraybackslash}m{1.0cm}|>{\centering\arraybackslash}m{1.0cm}>{\centering\arraybackslash}m{1.0cm}>{\centering\arraybackslash}m{1.0cm}|>{\centering\arraybackslash}m{1.0cm}>{\centering\arraybackslash}m{1.0cm}>{\centering\arraybackslash}m{1.0cm}}
+\toprule
+elements & \multicolumn{3}{|c}{gravity} & \multicolumn{3}{|c}{traction} & \multicolumn{3}{|c}{compression} \\
+ & K & B & G & K & B & G & K & B & G \\
+\midrule
+24\,576 & 19062 & 19064 & 19060 & 19054 & 19054 & 19053 & 19061 & 19053 & 19068 \\
+63\,888 & 19030 & 19057 & 19054 & 19057 & 19048 & 19040 & 19053 & 19054 & 19045 \\
+162\,000 & 19112 & 19115 & 19113 & 19119 & 19116 & 19115 & 19119 & 19115 & 19104 \\
+444\,528 & 19126 & 19115 & 19119 & 19115 & 19126 & 19107 & 19096 & 19109 & 19076 \\
+\bottomrule
+\end{tabular}\caption{Peak memory usage (MB) for different load types, computation variants and mesh sizes using \textbf{\textbf{JAX}} with \textbf{FP64} precision. Each value represents the maximum memory usage observed over the entire pipeline, including repeated precomputation and solver executions, and rendering via CPU.}\label{tab:jax_memory_fp64}\end{table}
+\begin{table}[H]\centering\begin{tabular}{>{\centering\arraybackslash}m{1.35cm}|>{\centering\arraybackslash}m{1.0cm}>{\centering\arraybackslash}m{1.0cm}|>{\centering\arraybackslash}m{1.0cm}>{\centering\arraybackslash}m{1.0cm}|>{\centering\arraybackslash}m{1.0cm}>{\centering\arraybackslash}m{1.0cm}}
+\toprule
+ & \multicolumn{2}{|c}{gravity} & \multicolumn{2}{|c}{traction} & \multicolumn{2}{|c}{compression} \\
+ & B & G & B & G & B & G \\
+\midrule
+24\,576 & 1039 & 1022 & 1038 & 1019 & 1053 & 1050 \\
+63\,888 & 1100 & 1055 & 1112 & 1047 & 1114 & 1047 \\
+162\,000 & 1176 & 1064 & 1154 & 1057 & 1152 & 1056 \\
+444\,528 & 1308 & 1153 & 1330 & 1164 & 1327 & 1133 \\
+\bottomrule
+\end{tabular}\caption{Peak memory usage (MB) for different load types, computation variants and mesh sizes using \textbf{\textbf{Warp}} with \textbf{FP64} precision. Each value represents the maximum memory usage observed over the entire pipeline, including repeated precomputation and solver executions, and rendering via CPU.}\label{tab:warp_memory_fp64}\end{table}

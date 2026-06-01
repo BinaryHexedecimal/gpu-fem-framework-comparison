@@ -1,0 +1,39 @@
+\begin{table}[H]\centering\begin{tabular}{>{\centering\arraybackslash}m{1.2cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}}
+\toprule
+elements & \multicolumn{3}{|c}{gravity} & \multicolumn{3}{|c}{traction} & \multicolumn{3}{|c}{compression} \\
+ & K & B & G & K & B & G & K & B & G \\
+\midrule
+24\,576 & \makecell{0.183\\[-4pt](0.000)} & \makecell{0.207\\[-4pt](0.009)} & \makecell{0.367\\[-4pt](0.000)} & \makecell{0.188\\[-4pt](0.008)} & \makecell{0.217\\[-4pt](0.000)} & \makecell{0.374\\[-4pt](0.009)} & \makecell{0.086\\[-4pt](0.006)} & \makecell{0.100\\[-4pt](0.000)} & \makecell{0.167\\[-4pt](0.000)} \\
+63\,888 & \makecell{0.324\\[-4pt](0.009)} & \makecell{0.422\\[-4pt](0.013)} & \makecell{0.648\\[-4pt](0.015)} & \makecell{0.362\\[-4pt](0.007)} & \makecell{0.419\\[-4pt](0.006)} & \makecell{0.660\\[-4pt](0.016)} & \makecell{0.185\\[-4pt](0.006)} & \makecell{0.233\\[-4pt](0.009)} & \makecell{0.355\\[-4pt](0.008)} \\
+162\,000 & \makecell{0.779\\[-4pt](0.016)} & \makecell{1.067\\[-4pt](0.013)} & \makecell{1.530\\[-4pt](0.007)} & \makecell{0.786\\[-4pt](0.006)} & \makecell{1.094\\[-4pt](0.028)} & \makecell{1.546\\[-4pt](0.012)} & \makecell{0.419\\[-4pt](0.007)} & \makecell{0.572\\[-4pt](0.008)} & \makecell{0.824\\[-4pt](0.008)} \\
+444\,528 & \makecell{2.628\\[-4pt](0.020)} & \makecell{3.681\\[-4pt](0.028)} & \makecell{6.189\\[-4pt](0.040)} & \makecell{2.668\\[-4pt](0.016)} & \makecell{3.700\\[-4pt](0.004)} & \makecell{6.217\\[-4pt](0.054)} & \makecell{1.403\\[-4pt](0.003)} & \makecell{1.953\\[-4pt](0.003)} & \makecell{3.250\\[-4pt](0.004)} \\
+\bottomrule
+\end{tabular}\caption{Average first-frame latency times (in seconds) for different load types, computation variants and mesh sizes using \textbf{PyTorch} with \textbf{FP64} precision and CPU-based rendering data transfer. Results are averaged over 7 steady-state runs (run 1 discarded as cold start), with standard deviations shown in parentheses.}\label{tab:pytorch_latency_fp64}\end{table}
+
+
+\begin{table}[H]\centering\begin{tabular}{>{\centering\arraybackslash}m{1.2cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}}
+\toprule
+elements & \multicolumn{3}{|c}{gravity} & \multicolumn{3}{|c}{traction} & \multicolumn{3}{|c}{compression} \\
+ & K & B & G & K & B & G & K & B & G \\
+\midrule
+24\,576 & \makecell{0.055\\[-4pt](0.008)} & \makecell{0.086\\[-4pt](0.006)} & \makecell{0.067\\[-4pt](0.000)} & \makecell{0.055\\[-4pt](0.008)} & \makecell{0.086\\[-4pt](0.006)} & \makecell{0.071\\[-4pt](0.008)} & \makecell{0.033\\[-4pt](0.000)} & \makecell{0.050\\[-4pt](0.000)} & \makecell{0.033\\[-4pt](0.000)} \\
+63\,888 & \makecell{0.167\\[-4pt](0.000)} & \makecell{0.205\\[-4pt](0.008)} & \makecell{0.133\\[-4pt](0.001)} & \makecell{0.181\\[-4pt](0.006)} & \makecell{0.216\\[-4pt](0.001)} & \makecell{0.140\\[-4pt](0.009)} & \makecell{0.100\\[-4pt](0.000)} & \makecell{0.121\\[-4pt](0.008)} & \makecell{0.083\\[-4pt](0.001)} \\
+162\,000 & \makecell{0.548\\[-4pt](0.020)} & \makecell{1.055\\[-4pt](0.013)} & \makecell{0.233\\[-4pt](0.000)} & \makecell{0.553\\[-4pt](0.006)} & \makecell{1.077\\[-4pt](0.008)} & \makecell{0.241\\[-4pt](0.005)} & \makecell{0.300\\[-4pt](0.001)} & \makecell{0.567\\[-4pt](0.000)} & \makecell{0.136\\[-4pt](0.006)} \\
+444\,528 & \makecell{1.898\\[-4pt](0.004)} & \makecell{3.879\\[-4pt](0.005)} & \makecell{0.834\\[-4pt](0.006)} & \makecell{1.937\\[-4pt](0.005)} & \makecell{3.979\\[-4pt](0.031)} & \makecell{0.879\\[-4pt](0.012)} & \makecell{1.044\\[-4pt](0.012)} & \makecell{2.087\\[-4pt](0.026)} & \makecell{0.473\\[-4pt](0.003)} \\
+\bottomrule
+\end{tabular}\caption{Average first-frame latency times (in seconds) for different load types, computation variants and mesh sizes using \textbf{JAX} with \textbf{FP64} precision and CPU-based rendering data transfer. Results are averaged over 7 steady-state runs (run 1 discarded as cold start), with standard deviations shown in parentheses.}\label{tab:jax_latency_fp64}\end{table}
+
+
+\begin{table}[H]\centering\begin{tabular}{>{\centering\arraybackslash}m{1.2cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}}
+\toprule
+elements & \multicolumn{2}{|c}{gravity} & \multicolumn{2}{|c}{traction} & \multicolumn{2}{|c}{compression} \\
+ & B & G & B & G & B & G \\
+\midrule
+24\,576 & \makecell{0.133\\[-4pt](0.000)} & \makecell{0.117\\[-4pt](0.000)} & \makecell{0.133\\[-4pt](0.000)} & \makecell{0.117\\[-4pt](0.000)} & \makecell{0.067\\[-4pt](0.000)} & \makecell{0.067\\[-4pt](0.000)} \\
+63\,888 & \makecell{0.250\\[-4pt](0.000)} & \makecell{0.197\\[-4pt](0.007)} & \makecell{0.262\\[-4pt](0.007)} & \makecell{0.198\\[-4pt](0.006)} & \makecell{0.150\\[-4pt](0.000)} & \makecell{0.112\\[-4pt](0.007)} \\
+162\,000 & \makecell{0.686\\[-4pt](0.007)} & \makecell{0.367\\[-4pt](0.000)} & \makecell{0.700\\[-4pt](0.000)} & \makecell{0.384\\[-4pt](0.000)} & \makecell{0.374\\[-4pt](0.006)} & \makecell{0.217\\[-4pt](0.000)} \\
+444\,528 & \makecell{1.949\\[-4pt](0.004)} & \makecell{0.955\\[-4pt](0.008)} & \makecell{1.997\\[-4pt](0.010)} & \makecell{1.009\\[-4pt](0.015)} & \makecell{1.062\\[-4pt](0.003)} & \makecell{0.538\\[-4pt](0.004)} \\
+\bottomrule
+\end{tabular}\caption{Average first-frame latency times (in seconds) for different load types, computation variants and mesh sizes using \textbf{Warp} with \textbf{FP64} precision and CPU-based rendering data transfer. Results are averaged over 7 steady-state runs (run 1 discarded as cold start), with standard deviations shown in parentheses.}\label{tab:warp_latency_fp64}\end{table}
+
+

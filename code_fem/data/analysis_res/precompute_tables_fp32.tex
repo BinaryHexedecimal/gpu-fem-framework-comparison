@@ -1,0 +1,39 @@
+\begin{table}[H]\centering\begin{tabular}{>{\centering\arraybackslash}m{1.2cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}}
+\toprule
+elements & \multicolumn{2}{|c}{gravity} & \multicolumn{2}{|c}{traction} & \multicolumn{2}{|c}{compression} \\
+ & B & G & B & G & B & G \\
+\midrule
+24\,576 & \makecell{0.021\\[-4pt](0.024)} & \makecell{0.021\\[-4pt](0.026)} & \makecell{0.021\\[-4pt](0.025)} & \makecell{0.020\\[-4pt](0.023)} & \makecell{0.020\\[-4pt](0.023)} & \makecell{0.020\\[-4pt](0.023)} \\
+63\,888 & \makecell{0.085\\[-4pt](0.025)} & \makecell{0.087\\[-4pt](0.026)} & \makecell{0.084\\[-4pt](0.024)} & \makecell{0.084\\[-4pt](0.023)} & \makecell{0.086\\[-4pt](0.025)} & \makecell{0.087\\[-4pt](0.026)} \\
+162\,000 & \makecell{0.211\\[-4pt](0.008)} & \makecell{0.200\\[-4pt](0.002)} & \makecell{0.201\\[-4pt](0.003)} & \makecell{0.203\\[-4pt](0.004)} & \makecell{0.206\\[-4pt](0.006)} & \makecell{0.210\\[-4pt](0.007)} \\
+444\,528 & \makecell{0.550\\[-4pt](0.024)} & \makecell{0.542\\[-4pt](0.026)} & \makecell{0.527\\[-4pt](0.020)} & \makecell{0.521\\[-4pt](0.020)} & \makecell{0.527\\[-4pt](0.021)} & \makecell{0.530\\[-4pt](0.028)} \\
+\bottomrule
+\end{tabular}\caption{Average precomputation times (in seconds) for different load types, precomputation variants and mesh sizes using \textbf{PyTorch} with \textbf{FP32} precision. Results are averaged over 7 steady-state runs (run 1 discarded as cold start), with standard deviations shown in parentheses.}\label{tab:pytorch_precompute_fp32}\end{table}
+
+
+\begin{table}[H]\centering\begin{tabular}{>{\centering\arraybackslash}m{1.2cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}}
+\toprule
+elements & \multicolumn{2}{|c}{gravity} & \multicolumn{2}{|c}{traction} & \multicolumn{2}{|c}{compression} \\
+ & B & G & B & G & B & G \\
+\midrule
+24\,576 & \makecell{0.021\\[-4pt](0.014)} & \makecell{0.021\\[-4pt](0.014)} & \makecell{0.019\\[-4pt](0.011)} & \makecell{0.019\\[-4pt](0.010)} & \makecell{0.022\\[-4pt](0.013)} & \makecell{0.022\\[-4pt](0.013)} \\
+63\,888 & \makecell{0.053\\[-4pt](0.010)} & \makecell{0.051\\[-4pt](0.010)} & \makecell{0.055\\[-4pt](0.011)} & \makecell{0.054\\[-4pt](0.011)} & \makecell{0.057\\[-4pt](0.012)} & \makecell{0.054\\[-4pt](0.010)} \\
+162\,000 & \makecell{0.139\\[-4pt](0.015)} & \makecell{0.132\\[-4pt](0.005)} & \makecell{0.131\\[-4pt](0.004)} & \makecell{0.137\\[-4pt](0.006)} & \makecell{0.134\\[-4pt](0.004)} & \makecell{0.136\\[-4pt](0.004)} \\
+444\,528 & \makecell{0.416\\[-4pt](0.020)} & \makecell{0.411\\[-4pt](0.037)} & \makecell{0.418\\[-4pt](0.025)} & \makecell{0.411\\[-4pt](0.038)} & \makecell{0.409\\[-4pt](0.025)} & \makecell{0.404\\[-4pt](0.026)} \\
+\bottomrule
+\end{tabular}\caption{Average precomputation times (in seconds) for different load types, precomputation variants and mesh sizes using \textbf{JAX} with \textbf{FP32} precision. Results are averaged over 7 steady-state runs (run 1 discarded as cold start), with standard deviations shown in parentheses.}\label{tab:jax_precompute_fp32}\end{table}
+
+
+\begin{table}[H]\centering\begin{tabular}{>{\centering\arraybackslash}m{1.2cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}|>{\centering\arraybackslash}m{1.25cm}>{\centering\arraybackslash}m{1.25cm}}
+\toprule
+elements & \multicolumn{2}{|c}{gravity} & \multicolumn{2}{|c}{traction} & \multicolumn{2}{|c}{compression} \\
+ & B & G & B & G & B & G \\
+\midrule
+24\,576 & \makecell{0.018\\[-4pt](0.009)} & \makecell{0.018\\[-4pt](0.008)} & \makecell{0.019\\[-4pt](0.010)} & \makecell{0.019\\[-4pt](0.010)} & \makecell{0.018\\[-4pt](0.008)} & \makecell{0.020\\[-4pt](0.011)} \\
+63\,888 & \makecell{0.047\\[-4pt](0.008)} & \makecell{0.044\\[-4pt](0.007)} & \makecell{0.044\\[-4pt](0.007)} & \makecell{0.044\\[-4pt](0.007)} & \makecell{0.045\\[-4pt](0.007)} & \makecell{0.045\\[-4pt](0.007)} \\
+162\,000 & \makecell{0.118\\[-4pt](0.008)} & \makecell{0.118\\[-4pt](0.009)} & \makecell{0.120\\[-4pt](0.008)} & \makecell{0.129\\[-4pt](0.014)} & \makecell{0.120\\[-4pt](0.010)} & \makecell{0.120\\[-4pt](0.009)} \\
+444\,528 & \makecell{0.376\\[-4pt](0.030)} & \makecell{0.363\\[-4pt](0.026)} & \makecell{0.375\\[-4pt](0.025)} & \makecell{0.372\\[-4pt](0.028)} & \makecell{0.373\\[-4pt](0.027)} & \makecell{0.370\\[-4pt](0.026)} \\
+\bottomrule
+\end{tabular}\caption{Average precomputation times (in seconds) for different load types, precomputation variants and mesh sizes using \textbf{Warp} with \textbf{FP32} precision. Results are averaged over 7 steady-state runs (run 1 discarded as cold start), with standard deviations shown in parentheses.}\label{tab:warp_precompute_fp32}\end{table}
+
+

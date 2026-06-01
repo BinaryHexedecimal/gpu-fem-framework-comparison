@@ -1,0 +1,33 @@
+\begin{table}[H]\centering\begin{tabular}{>{\centering\arraybackslash}m{1.5cm}|>{\centering\arraybackslash}m{1.2cm}>{\centering\arraybackslash}m{1.2cm}>{\centering\arraybackslash}m{1.2cm}|>{\centering\arraybackslash}m{1.2cm}>{\centering\arraybackslash}m{1.2cm}>{\centering\arraybackslash}m{1.2cm}|>{\centering\arraybackslash}m{1.2cm}>{\centering\arraybackslash}m{1.2cm}>{\centering\arraybackslash}m{1.2cm}}
+\toprule
+ & \multicolumn{3}{|c}{gravity} & \multicolumn{3}{|c}{traction} & \multicolumn{3}{|c}{compression} \\
+ & K & B & G & K & B & G & K & B & G \\
+\midrule
+24,576 & 0.158 & 0.165 & 0.157 & 0.163 & 0.172 & 0.165 & 0.162 & 0.157 & 0.160 \\
+63,888 & 0.125 & 0.113 & 0.120 & 0.128 & 0.134 & 0.111 & 0.133 & 0.119 & 0.116 \\
+162,000 & 0.127 & 0.111 & 0.121 & 0.126 & 0.110 & 0.115 & 0.120 & 0.104 & 0.117 \\
+444,528 & 0.106 & 0.079 & 0.098 & 0.121 & 0.107 & 0.101 & 0.103 & 0.098 & 0.102 \\
+\bottomrule
+\end{tabular}\caption{Estimated first-run precomputation overhead (in seconds) for different load types and mesh sizes using \textbf{PyTorch} under \textbf{FP64} precision. The overhead is computed as the difference between the first precomputation time and the average steady-state precomputation time over the subsequent 7 runs. This metric captures framework initialization costs such as compilation, kernel generation, memory allocation, caching, and warm-up effects.}\label{tab:pytorch_precompute_overhead_fp64}\end{table}
+\begin{table}[H]\centering\begin{tabular}{>{\centering\arraybackslash}m{1.5cm}|>{\centering\arraybackslash}m{1.2cm}>{\centering\arraybackslash}m{1.2cm}>{\centering\arraybackslash}m{1.2cm}|>{\centering\arraybackslash}m{1.2cm}>{\centering\arraybackslash}m{1.2cm}>{\centering\arraybackslash}m{1.2cm}|>{\centering\arraybackslash}m{1.2cm}>{\centering\arraybackslash}m{1.2cm}>{\centering\arraybackslash}m{1.2cm}}
+\toprule
+ & \multicolumn{3}{|c}{gravity} & \multicolumn{3}{|c}{traction} & \multicolumn{3}{|c}{compression} \\
+ & K & B & G & K & B & G & K & B & G \\
+\midrule
+24,576 & 0.716 & 0.713 & 0.458 & 0.707 & 0.715 & 0.467 & 0.745 & 0.777 & 0.523 \\
+63,888 & 0.716 & 0.722 & 0.449 & 0.730 & 0.707 & 0.460 & 0.795 & 0.783 & 0.528 \\
+162,000 & 0.738 & 0.767 & 0.485 & 0.736 & 0.772 & 0.510 & 0.813 & 0.826 & 0.564 \\
+444,528 & 0.845 & 0.794 & 0.533 & 0.807 & 0.794 & 0.513 & 0.911 & 0.896 & 0.576 \\
+\bottomrule
+\end{tabular}\caption{Estimated first-run precomputation overhead (in seconds) for different load types and mesh sizes using \textbf{JAX} under \textbf{FP64} precision. The overhead is computed as the difference between the first precomputation time and the average steady-state precomputation time over the subsequent 7 runs. This metric captures framework initialization costs such as compilation, kernel generation, memory allocation, caching, and warm-up effects.}\label{tab:jax_precompute_overhead_fp64}\end{table}
+\begin{table}[H]\centering\begin{tabular}{>{\centering\arraybackslash}m{1.5cm}|>{\centering\arraybackslash}m{1.2cm}>{\centering\arraybackslash}m{1.2cm}|>{\centering\arraybackslash}m{1.2cm}>{\centering\arraybackslash}m{1.2cm}|>{\centering\arraybackslash}m{1.2cm}>{\centering\arraybackslash}m{1.2cm}}
+\toprule
+elements & \multicolumn{2}{|c}{gravity} & \multicolumn{2}{|c}{traction} & \multicolumn{2}{|c}{compression} \\
+ & B & G & B & G & B & G \\
+\midrule
+24,576 & 0.088 & 0.100 & 0.089 & 0.099 & 0.102 & 0.093 \\
+63,888 & 0.103 & 0.105 & 0.109 & 0.100 & 0.100 & 0.106 \\
+162,000 & 0.103 & 0.092 & 0.104 & 0.089 & 0.095 & 0.097 \\
+444,528 & 0.090 & 0.079 & 0.073 & 0.071 & 0.094 & 0.089 \\
+\bottomrule
+\end{tabular}\caption{Estimated first-run precomputation overhead (in seconds) for different load types and mesh sizes using \textbf{Warp} under \textbf{FP64} precision. The overhead is computed as the difference between the first precomputation time and the average steady-state precomputation time over the subsequent 7 runs. This metric captures framework initialization costs such as compilation, kernel generation, memory allocation, caching, and warm-up effects.}\label{tab:warp_precompute_overhead_fp64}\end{table}
